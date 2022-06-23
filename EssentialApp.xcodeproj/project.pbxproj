@@ -11,6 +11,11 @@
 		F5854449286491B700AD9266 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5854446286491B700AD9266 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F585444A286491B700AD9266 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5854447286491B700AD9266 /* EssentialFeediOS.framework */; };
 		F585444B286491B700AD9266 /* EssentialFeediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5854447286491B700AD9266 /* EssentialFeediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F585445528649BC400AD9266 /* Main_module_01.md in Resources */ = {isa = PBXBuildFile; fileRef = F585445428649BC400AD9266 /* Main_module_01.md */; };
+		F585445B28649C3700AD9266 /* Separate_models.png in Resources */ = {isa = PBXBuildFile; fileRef = F585445728649C3600AD9266 /* Separate_models.png */; };
+		F585445C28649C3700AD9266 /* Architecture.png in Resources */ = {isa = PBXBuildFile; fileRef = F585445828649C3700AD9266 /* Architecture.png */; };
+		F585445D28649C3700AD9266 /* ISP.png in Resources */ = {isa = PBXBuildFile; fileRef = F585445928649C3700AD9266 /* ISP.png */; };
+		F585445E28649C3700AD9266 /* External_storage.png in Resources */ = {isa = PBXBuildFile; fileRef = F585445A28649C3700AD9266 /* External_storage.png */; };
 		F5DBA70328648D7400E009FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBA70228648D7400E009FB /* AppDelegate.swift */; };
 		F5DBA70528648D7400E009FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBA70428648D7400E009FB /* SceneDelegate.swift */; };
 		F5DBA70728648D7400E009FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBA70628648D7400E009FB /* ViewController.swift */; };
@@ -37,6 +42,11 @@
 /* Begin PBXFileReference section */
 		F5854446286491B700AD9266 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5854447286491B700AD9266 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F585445428649BC400AD9266 /* Main_module_01.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Main_module_01.md; sourceTree = "<group>"; };
+		F585445728649C3600AD9266 /* Separate_models.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Separate_models.png; sourceTree = "<group>"; };
+		F585445828649C3700AD9266 /* Architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Architecture.png; sourceTree = "<group>"; };
+		F585445928649C3700AD9266 /* ISP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ISP.png; sourceTree = "<group>"; };
+		F585445A28649C3700AD9266 /* External_storage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = External_storage.png; sourceTree = "<group>"; };
 		F5DBA6FF28648D7400E009FB /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DBA70228648D7400E009FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5DBA70428648D7400E009FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,9 +79,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F585444D286497BB00AD9266 /* Main Module_Reference_ material */ = {
+			isa = PBXGroup;
+			children = (
+				F585445628649BED00AD9266 /* Lecture_01 */,
+			);
+			path = "Main Module_Reference_ material";
+			sourceTree = "<group>";
+		};
+		F585445628649BED00AD9266 /* Lecture_01 */ = {
+			isa = PBXGroup;
+			children = (
+				F585445428649BC400AD9266 /* Main_module_01.md */,
+				F585445828649C3700AD9266 /* Architecture.png */,
+				F585445A28649C3700AD9266 /* External_storage.png */,
+				F585445928649C3700AD9266 /* ISP.png */,
+				F585445728649C3600AD9266 /* Separate_models.png */,
+			);
+			path = Lecture_01;
+			sourceTree = "<group>";
+		};
 		F5DBA6F628648D7400E009FB = {
 			isa = PBXGroup;
 			children = (
+				F585444D286497BB00AD9266 /* Main Module_Reference_ material */,
 				F5DBA70128648D7400E009FB /* EssentialApp */,
 				F5DBA70028648D7400E009FB /* Products */,
 				F5854445286491B700AD9266 /* Frameworks */,
@@ -161,7 +192,12 @@
 			files = (
 				F5DBA70F28648D7600E009FB /* LaunchScreen.storyboard in Resources */,
 				F5DBA70C28648D7600E009FB /* Assets.xcassets in Resources */,
+				F585445C28649C3700AD9266 /* Architecture.png in Resources */,
+				F585445528649BC400AD9266 /* Main_module_01.md in Resources */,
 				F5DBA70A28648D7400E009FB /* Main.storyboard in Resources */,
+				F585445D28649C3700AD9266 /* ISP.png in Resources */,
+				F585445E28649C3700AD9266 /* External_storage.png in Resources */,
+				F585445B28649C3700AD9266 /* Separate_models.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
