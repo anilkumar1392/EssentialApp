@@ -21,6 +21,14 @@
 		F5855768286567B7001E3476 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855767286567B7001E3476 /* FeedImageDataLoaderWithFallbackComposite.swift */; };
 		F585576C28656826001E3476 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585576B28656826001E3476 /* XCTestCase+MemoryLeakTracking.swift */; };
 		F585576E286568A5001E3476 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585576D286568A5001E3476 /* SharedTestHelpers.swift */; };
+		F585577128656D75001E3476 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F585576F28656D75001E3476 /* 2.png */; };
+		F585577228656D75001E3476 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F585577028656D75001E3476 /* 1.png */; };
+		F585577428656E69001E3476 /* concrete types.png in Resources */ = {isa = PBXBuildFile; fileRef = F585577328656E69001E3476 /* concrete types.png */; };
+		F585577628656E9F001E3476 /* abstractTypes.png in Resources */ = {isa = PBXBuildFile; fileRef = F585577528656E9F001E3476 /* abstractTypes.png */; };
+		F585577828656EC9001E3476 /* customProtocol.png in Resources */ = {isa = PBXBuildFile; fileRef = F585577728656EC9001E3476 /* customProtocol.png */; };
+		F585577A28656F33001E3476 /* compositeWithRemoteLocal.png in Resources */ = {isa = PBXBuildFile; fileRef = F585577928656F33001E3476 /* compositeWithRemoteLocal.png */; };
+		F585577C28656F90001E3476 /* CompositeDesignPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = F585577B28656F90001E3476 /* CompositeDesignPattern.png */; };
+		F585577E28656FD5001E3476 /* relatedPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = F585577D28656FD5001E3476 /* relatedPattern.png */; };
 		F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D87C3D2864D386005804C0 /* Lecture_02.md */; };
 		F5D87C4D2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */; };
 		F5DBA70328648D7400E009FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBA70228648D7400E009FB /* AppDelegate.swift */; };
@@ -69,6 +77,14 @@
 		F5855767286567B7001E3476 /* FeedImageDataLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 		F585576B28656826001E3476 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		F585576D286568A5001E3476 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
+		F585576F28656D75001E3476 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		F585577028656D75001E3476 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F585577328656E69001E3476 /* concrete types.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "concrete types.png"; sourceTree = "<group>"; };
+		F585577528656E9F001E3476 /* abstractTypes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstractTypes.png; sourceTree = "<group>"; };
+		F585577728656EC9001E3476 /* customProtocol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customProtocol.png; sourceTree = "<group>"; };
+		F585577928656F33001E3476 /* compositeWithRemoteLocal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compositeWithRemoteLocal.png; sourceTree = "<group>"; };
+		F585577B28656F90001E3476 /* CompositeDesignPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CompositeDesignPattern.png; sourceTree = "<group>"; };
+		F585577D28656FD5001E3476 /* relatedPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = relatedPattern.png; sourceTree = "<group>"; };
 		F5D87C3D2864D386005804C0 /* Lecture_02.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture_02.md; sourceTree = "<group>"; };
 		F5D87C432864D444005804C0 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteWithLocalFallbackFeedloaderTests.swift; sourceTree = "<group>"; };
@@ -144,6 +160,14 @@
 		F5D87C3C2864D1F7005804C0 /* Lecture _02 */ = {
 			isa = PBXGroup;
 			children = (
+				F585577028656D75001E3476 /* 1.png */,
+				F585576F28656D75001E3476 /* 2.png */,
+				F585577328656E69001E3476 /* concrete types.png */,
+				F585577528656E9F001E3476 /* abstractTypes.png */,
+				F585577728656EC9001E3476 /* customProtocol.png */,
+				F585577928656F33001E3476 /* compositeWithRemoteLocal.png */,
+				F585577B28656F90001E3476 /* CompositeDesignPattern.png */,
+				F585577D28656FD5001E3476 /* relatedPattern.png */,
 				F5D87C3D2864D386005804C0 /* Lecture_02.md */,
 			);
 			path = "Lecture _02";
@@ -277,6 +301,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F585577128656D75001E3476 /* 2.png in Resources */,
+				F585577628656E9F001E3476 /* abstractTypes.png in Resources */,
+				F585577428656E69001E3476 /* concrete types.png in Resources */,
+				F585577C28656F90001E3476 /* CompositeDesignPattern.png in Resources */,
+				F585577E28656FD5001E3476 /* relatedPattern.png in Resources */,
+				F585577828656EC9001E3476 /* customProtocol.png in Resources */,
+				F585577228656D75001E3476 /* 1.png in Resources */,
+				F585577A28656F33001E3476 /* compositeWithRemoteLocal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
