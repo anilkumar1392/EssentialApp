@@ -8,7 +8,7 @@
 import Foundation
 import EssentialFeed
 
-class FeedImageDataLoaderWithFallbackComposite: FeedImageDataLoader {
+public class FeedImageDataLoaderWithFallbackComposite: FeedImageDataLoader {
     private let primary: FeedImageDataLoader
     private let fallback: FeedImageDataLoader
     
@@ -20,12 +20,12 @@ class FeedImageDataLoaderWithFallbackComposite: FeedImageDataLoader {
         }
     }
 
-    init(primary: FeedImageDataLoader, fallback: FeedImageDataLoader) {
+    public init(primary: FeedImageDataLoader, fallback: FeedImageDataLoader) {
         self.primary = primary
         self.fallback = fallback
     }
 
-    func loadImageData(from url: URL, completion: @escaping (FeedImageDataLoader.Result) -> Void) -> FeedImageDataTaskLoader {
+    public func loadImageData(from url: URL, completion: @escaping (FeedImageDataLoader.Result) -> Void) -> FeedImageDataTaskLoader {
         let task = TaskWrapper()
         task.wrapper = primary.loadImageData(from: url, completion: { [weak self] result in
             switch result {

@@ -19,6 +19,7 @@
 		F5855764286556F1001E3476 /* FeedLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855763286556F1001E3476 /* FeedLoaderWithFallbackComposite.swift */; };
 		F58557662865582F001E3476 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58557652865582F001E3476 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */; };
 		F5855768286567B7001E3476 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855767286567B7001E3476 /* FeedImageDataLoaderWithFallbackComposite.swift */; };
+		F585576C28656826001E3476 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585576B28656826001E3476 /* XCTestCase+MemoryLeakTracking.swift */; };
 		F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D87C3D2864D386005804C0 /* Lecture_02.md */; };
 		F5D87C462864D444005804C0 /* EssentialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D87C452864D444005804C0 /* EssentialAppTests.swift */; };
 		F5D87C4D2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */; };
@@ -66,6 +67,7 @@
 		F5855763286556F1001E3476 /* FeedLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 		F58557652865582F001E3476 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		F5855767286567B7001E3476 /* FeedImageDataLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
+		F585576B28656826001E3476 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		F5D87C3D2864D386005804C0 /* Lecture_02.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture_02.md; sourceTree = "<group>"; };
 		F5D87C432864D444005804C0 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D87C452864D444005804C0 /* EssentialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppTests.swift; sourceTree = "<group>"; };
@@ -130,6 +132,14 @@
 			path = Lecture_01;
 			sourceTree = "<group>";
 		};
+		F5855769286567F3001E3476 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F585576B28656826001E3476 /* XCTestCase+MemoryLeakTracking.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		F5D87C3C2864D1F7005804C0 /* Lecture _02 */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 		F5D87C442864D444005804C0 /* EssentialAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				F5855769286567F3001E3476 /* Helpers */,
 				F5D87C452864D444005804C0 /* EssentialAppTests.swift */,
 				F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */,
 				F58557652865582F001E3476 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
@@ -293,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D87C4D2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift in Sources */,
+				F585576C28656826001E3476 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				F5D87C462864D444005804C0 /* EssentialAppTests.swift in Sources */,
 				F58557662865582F001E3476 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 			);
