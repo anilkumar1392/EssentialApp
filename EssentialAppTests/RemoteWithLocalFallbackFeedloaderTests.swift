@@ -73,10 +73,7 @@ extension FeedLoaderWithFallbackCompositeTests {
         
         wait(for: [exp], timeout: 1.0)
     }
-    
-    private func anyNSError() -> NSError {
-        return NSError(domain: "Any error", code: 0)
-    }
+
 }
 
 extension FeedLoaderWithFallbackCompositeTests {

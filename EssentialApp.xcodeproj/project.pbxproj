@@ -20,8 +20,8 @@
 		F58557662865582F001E3476 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58557652865582F001E3476 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */; };
 		F5855768286567B7001E3476 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855767286567B7001E3476 /* FeedImageDataLoaderWithFallbackComposite.swift */; };
 		F585576C28656826001E3476 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585576B28656826001E3476 /* XCTestCase+MemoryLeakTracking.swift */; };
+		F585576E286568A5001E3476 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585576D286568A5001E3476 /* SharedTestHelpers.swift */; };
 		F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D87C3D2864D386005804C0 /* Lecture_02.md */; };
-		F5D87C462864D444005804C0 /* EssentialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D87C452864D444005804C0 /* EssentialAppTests.swift */; };
 		F5D87C4D2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */; };
 		F5DBA70328648D7400E009FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBA70228648D7400E009FB /* AppDelegate.swift */; };
 		F5DBA70528648D7400E009FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBA70428648D7400E009FB /* SceneDelegate.swift */; };
@@ -68,9 +68,9 @@
 		F58557652865582F001E3476 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		F5855767286567B7001E3476 /* FeedImageDataLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 		F585576B28656826001E3476 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
+		F585576D286568A5001E3476 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
 		F5D87C3D2864D386005804C0 /* Lecture_02.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture_02.md; sourceTree = "<group>"; };
 		F5D87C432864D444005804C0 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5D87C452864D444005804C0 /* EssentialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppTests.swift; sourceTree = "<group>"; };
 		F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteWithLocalFallbackFeedloaderTests.swift; sourceTree = "<group>"; };
 		F5DBA6FF28648D7400E009FB /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DBA70228648D7400E009FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				F585576B28656826001E3476 /* XCTestCase+MemoryLeakTracking.swift */,
+				F585576D286568A5001E3476 /* SharedTestHelpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -152,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				F5855769286567F3001E3476 /* Helpers */,
-				F5D87C452864D444005804C0 /* EssentialAppTests.swift */,
 				F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */,
 				F58557652865582F001E3476 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
 			);
@@ -305,7 +305,7 @@
 			files = (
 				F5D87C4D2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift in Sources */,
 				F585576C28656826001E3476 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
-				F5D87C462864D444005804C0 /* EssentialAppTests.swift in Sources */,
+				F585576E286568A5001E3476 /* SharedTestHelpers.swift in Sources */,
 				F58557662865582F001E3476 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
