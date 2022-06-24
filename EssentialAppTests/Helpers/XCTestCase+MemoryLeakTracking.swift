@@ -8,8 +8,6 @@
 import Foundation
 import XCTest
 
-protocol FeedLoaderTestCase: XCTestCase {}
-
 extension XCTestCase {
     func trackForMemoryLeaks(_ instance: AnyObject, file: StaticString = #file, line: UInt = #line) {
         addTeardownBlock { [weak instance] in
