@@ -36,16 +36,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let localFeedLoader = LocalFeedLoader(store: localStore, currentDate: Date.init)
         let localImageLoader = LocalFeedImageDataLoader(store: localStore)
 
+        /*
         
         let feedViewController = FeedUIComposer.feedComposedWith(
             feedLoader: FeedLoaderWithFallbackComposite(
-                primary: remoteFeedLoader,
-                fallback: FeedLoaderWithFallbackComposite(
-                    primary: remoteFeedLoader,
-                    fallback: localFeedLoader)),
+                primary: FeedLoaderCacheDecorator(
+                    decoratee: remoteFeedLoader,
+                    cache: localFeedLoader),
+                fallback: localFeedLoader),
             imageLoader: FeedImageDataLoaderWithFallbackComposite(
                 primary: localImageLoader,
-                fallback: remoteImageLoader))
+                fallback: FeedImageDataLoaderCacheDecorator(
+                    decoratee: remoteImageLoader,
+                    cache: localImageLoader)))
+         */
+        
+        let feedViewController = FeedUIComposer.feedComposedWith(
+            feedLoader: localFeedLoader,
+            imageLoader: localImageLoader)
         
         window?.rootViewController = feedViewController
     }
@@ -53,3 +61,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 }
 
 // We can also create retry logic with with.
+
+/*
+ let feedViewController = FeedUIComposer.feedComposedWith(
+     feedLoader: FeedLoaderWithFallbackComposite(
+         primary: remoteFeedLoader,
+         fallback: FeedLoaderWithFallbackComposite(
+             primary: remoteFeedLoader,
+             fallback: localFeedLoader)),
+     imageLoader: FeedImageDataLoaderWithFallbackComposite(
+         primary: localImageLoader,
+         fallback: remoteImageLoader))
+ */
