@@ -44,7 +44,14 @@ class FeedImageDataLoaderCacheDecoratorTests: XCTestCase {
         
         task.cancel()
         XCTAssertEqual(loader.cancelledURLs, [anyURL()])
-
+    }
+    
+    func test_loadImageData_deliversDataOnLoaderSuccess() {
+        let (sut, loader) = makeSUT()
+        
+        expect(sut, toCompleteWith: .success(anyData())) {
+            loader.complete(with: anyData())
+        }
     }
 }
 
