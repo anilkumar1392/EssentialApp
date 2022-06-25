@@ -53,6 +53,14 @@ class FeedImageDataLoaderCacheDecoratorTests: XCTestCase {
             loader.complete(with: anyData())
         }
     }
+    
+    func test_loadImageData_deliversErrorOnLoaderFailure() {
+        let (sut, loader) = makeSUT()
+        
+        expect(sut, toCompleteWith: .failure(anyNSError())) {
+            loader.complete(with: anyNSError())
+        }
+    }
 }
 
 // MARK: - Helpers
