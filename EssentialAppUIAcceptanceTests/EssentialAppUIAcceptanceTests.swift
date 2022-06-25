@@ -7,6 +7,7 @@
 
 import XCTest
 
+// balck box testing.
 class EssentialAppUIAcceptanceTests: XCTestCase {
 
     func test_onLaunch_displaysRemoteFeedWhenCustomerHasConnectivity() {
@@ -34,5 +35,14 @@ class EssentialAppUIAcceptanceTests: XCTestCase {
         
         let feedImages = offlineApp.images.matching(identifier: "feed-image-view").firstMatch
         XCTAssertTrue(feedImages.exists)
+    }
+    
+    func test_onLaunch_displaysEmptyFeedWhenCustomerHasNoConnectivityAndNoCache() {
+        let app = XCUIApplication()
+        app.launchArguments = ["-reset","-connectivity", "offline"]
+        app.launch()
+        
+        let feedCells = app.cells.matching(identifier: "feed-image-cell")
+        XCTAssertEqual(feedCells.count, 0)
     }
 }
