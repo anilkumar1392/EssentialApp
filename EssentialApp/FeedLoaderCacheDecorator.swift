@@ -24,9 +24,16 @@ public final class FeedLoaderCacheDecorator: FeedLoader {
 //            }
 
             completion(result.map { feed in
-                self?.cache.save(feed) { _ in }
+                // self?.cache.save(feed) { _ in }
+                self?.cache.saveIgnoringResult(feed)
                 return feed
             })
         }
+    }
+}
+
+extension FeedCache {
+    func saveIgnoringResult(_ feed: [FeedImage]) {
+        save(feed) { _ in }
     }
 }
