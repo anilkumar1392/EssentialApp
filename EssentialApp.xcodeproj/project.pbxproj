@@ -50,6 +50,8 @@
 		F5B766AF28670A22009DE53C /* modularity.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766AD28670A22009DE53C /* modularity.png */; };
 		F5B766B728672BEC009DE53C /* EssentialAppUIAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B766B628672BEC009DE53C /* EssentialAppUIAcceptanceTests.swift */; };
 		F5B766B928672BEC009DE53C /* EssentialAppUIAcceptanceTestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B766B828672BEC009DE53C /* EssentialAppUIAcceptanceTestsLaunchTests.swift */; };
+		F5B766C12867451E009DE53C /* Main_module_lecture_04.md in Resources */ = {isa = PBXBuildFile; fileRef = F5B766C02867451E009DE53C /* Main_module_lecture_04.md */; };
+		F5B766C32867461F009DE53C /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B766C22867461F009DE53C /* DebuggingSceneDelegate.swift */; };
 		F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D87C3D2864D386005804C0 /* Lecture_02.md */; };
 		F5D87C4D2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */; };
 		F5DBA70328648D7400E009FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBA70228648D7400E009FB /* AppDelegate.swift */; };
@@ -135,6 +137,8 @@
 		F5B766B428672BEC009DE53C /* EssentialAppUIAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUIAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B766B628672BEC009DE53C /* EssentialAppUIAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTests.swift; sourceTree = "<group>"; };
 		F5B766B828672BEC009DE53C /* EssentialAppUIAcceptanceTestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5B766C02867451E009DE53C /* Main_module_lecture_04.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Main_module_lecture_04.md; sourceTree = "<group>"; };
+		F5B766C22867461F009DE53C /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
 		F5D87C3D2864D386005804C0 /* Lecture_02.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture_02.md; sourceTree = "<group>"; };
 		F5D87C432864D444005804C0 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteWithLocalFallbackFeedloaderTests.swift; sourceTree = "<group>"; };
@@ -187,6 +191,7 @@
 		F585444D286497BB00AD9266 /* Main Module_Reference_ material */ = {
 			isa = PBXGroup;
 			children = (
+				F5B766BF28674508009DE53C /* Lecture_04 */,
 				F585577F2865B0C3001E3476 /* Lecture_03 */,
 				F585445628649BED00AD9266 /* Lecture_01 */,
 				F5D87C3C2864D1F7005804C0 /* Lecture _02 */,
@@ -246,6 +251,14 @@
 			path = EssentialAppUIAcceptanceTests;
 			sourceTree = "<group>";
 		};
+		F5B766BF28674508009DE53C /* Lecture_04 */ = {
+			isa = PBXGroup;
+			children = (
+				F5B766C02867451E009DE53C /* Main_module_lecture_04.md */,
+			);
+			path = Lecture_04;
+			sourceTree = "<group>";
+		};
 		F5D87C3C2864D1F7005804C0 /* Lecture _02 */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +314,7 @@
 			children = (
 				F5DBA70228648D7400E009FB /* AppDelegate.swift */,
 				F5DBA70428648D7400E009FB /* SceneDelegate.swift */,
+				F5B766C22867461F009DE53C /* DebuggingSceneDelegate.swift */,
 				F5DBA70628648D7400E009FB /* ViewController.swift */,
 				F5855763286556F1001E3476 /* FeedLoaderWithFallbackComposite.swift */,
 				F5855767286567B7001E3476 /* FeedImageDataLoaderWithFallbackComposite.swift */,
@@ -451,6 +465,7 @@
 				F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */,
 				F5B7669C2866F60A009DE53C /* 5.png in Resources */,
 				F58557812865B0D6001E3476 /* Main_module_03.md in Resources */,
+				F5B766C12867451E009DE53C /* Main_module_lecture_04.md in Resources */,
 				F5B766992866F60A009DE53C /* 2.png in Resources */,
 				F585445528649BC400AD9266 /* Main_module_01.md in Resources */,
 				F5DBA70A28648D7400E009FB /* Main.storyboard in Resources */,
@@ -501,6 +516,7 @@
 				F5DBA70328648D7400E009FB /* AppDelegate.swift in Sources */,
 				F5855764286556F1001E3476 /* FeedLoaderWithFallbackComposite.swift in Sources */,
 				F585578B2865D006001E3476 /* FeedLoaderCacheDecorator.swift in Sources */,
+				F5B766C32867461F009DE53C /* DebuggingSceneDelegate.swift in Sources */,
 				F5DBA70528648D7400E009FB /* SceneDelegate.swift in Sources */,
 				F5855768286567B7001E3476 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 				F5B766AB286708ED009DE53C /* FeedImageDataLoaderCacheDecorator.swift in Sources */,

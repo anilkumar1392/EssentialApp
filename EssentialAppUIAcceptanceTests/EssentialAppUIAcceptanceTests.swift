@@ -7,7 +7,7 @@
 
 import XCTest
 
-// balck box testing.
+// Black box testing.
 class EssentialAppUIAcceptanceTests: XCTestCase {
 
     func test_onLaunch_displaysRemoteFeedWhenCustomerHasConnectivity() {
