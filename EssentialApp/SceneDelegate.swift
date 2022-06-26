@@ -45,12 +45,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                     decoratee: remoteImageLoader,
                     cache: localImageLoader)))
         
-        /*
-        let feedViewController = FeedUIComposer.feedComposedWith(
-            feedLoader: remoteFeedLoader,
-            imageLoader: remoteImageLoader) */
-        
-         
         window?.rootViewController = feedViewController
     }
     
