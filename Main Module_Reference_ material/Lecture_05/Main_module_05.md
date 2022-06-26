@@ -14,3 +14,4 @@
 So the idea to translate those UI Acceptance test into Integration acceptance tests. 
 So they don't need to run the app and investigate elements on screen with the slow UI Queries.
 
+We migrate App UI tests to Integration tests ahving more control than UI tests and faster than UI Tests.
