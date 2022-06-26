@@ -60,6 +60,14 @@
 		F5DBA70A28648D7400E009FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DBA70828648D7400E009FB /* Main.storyboard */; };
 		F5DBA70C28648D7600E009FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DBA70B28648D7600E009FB /* Assets.xcassets */; };
 		F5DBA70F28648D7600E009FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DBA70D28648D7600E009FB /* LaunchScreen.storyboard */; };
+		F5DBE2B02867FCC300917F64 /* LECTURE_4-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2AB2867FCC200917F64 /* LECTURE_4-2.png */; };
+		F5DBE2B12867FCC300917F64 /* LECTURE_4-3.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2AC2867FCC200917F64 /* LECTURE_4-3.png */; };
+		F5DBE2B22867FCC300917F64 /* LECTURE_4-4.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2AD2867FCC200917F64 /* LECTURE_4-4.png */; };
+		F5DBE2B32867FCC300917F64 /* LECTURE_4-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2AE2867FCC200917F64 /* LECTURE_4-1.png */; };
+		F5DBE2B42867FCC300917F64 /* LECTURE_4-5.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2AF2867FCC200917F64 /* LECTURE_4-5.png */; };
+		F5DBE2B82867FDCA00917F64 /* LECTURE_4-6.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2B52867FDC900917F64 /* LECTURE_4-6.png */; };
+		F5DBE2B92867FDCA00917F64 /* LECTURE_4-7.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2B62867FDC900917F64 /* LECTURE_4-7.png */; };
+		F5DBE2BA2867FDCA00917F64 /* LECTURE_4-8.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2B72867FDCA00917F64 /* LECTURE_4-8.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +158,14 @@
 		F5DBA70B28648D7600E009FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5DBA70E28648D7600E009FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5DBA71028648D7600E009FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5DBE2AB2867FCC200917F64 /* LECTURE_4-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-2.png"; sourceTree = "<group>"; };
+		F5DBE2AC2867FCC200917F64 /* LECTURE_4-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-3.png"; sourceTree = "<group>"; };
+		F5DBE2AD2867FCC200917F64 /* LECTURE_4-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-4.png"; sourceTree = "<group>"; };
+		F5DBE2AE2867FCC200917F64 /* LECTURE_4-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-1.png"; sourceTree = "<group>"; };
+		F5DBE2AF2867FCC200917F64 /* LECTURE_4-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-5.png"; sourceTree = "<group>"; };
+		F5DBE2B52867FDC900917F64 /* LECTURE_4-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-6.png"; sourceTree = "<group>"; };
+		F5DBE2B62867FDC900917F64 /* LECTURE_4-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-7.png"; sourceTree = "<group>"; };
+		F5DBE2B72867FDCA00917F64 /* LECTURE_4-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-8.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +270,14 @@
 		F5B766BF28674508009DE53C /* Lecture_04 */ = {
 			isa = PBXGroup;
 			children = (
+				F5DBE2AE2867FCC200917F64 /* LECTURE_4-1.png */,
+				F5DBE2AB2867FCC200917F64 /* LECTURE_4-2.png */,
+				F5DBE2AC2867FCC200917F64 /* LECTURE_4-3.png */,
+				F5DBE2AD2867FCC200917F64 /* LECTURE_4-4.png */,
+				F5DBE2AF2867FCC200917F64 /* LECTURE_4-5.png */,
+				F5DBE2B52867FDC900917F64 /* LECTURE_4-6.png */,
+				F5DBE2B62867FDC900917F64 /* LECTURE_4-7.png */,
+				F5DBE2B72867FDCA00917F64 /* LECTURE_4-8.png */,
 				F5B766C02867451E009DE53C /* Main_module_lecture_04.md */,
 			);
 			path = Lecture_04;
@@ -458,10 +482,15 @@
 				F5B766982866F60A009DE53C /* 6.png in Resources */,
 				F5DBA70F28648D7600E009FB /* LaunchScreen.storyboard in Resources */,
 				F5DBA70C28648D7600E009FB /* Assets.xcassets in Resources */,
+				F5DBE2B92867FDCA00917F64 /* LECTURE_4-7.png in Resources */,
+				F5DBE2B82867FDCA00917F64 /* LECTURE_4-6.png in Resources */,
 				F5B766A12866F747009DE53C /* Intercption.png in Resources */,
 				F5B7669A2866F60A009DE53C /* 4.png in Resources */,
+				F5DBE2B32867FCC300917F64 /* LECTURE_4-1.png in Resources */,
 				F585445C28649C3700AD9266 /* Architecture.png in Resources */,
 				F5B766A02866F747009DE53C /* decorator.png in Resources */,
+				F5DBE2B12867FCC300917F64 /* LECTURE_4-3.png in Resources */,
+				F5DBE2B42867FCC300917F64 /* LECTURE_4-5.png in Resources */,
 				F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */,
 				F5B7669C2866F60A009DE53C /* 5.png in Resources */,
 				F58557812865B0D6001E3476 /* Main_module_03.md in Resources */,
@@ -469,12 +498,15 @@
 				F5B766992866F60A009DE53C /* 2.png in Resources */,
 				F585445528649BC400AD9266 /* Main_module_01.md in Resources */,
 				F5DBA70A28648D7400E009FB /* Main.storyboard in Resources */,
+				F5DBE2B02867FCC300917F64 /* LECTURE_4-2.png in Resources */,
 				F5B766AE28670A22009DE53C /* docorator01.png in Resources */,
 				F5B7669D2866F60A009DE53C /* 3.png in Resources */,
+				F5DBE2B22867FCC300917F64 /* LECTURE_4-4.png in Resources */,
 				F5B766AF28670A22009DE53C /* modularity.png in Resources */,
 				F585445D28649C3700AD9266 /* ISP.png in Resources */,
 				F585445E28649C3700AD9266 /* External_storage.png in Resources */,
 				F585445B28649C3700AD9266 /* Separate_models.png in Resources */,
+				F5DBE2BA2867FDCA00917F64 /* LECTURE_4-8.png in Resources */,
 				F5B7669B2866F60A009DE53C /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
