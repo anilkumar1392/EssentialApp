@@ -7,15 +7,16 @@
 
 import Foundation
 import XCTest
-@testable import EssentialApp
 import EssentialFeed
 import EssentialFeediOS
+@testable import EssentialApp
 
 class FeedAcceptanceTests: XCTestCase {
     func test_onLaunch_displaysRemoteFeedWhenCustomerHasConnectivity() {
         let feed = launch(httpClient: .online(response), store: .empty)
 
         XCTAssertEqual(feed.numberOfRenderedFeedImageViews(), 2)
+        
 //        XCTAssertNotNil(feed.simulateFeedImageViewVisible(at: 0)?.renderedImage)
 //        XCTAssertNotNil(feed.simulateFeedImageViewVisible(at: 1)?.renderedImage)
 //
@@ -24,19 +25,17 @@ class FeedAcceptanceTests: XCTestCase {
     }
     
     func test_onLaunch_displayCachedRemoteFeedWhenCustomerHasNoConnectivity() {
-//        let onlineApp = XCUIApplication()
-//        onlineApp.launchArguments = ["-reset", "-connectivity", "online"]
-//        onlineApp.launch()
-//
-//        let offlineApp = XCUIApplication()
-//        offlineApp.launchArguments = ["-connectivity", "offline"]
-//        offlineApp.launch()
-//
-//        let feedCells = offlineApp.cells.matching(identifier: "feed-image-cell")
-//        XCTAssertEqual(feedCells.count, 2)
-//
-//        let feedImages = offlineApp.images.matching(identifier: "feed-image-view").firstMatch
-//        XCTAssertTrue(feedImages.exists)
+         let sharedStore = InMemoryFeedStore.empty
+         let onlineFeed = launch(httpClient: .online(response), store: sharedStore)
+         onlineFeed.simulateFeedImageViewVisible(at: 0)
+         onlineFeed.simulateFeedImageViewVisible(at: 1)
+
+        let offlineFeed = launch(httpClient: .offline, store: sharedStore)
+
+        XCTAssertEqual(offlineFeed.numberOfRenderedFeedImageViews(), 2)
+        
+        //XCTAssertEqual(offlineFeed.renderedFeedImageData(at: 0), makeImageData())
+        // XCTAssertEqual(offlineFeed.renderedFeedImageData(at: 1), makeImageData())
     }
     
     func test_onLaunch_displaysEmptyFeedWhenCustomerHasNoConnectivityAndNoCache() {
@@ -84,7 +83,9 @@ extension FeedAcceptanceTests {
         }
 
         static func online(_ stub: @escaping (URL) -> (Data, HTTPURLResponse)) -> HTTPClientStub {
-            HTTPClientStub { url in .success(stub(url)) }
+            HTTPClientStub { url in
+                .success(stub(url))
+            }
         }
     }
     
