@@ -11,3 +11,6 @@
  
  ## So we need a better statergy to test.
  
+So the idea to translate those UI Acceptance test into Integration acceptance tests. 
+So they don't need to run the app and investigate elements on screen with the slow UI Queries.
+
