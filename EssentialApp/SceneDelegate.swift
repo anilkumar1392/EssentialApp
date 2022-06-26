@@ -26,6 +26,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         try! CoreDataFeedStore(storeURL: localStoreURL)
     }()
 
+    private lazy var localFeedLoader: LocalFeedLoader = {
+        LocalFeedLoader(store: store, currentDate: Date.init)
+    }()
+    
     convenience init(httpClient: HTTPClient, store: FeedStore & FeedImageDataStore) {
         self.init()
         self.httpClient = httpClient
@@ -47,7 +51,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let remoteImageLoader = RemoteFeedImageDataLoader(client: remoteClient)
 
         // let localStore = try! CoreDataFeedStore(storeURL: localStoreURL)
-        let localFeedLoader = LocalFeedLoader(store: store, currentDate: Date.init)
         let localImageLoader = LocalFeedImageDataLoader(store: store)
         
         let feedViewController = FeedUIComposer.feedComposedWith(
@@ -68,6 +71,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func makeRemoteClient() -> HTTPClient {
         return httpClient // URLSessionHTTPClient(session: URLSession(configuration: .ephemeral))
+    }
+    
+    func sceneWillResignActive(_ scene: UIScene) {
+        localFeedLoader.validateCache(completion: { _ in })
     }
 
 }
