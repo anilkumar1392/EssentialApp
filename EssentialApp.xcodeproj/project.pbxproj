@@ -37,6 +37,7 @@
 		F585AA84286952A900D72243 /* Main_Module_Lecture_06.md in Resources */ = {isa = PBXBuildFile; fileRef = F585AA83286952A900D72243 /* Main_Module_Lecture_06.md */; };
 		F585AA962869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AA952869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png */; };
 		F585AA992869C4CC00D72243 /* Main_module_lecture_07.md in Resources */ = {isa = PBXBuildFile; fileRef = F585AA982869C4CC00D72243 /* Main_module_lecture_07.md */; };
+		F585AA9D2869D19900D72243 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AA9C2869D19900D72243 /* 1.png */; };
 		F59B7FB628686B6C00E6C45F /* lecture_5_6.png in Resources */ = {isa = PBXBuildFile; fileRef = F59B7FB028686B6C00E6C45F /* lecture_5_6.png */; };
 		F59B7FB728686B6C00E6C45F /* lecture_5_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F59B7FB128686B6C00E6C45F /* lecture_5_3.png */; };
 		F59B7FB828686B6C00E6C45F /* lecture_5_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F59B7FB228686B6C00E6C45F /* lecture_5_2.png */; };
@@ -150,6 +151,7 @@
 		F585AA83286952A900D72243 /* Main_Module_Lecture_06.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Main_Module_Lecture_06.md; sourceTree = "<group>"; };
 		F585AA952869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2022-06-27 at 4.25.43 PM.png"; sourceTree = "<group>"; };
 		F585AA982869C4CC00D72243 /* Main_module_lecture_07.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Main_module_lecture_07.md; sourceTree = "<group>"; };
+		F585AA9C2869D19900D72243 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		F59B7FB028686B6C00E6C45F /* lecture_5_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lecture_5_6.png; sourceTree = "<group>"; };
 		F59B7FB128686B6C00E6C45F /* lecture_5_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lecture_5_3.png; sourceTree = "<group>"; };
 		F59B7FB228686B6C00E6C45F /* lecture_5_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lecture_5_2.png; sourceTree = "<group>"; };
@@ -316,6 +318,7 @@
 			isa = PBXGroup;
 			children = (
 				F585AA982869C4CC00D72243 /* Main_module_lecture_07.md */,
+				F585AA9C2869D19900D72243 /* 1.png */,
 			);
 			path = Lecture_07;
 			sourceTree = "<group>";
@@ -578,6 +581,7 @@
 				F5DBE2B92867FDCA00917F64 /* LECTURE_4-7.png in Resources */,
 				F5DBE2B82867FDCA00917F64 /* LECTURE_4-6.png in Resources */,
 				F585AA962869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png in Resources */,
+				F585AA9D2869D19900D72243 /* 1.png in Resources */,
 				F5B766A12866F747009DE53C /* Intercption.png in Resources */,
 				F5B7669A2866F60A009DE53C /* 4.png in Resources */,
 				F5DBE2B32867FCC300917F64 /* LECTURE_4-1.png in Resources */,
