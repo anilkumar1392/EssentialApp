@@ -35,6 +35,8 @@
 		F58557872865BB88001E3476 /* XCTestCase+FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58557862865BB88001E3476 /* XCTestCase+FeedLoader.swift */; };
 		F585578B2865D006001E3476 /* FeedLoaderCacheDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585578A2865D006001E3476 /* FeedLoaderCacheDecorator.swift */; };
 		F585AA84286952A900D72243 /* Main_Module_Lecture_06.md in Resources */ = {isa = PBXBuildFile; fileRef = F585AA83286952A900D72243 /* Main_Module_Lecture_06.md */; };
+		F585AA962869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AA952869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png */; };
+		F585AA992869C4CC00D72243 /* Main_module_lecture_07.md in Resources */ = {isa = PBXBuildFile; fileRef = F585AA982869C4CC00D72243 /* Main_module_lecture_07.md */; };
 		F59B7FB628686B6C00E6C45F /* lecture_5_6.png in Resources */ = {isa = PBXBuildFile; fileRef = F59B7FB028686B6C00E6C45F /* lecture_5_6.png */; };
 		F59B7FB728686B6C00E6C45F /* lecture_5_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F59B7FB128686B6C00E6C45F /* lecture_5_3.png */; };
 		F59B7FB828686B6C00E6C45F /* lecture_5_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F59B7FB228686B6C00E6C45F /* lecture_5_2.png */; };
@@ -146,6 +148,8 @@
 		F58557862865BB88001E3476 /* XCTestCase+FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedLoader.swift"; sourceTree = "<group>"; };
 		F585578A2865D006001E3476 /* FeedLoaderCacheDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecorator.swift; sourceTree = "<group>"; };
 		F585AA83286952A900D72243 /* Main_Module_Lecture_06.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Main_Module_Lecture_06.md; sourceTree = "<group>"; };
+		F585AA952869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2022-06-27 at 4.25.43 PM.png"; sourceTree = "<group>"; };
+		F585AA982869C4CC00D72243 /* Main_module_lecture_07.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Main_module_lecture_07.md; sourceTree = "<group>"; };
 		F59B7FB028686B6C00E6C45F /* lecture_5_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lecture_5_6.png; sourceTree = "<group>"; };
 		F59B7FB128686B6C00E6C45F /* lecture_5_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lecture_5_3.png; sourceTree = "<group>"; };
 		F59B7FB228686B6C00E6C45F /* lecture_5_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lecture_5_2.png; sourceTree = "<group>"; };
@@ -241,6 +245,7 @@
 		F585444D286497BB00AD9266 /* Main Module_Reference_ material */ = {
 			isa = PBXGroup;
 			children = (
+				F585AA972869C4B700D72243 /* Lecture_07 */,
 				F585AA802869527600D72243 /* Lecture_06 */,
 				F5DBE2BB28681EEC00917F64 /* Lecture_05 */,
 				F5B766BF28674508009DE53C /* Lecture_04 */,
@@ -301,9 +306,18 @@
 		F585AA802869527600D72243 /* Lecture_06 */ = {
 			isa = PBXGroup;
 			children = (
+				F585AA952869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png */,
 				F585AA83286952A900D72243 /* Main_Module_Lecture_06.md */,
 			);
 			path = Lecture_06;
+			sourceTree = "<group>";
+		};
+		F585AA972869C4B700D72243 /* Lecture_07 */ = {
+			isa = PBXGroup;
+			children = (
+				F585AA982869C4CC00D72243 /* Main_module_lecture_07.md */,
+			);
+			path = Lecture_07;
 			sourceTree = "<group>";
 		};
 		F5B766B528672BEC009DE53C /* EssentialAppUIAcceptanceTests */ = {
@@ -559,9 +573,11 @@
 				F59B7FBA28686B6C00E6C45F /* lecture_5_5.png in Resources */,
 				F5DBA70F28648D7600E009FB /* LaunchScreen.storyboard in Resources */,
 				F5DBE2BD28681EFE00917F64 /* Main_module_05.md in Resources */,
+				F585AA992869C4CC00D72243 /* Main_module_lecture_07.md in Resources */,
 				F5DBA70C28648D7600E009FB /* Assets.xcassets in Resources */,
 				F5DBE2B92867FDCA00917F64 /* LECTURE_4-7.png in Resources */,
 				F5DBE2B82867FDCA00917F64 /* LECTURE_4-6.png in Resources */,
+				F585AA962869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png in Resources */,
 				F5B766A12866F747009DE53C /* Intercption.png in Resources */,
 				F5B7669A2866F60A009DE53C /* 4.png in Resources */,
 				F5DBE2B32867FCC300917F64 /* LECTURE_4-1.png in Resources */,

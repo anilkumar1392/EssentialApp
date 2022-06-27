@@ -3,4 +3,54 @@
    uuid = "5E272C6C-4758-4358-A5A9-B36A28D9A0DE"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7CDF9E8-E55A-4C96-97A5-46D7FB9627CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../EssentialFeedUpdated/EssentialFeediOSTests/FeedUI/EssentialFeediOSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "454"
+            endingLineNumber = "454"
+            landmarkName = "load(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D7CDF9E8-E55A-4C96-97A5-46D7FB9627CD - b45d72eea8c3309"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of EssentialFeediOSTests.FeedUIIntegrationTests.LoaderSpy.completeFeedLoading(with: Swift.Array&lt;EssentialFeed.FeedImage&gt;, at: Swift.Int) -&gt; ()"
+                  moduleName = "EssentialFeediOSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a13401027/Desktop/Learning%20TDD/EssentialFeedUpdated/EssentialFeediOSTests/FeedUI/EssentialFeediOSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "453"
+                  endingLineNumber = "453"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "D7CDF9E8-E55A-4C96-97A5-46D7FB9627CD - 913d4b0b7fa03969"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EssentialFeediOSTests.FeedUIIntegrationTests.LoaderSpy.load(completion: (Swift.Result&lt;Swift.Array&lt;EssentialFeed.FeedImage&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EssentialFeediOSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a13401027/Desktop/Learning%20TDD/EssentialFeedUpdated/EssentialFeediOSTests/FeedUI/EssentialFeediOSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "452"
+                  endingLineNumber = "452"
+                  offsetFromSymbolStart = "70">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
