@@ -9,7 +9,6 @@ import Foundation
 import EssentialFeediOS
 import EssentialFeed
 import UIKit
-import EssentialApp
 
 extension FeedViewController {
     var errorMessage: String? {
