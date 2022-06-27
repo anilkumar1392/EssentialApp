@@ -38,6 +38,22 @@
 		F585AA962869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AA952869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png */; };
 		F585AA992869C4CC00D72243 /* Main_module_lecture_07.md in Resources */ = {isa = PBXBuildFile; fileRef = F585AA982869C4CC00D72243 /* Main_module_lecture_07.md */; };
 		F585AA9D2869D19900D72243 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AA9C2869D19900D72243 /* 1.png */; };
+		F585AAA02869EC0A00D72243 /* Main_module_lecture_08.md in Resources */ = {isa = PBXBuildFile; fileRef = F585AA9F2869EC0A00D72243 /* Main_module_lecture_08.md */; };
+		F585AAA62869EE1700D72243 /* Horizontal slicing_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAA12869EE1700D72243 /* Horizontal slicing_3.png */; };
+		F585AAA72869EE1700D72243 /* Feature_vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAA22869EE1700D72243 /* Feature_vertical.png */; };
+		F585AAA82869EE1700D72243 /* Screenshot 2022-06-27 at 7.21.46 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAA32869EE1700D72243 /* Screenshot 2022-06-27 at 7.21.46 PM.png */; };
+		F585AAA92869EE1700D72243 /* MOnolith.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAA42869EE1700D72243 /* MOnolith.png */; };
+		F585AAAA2869EE1700D72243 /* Horizontal slicing_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAA52869EE1700D72243 /* Horizontal slicing_2.png */; };
+		F585AAB52869F08100D72243 /* Project_org_4.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAAB2869F08000D72243 /* Project_org_4.png */; };
+		F585AAB62869F08100D72243 /* packages.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAAC2869F08000D72243 /* packages.png */; };
+		F585AAB72869F08100D72243 /* suggestion.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAAD2869F08000D72243 /* suggestion.png */; };
+		F585AAB82869F08100D72243 /* horizontal_sliceing.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAAE2869F08000D72243 /* horizontal_sliceing.png */; };
+		F585AAB92869F08100D72243 /* horizontal_Feature-vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAAF2869F08000D72243 /* horizontal_Feature-vertical.png */; };
+		F585AABA2869F08100D72243 /* Project_org_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAB02869F08100D72243 /* Project_org_1.png */; };
+		F585AABB2869F08100D72243 /* Project_org_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAB12869F08100D72243 /* Project_org_2.png */; };
+		F585AABC2869F08100D72243 /* horizontal_Feature-vertical_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAB22869F08100D72243 /* horizontal_Feature-vertical_2.png */; };
+		F585AABD2869F08100D72243 /* Project_org_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAB32869F08100D72243 /* Project_org_3.png */; };
+		F585AABE2869F08100D72243 /* horizontal_sliceing_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAB42869F08100D72243 /* horizontal_sliceing_1.png */; };
 		F59B7FB628686B6C00E6C45F /* lecture_5_6.png in Resources */ = {isa = PBXBuildFile; fileRef = F59B7FB028686B6C00E6C45F /* lecture_5_6.png */; };
 		F59B7FB728686B6C00E6C45F /* lecture_5_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F59B7FB128686B6C00E6C45F /* lecture_5_3.png */; };
 		F59B7FB828686B6C00E6C45F /* lecture_5_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F59B7FB228686B6C00E6C45F /* lecture_5_2.png */; };
@@ -152,6 +168,22 @@
 		F585AA952869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2022-06-27 at 4.25.43 PM.png"; sourceTree = "<group>"; };
 		F585AA982869C4CC00D72243 /* Main_module_lecture_07.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Main_module_lecture_07.md; sourceTree = "<group>"; };
 		F585AA9C2869D19900D72243 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F585AA9F2869EC0A00D72243 /* Main_module_lecture_08.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Main_module_lecture_08.md; sourceTree = "<group>"; };
+		F585AAA12869EE1700D72243 /* Horizontal slicing_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Horizontal slicing_3.png"; sourceTree = "<group>"; };
+		F585AAA22869EE1700D72243 /* Feature_vertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feature_vertical.png; sourceTree = "<group>"; };
+		F585AAA32869EE1700D72243 /* Screenshot 2022-06-27 at 7.21.46 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2022-06-27 at 7.21.46 PM.png"; sourceTree = "<group>"; };
+		F585AAA42869EE1700D72243 /* MOnolith.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MOnolith.png; sourceTree = "<group>"; };
+		F585AAA52869EE1700D72243 /* Horizontal slicing_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Horizontal slicing_2.png"; sourceTree = "<group>"; };
+		F585AAAB2869F08000D72243 /* Project_org_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Project_org_4.png; sourceTree = "<group>"; };
+		F585AAAC2869F08000D72243 /* packages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = packages.png; sourceTree = "<group>"; };
+		F585AAAD2869F08000D72243 /* suggestion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suggestion.png; sourceTree = "<group>"; };
+		F585AAAE2869F08000D72243 /* horizontal_sliceing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horizontal_sliceing.png; sourceTree = "<group>"; };
+		F585AAAF2869F08000D72243 /* horizontal_Feature-vertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "horizontal_Feature-vertical.png"; sourceTree = "<group>"; };
+		F585AAB02869F08100D72243 /* Project_org_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Project_org_1.png; sourceTree = "<group>"; };
+		F585AAB12869F08100D72243 /* Project_org_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Project_org_2.png; sourceTree = "<group>"; };
+		F585AAB22869F08100D72243 /* horizontal_Feature-vertical_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "horizontal_Feature-vertical_2.png"; sourceTree = "<group>"; };
+		F585AAB32869F08100D72243 /* Project_org_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Project_org_3.png; sourceTree = "<group>"; };
+		F585AAB42869F08100D72243 /* horizontal_sliceing_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horizontal_sliceing_1.png; sourceTree = "<group>"; };
 		F59B7FB028686B6C00E6C45F /* lecture_5_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lecture_5_6.png; sourceTree = "<group>"; };
 		F59B7FB128686B6C00E6C45F /* lecture_5_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lecture_5_3.png; sourceTree = "<group>"; };
 		F59B7FB228686B6C00E6C45F /* lecture_5_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lecture_5_2.png; sourceTree = "<group>"; };
@@ -247,6 +279,7 @@
 		F585444D286497BB00AD9266 /* Main Module_Reference_ material */ = {
 			isa = PBXGroup;
 			children = (
+				F585AA9E2869EBE100D72243 /* Lecture_08 */,
 				F585AA972869C4B700D72243 /* Lecture_07 */,
 				F585AA802869527600D72243 /* Lecture_06 */,
 				F5DBE2BB28681EEC00917F64 /* Lecture_05 */,
@@ -321,6 +354,29 @@
 				F585AA9C2869D19900D72243 /* 1.png */,
 			);
 			path = Lecture_07;
+			sourceTree = "<group>";
+		};
+		F585AA9E2869EBE100D72243 /* Lecture_08 */ = {
+			isa = PBXGroup;
+			children = (
+				F585AAA22869EE1700D72243 /* Feature_vertical.png */,
+				F585AAA52869EE1700D72243 /* Horizontal slicing_2.png */,
+				F585AAA12869EE1700D72243 /* Horizontal slicing_3.png */,
+				F585AAA42869EE1700D72243 /* MOnolith.png */,
+				F585AAA32869EE1700D72243 /* Screenshot 2022-06-27 at 7.21.46 PM.png */,
+				F585AAB22869F08100D72243 /* horizontal_Feature-vertical_2.png */,
+				F585AAAF2869F08000D72243 /* horizontal_Feature-vertical.png */,
+				F585AAB42869F08100D72243 /* horizontal_sliceing_1.png */,
+				F585AAAE2869F08000D72243 /* horizontal_sliceing.png */,
+				F585AAAC2869F08000D72243 /* packages.png */,
+				F585AAB02869F08100D72243 /* Project_org_1.png */,
+				F585AAB12869F08100D72243 /* Project_org_2.png */,
+				F585AAB32869F08100D72243 /* Project_org_3.png */,
+				F585AAAB2869F08000D72243 /* Project_org_4.png */,
+				F585AAAD2869F08000D72243 /* suggestion.png */,
+				F585AA9F2869EC0A00D72243 /* Main_module_lecture_08.md */,
+			);
+			path = Lecture_08;
 			sourceTree = "<group>";
 		};
 		F5B766B528672BEC009DE53C /* EssentialAppUIAcceptanceTests */ = {
@@ -581,33 +637,49 @@
 				F5DBE2B92867FDCA00917F64 /* LECTURE_4-7.png in Resources */,
 				F5DBE2B82867FDCA00917F64 /* LECTURE_4-6.png in Resources */,
 				F585AA962869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png in Resources */,
+				F585AAA82869EE1700D72243 /* Screenshot 2022-06-27 at 7.21.46 PM.png in Resources */,
 				F585AA9D2869D19900D72243 /* 1.png in Resources */,
+				F585AAB72869F08100D72243 /* suggestion.png in Resources */,
 				F5B766A12866F747009DE53C /* Intercption.png in Resources */,
 				F5B7669A2866F60A009DE53C /* 4.png in Resources */,
 				F5DBE2B32867FCC300917F64 /* LECTURE_4-1.png in Resources */,
+				F585AAB62869F08100D72243 /* packages.png in Resources */,
 				F585445C28649C3700AD9266 /* Architecture.png in Resources */,
+				F585AABD2869F08100D72243 /* Project_org_3.png in Resources */,
 				F5B766A02866F747009DE53C /* decorator.png in Resources */,
 				F5DBE2B12867FCC300917F64 /* LECTURE_4-3.png in Resources */,
+				F585AAAA2869EE1700D72243 /* Horizontal slicing_2.png in Resources */,
 				F59B7FBB28686B6C00E6C45F /* lecture_5_4.png in Resources */,
 				F5DBE2B42867FCC300917F64 /* LECTURE_4-5.png in Resources */,
 				F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */,
 				F5B7669C2866F60A009DE53C /* 5.png in Resources */,
+				F585AAA62869EE1700D72243 /* Horizontal slicing_3.png in Resources */,
 				F58557812865B0D6001E3476 /* Main_module_03.md in Resources */,
+				F585AAA92869EE1700D72243 /* MOnolith.png in Resources */,
 				F5B766C12867451E009DE53C /* Main_module_lecture_04.md in Resources */,
 				F5B766992866F60A009DE53C /* 2.png in Resources */,
 				F585445528649BC400AD9266 /* Main_module_01.md in Resources */,
 				F5DBA70A28648D7400E009FB /* Main.storyboard in Resources */,
+				F585AAA72869EE1700D72243 /* Feature_vertical.png in Resources */,
 				F5DBE2B02867FCC300917F64 /* LECTURE_4-2.png in Resources */,
 				F5B766AE28670A22009DE53C /* docorator01.png in Resources */,
+				F585AABA2869F08100D72243 /* Project_org_1.png in Resources */,
 				F5B7669D2866F60A009DE53C /* 3.png in Resources */,
 				F5DBE2B22867FCC300917F64 /* LECTURE_4-4.png in Resources */,
 				F59B7FB628686B6C00E6C45F /* lecture_5_6.png in Resources */,
 				F5B766AF28670A22009DE53C /* modularity.png in Resources */,
 				F585445D28649C3700AD9266 /* ISP.png in Resources */,
+				F585AAB82869F08100D72243 /* horizontal_sliceing.png in Resources */,
+				F585AAA02869EC0A00D72243 /* Main_module_lecture_08.md in Resources */,
+				F585AABE2869F08100D72243 /* horizontal_sliceing_1.png in Resources */,
+				F585AAB92869F08100D72243 /* horizontal_Feature-vertical.png in Resources */,
 				F585445E28649C3700AD9266 /* External_storage.png in Resources */,
 				F585AA84286952A900D72243 /* Main_Module_Lecture_06.md in Resources */,
+				F585AABC2869F08100D72243 /* horizontal_Feature-vertical_2.png in Resources */,
 				F59B7FB928686B6C00E6C45F /* lecture_5_1.png in Resources */,
+				F585AABB2869F08100D72243 /* Project_org_2.png in Resources */,
 				F59B7FB728686B6C00E6C45F /* lecture_5_3.png in Resources */,
+				F585AAB52869F08100D72243 /* Project_org_4.png in Resources */,
 				F585445B28649C3700AD9266 /* Separate_models.png in Resources */,
 				F5DBE2BA2867FDCA00917F64 /* LECTURE_4-8.png in Resources */,
 				F59B7FB828686B6C00E6C45F /* lecture_5_2.png in Resources */,
