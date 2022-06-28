@@ -114,3 +114,63 @@ script:
 # .github/deployment/certificate.p12.gpg
 
 # .github/deployment/profile.mobileprovision.gpg
+
+
+Learning Outcomes
+Differences and Relations between Continuous Integration, Delivery, and Deployment
+Guidelines for uploading builds to App Store Connect
+Deploying builds to App Store Connect manually
+Deploying builds to App Store Connect automatically with a Continuous Delivery pipeline
+
+# Continuous Integration, Delivery, and Deployment
+
+## Continuous Integration (CI) 
+
+Continuous Integration (CI) is the practice of merging working versions of the code into the main branch with great speed and frequency (several times a day).
+
+Continually merging all developers’ work enables dev teams to work in smaller and more concise batches, eliminating many issues that slow down the development process, such as big merge conflicts.
+
+To guarantee the codebase consistency and speed up the integration process, the team will create an automated CI pipeline to ensure the build is not broken and that all tests are passing before merging to the main branch.
+
+With a reliable Continuous Integration pipeline, where the main branch always contains stable versions of the code, you can achieve Continuous Delivery.
+
+## Continuous Delivery
+
+Continuous Delivery is the practice of delivering working software in short cycles, usually several times a week or a day. “Working software” means reliable builds that can be released to customers at any time.
+
+The goal is to deploy working app versions to the broader team as often as possible, improving the communication and collaboration with the business as they don’t have to wait months to see and interact with the current state of the app.
+
+For that, the codebase needs to always be in a releasable state, where all tests are passing, and there are no broken features. Which means ‘unfinished’ or ‘not ready to ship’ features can be hidden behind feature flags.
+
+The team can produce builds every time there’s new code merged to the main branch. This build can be sent to QA and stakeholders, for example.
+
+A Continuous Delivery workflow allows your team to continually deliver value to your stakeholders and customers as it eliminates long waiting periods.
+
+In Continuous Delivery, the whole process of generating and uploading a build can also be automated. But approving the build and pushing it to production is done manually.
+
+Once a build is approved by the business, it can be manually pushed to production. But pushing to production should be as simple as pressing a button because the build should always be ready to ship.
+
+Going a step further, the team can achieve Continuous Deployment by eliminating the need for manual approvals.
+
+## Continuous Deployment
+Continuous Deployment is the practice of automatically approving and pushing builds to production as long as it passes all tests. The team needs to build a lot of confidence in the development process to eliminate the need for manual testing and approval, but it can be done by following practices you’ve been learning in this course such as excellent communication, clear requirements, Test-Driven Development, and supple software design.
+
+Teams that achieve Continuous Deployment can more rapidly deliver value to customers and adapt to market changes, which is a huge advantage against competitors.
+
+## Continuous Delivery in Apple’s ecosystem
+Like you can create an automated Continuous Integration workflow to build and test your codebase before merging code, you can also automate the build and deploy of your apps in a Continuous Delivery workflow.
+
+##
+References
+Prepare for app distribution https://help.apple.com/xcode/mac/current/#/dev91fe7130a
+TestFlight overview https://help.apple.com/app-store-connect/#/devdc42b26b8
+Uploading builds overview https://help.apple.com/app-store-connect/#/dev82a6a9d79
+Add an App Store icon to your project https://help.apple.com/xcode/mac/current/#/dev4b0ebb1bb
+Export compliance overview https://help.apple.com/app-store-connect/#/dev88f5c7bf9
+App signing guide https://help.apple.com/xcode/mac/current/#/dev3a05256b8
+Complying with encryption export regulations https://developer.apple.com/documentation/security/complying_with_encryption_export_regulations
+UIWindow reference https://developer.apple.com/documentation/uikit/uiwindow
+Migrating to Swift 5.2 and CI with GitHub Actions https://www.essentialdeveloper.com/articles/s02e21-migrating-to-swift-5-2-and-ci-with-github-actions-professional-ios-engineering-series
+GitHub Actions: Configuring and managing workflows https://help.github.com/en/actions/configuring-and-managing-workflows
+GitHub Actions: Creating and Storing Encrypted Secrets https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets
+fastlane documentation https://docs.fastlane.tools

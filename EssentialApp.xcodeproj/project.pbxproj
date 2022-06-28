@@ -104,6 +104,12 @@
 		F5E4B4F0286AAB1400FCBDDF /* UIImage+TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E4B4ED286AAB1400FCBDDF /* UIImage+TestHelper.swift */; };
 		F5E4B4F1286AAB1400FCBDDF /* UIRefreshControl+TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E4B4EE286AAB1400FCBDDF /* UIRefreshControl+TestHelper.swift */; };
 		F5E4B4F2286AAB1400FCBDDF /* UIButton+TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E4B4EF286AAB1400FCBDDF /* UIButton+TestHelper.swift */; };
+		F5E4B4F6286ABBF800FCBDDF /* CD_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E4B4F3286ABBF800FCBDDF /* CD_1.png */; };
+		F5E4B4F7286ABBF800FCBDDF /* CD_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E4B4F4286ABBF800FCBDDF /* CD_2.png */; };
+		F5E4B4F8286ABBF800FCBDDF /* CI_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E4B4F5286ABBF800FCBDDF /* CI_1.png */; };
+		F5E4B4FC286ABCED00FCBDDF /* App Store_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E4B4F9286ABCED00FCBDDF /* App Store_3.png */; };
+		F5E4B4FD286ABCED00FCBDDF /* App Store_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E4B4FA286ABCED00FCBDDF /* App Store_1.png */; };
+		F5E4B4FE286ABCED00FCBDDF /* App Store_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E4B4FB286ABCED00FCBDDF /* App Store_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -238,6 +244,12 @@
 		F5E4B4ED286AAB1400FCBDDF /* UIImage+TestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelper.swift"; sourceTree = "<group>"; };
 		F5E4B4EE286AAB1400FCBDDF /* UIRefreshControl+TestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+TestHelper.swift"; sourceTree = "<group>"; };
 		F5E4B4EF286AAB1400FCBDDF /* UIButton+TestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+TestHelper.swift"; sourceTree = "<group>"; };
+		F5E4B4F3286ABBF800FCBDDF /* CD_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CD_1.png; sourceTree = "<group>"; };
+		F5E4B4F4286ABBF800FCBDDF /* CD_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CD_2.png; sourceTree = "<group>"; };
+		F5E4B4F5286ABBF800FCBDDF /* CI_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CI_1.png; sourceTree = "<group>"; };
+		F5E4B4F9286ABCED00FCBDDF /* App Store_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Store_3.png"; sourceTree = "<group>"; };
+		F5E4B4FA286ABCED00FCBDDF /* App Store_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Store_1.png"; sourceTree = "<group>"; };
+		F5E4B4FB286ABCED00FCBDDF /* App Store_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Store_2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -504,6 +516,12 @@
 		F5E4B4E8286A968900FCBDDF /* Lecture_09 */ = {
 			isa = PBXGroup;
 			children = (
+				F5E4B4F3286ABBF800FCBDDF /* CD_1.png */,
+				F5E4B4F4286ABBF800FCBDDF /* CD_2.png */,
+				F5E4B4F5286ABBF800FCBDDF /* CI_1.png */,
+				F5E4B4FA286ABCED00FCBDDF /* App Store_1.png */,
+				F5E4B4FB286ABCED00FCBDDF /* App Store_2.png */,
+				F5E4B4F9286ABCED00FCBDDF /* App Store_3.png */,
 				F5E4B4EB286A96BA00FCBDDF /* Main_module_lecture_09.md */,
 			);
 			path = Lecture_09;
@@ -621,12 +639,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E4B4F6286ABBF800FCBDDF /* CD_1.png in Resources */,
+				F5E4B4F8286ABBF800FCBDDF /* CI_1.png in Resources */,
+				F5E4B4FC286ABCED00FCBDDF /* App Store_3.png in Resources */,
 				F585577128656D75001E3476 /* 2.png in Resources */,
 				F585577628656E9F001E3476 /* abstractTypes.png in Resources */,
+				F5E4B4FE286ABCED00FCBDDF /* App Store_2.png in Resources */,
 				F585577428656E69001E3476 /* concrete types.png in Resources */,
 				F585577C28656F90001E3476 /* CompositeDesignPattern.png in Resources */,
 				F585577E28656FD5001E3476 /* relatedPattern.png in Resources */,
 				F585577828656EC9001E3476 /* customProtocol.png in Resources */,
+				F5E4B4FD286ABCED00FCBDDF /* App Store_1.png in Resources */,
+				F5E4B4F7286ABBF800FCBDDF /* CD_2.png in Resources */,
 				F585577228656D75001E3476 /* 1.png in Resources */,
 				F585577A28656F33001E3476 /* compositeWithRemoteLocal.png in Resources */,
 			);
