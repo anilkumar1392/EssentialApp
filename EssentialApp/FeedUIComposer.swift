@@ -9,7 +9,7 @@ import Foundation
 import EssentialFeed
 import UIKit
 import EssentialFeediOS
-
+import Combine
 /*
  ### Adding MVVM
  
@@ -104,6 +104,7 @@ private extension FeedViewController {
 public final class FeedUIComposer {
     private init() {}
     
+    /*
     public static func feedComposedWith(feedLoader: FeedLoader, imageLoader: FeedImageDataLoader) -> FeedViewController {
         let title = NSLocalizedString("FEED_VIEW_TITLE",
                                       tableName: "Feed",
@@ -113,6 +114,43 @@ public final class FeedUIComposer {
         // let feedPresenter = FeedPresenter(feedLoader: MainQueueDispatchDecorator(decoratee: feedLoader), title: title)
         
         let presentationAdapter = FeedLoaderPresentationAdapter(feedLoader: MainQueueDispatchDecorator(decoratee: feedLoader))
+        
+        // let refreshController = FeedRefreshViewController(presenter: feedPresenter)
+        // let refreshController = FeedRefreshViewController(delegate: presentationAdapter)
+
+        // let feedController = FeedViewController(refreshController: refreshController)
+        // feedController.refreshController = refreshController
+        
+        // let refreshController = feedController.refreshController!
+        // refreshController.delegate = presentationAdapter
+
+        let feedController = FeedViewController.makeWith(
+            delegate: presentationAdapter,
+            title: FeedPresenter.title)
+        
+        let feedPresenter = FeedPresenter(
+            feedView: FeedViewAdapter(
+                controller: feedController,
+                imageLoader: imageLoader),
+            errorView: WeakRefVirtualProxy(feedController),
+            loadingView: WeakRefVirtualProxy(feedController)
+            )
+        presentationAdapter.presenter = feedPresenter
+        
+        return feedController
+    } */
+    
+    public static func feedComposedWith(feedLoader: @escaping () -> FeedLoader.Publisher,
+                                        imageLoader: FeedImageDataLoader) -> FeedViewController {
+        let title = NSLocalizedString("FEED_VIEW_TITLE",
+                                      tableName: "Feed",
+                                      bundle: Bundle(for: FeedUIComposer.self),
+                                      comment: "Title for the feed view")
+
+        // let feedPresenter = FeedPresenter(feedLoader: MainQueueDispatchDecorator(decoratee: feedLoader), title: title)
+        
+        let presentationAdapter = FeedLoaderPresentationAdapter(
+            feedLoader: { feedLoader().dispatchOnMainQueue() })
         
         // let refreshController = FeedRefreshViewController(presenter: feedPresenter)
         // let refreshController = FeedRefreshViewController(delegate: presentationAdapter)
@@ -168,6 +206,7 @@ private final class FeedViewAdapter: FeedView {
     }
 }
 
+/*
 private final class FeedLoaderPresentationAdapter: FeedViewControllerDelegate {
 
     private let feedLoader: FeedLoader
@@ -188,6 +227,34 @@ private final class FeedLoaderPresentationAdapter: FeedViewControllerDelegate {
             case .failure(let error):
                 self?.presenter?.didFinishLoadingFeed(with: error)
             }
+        }
+    }
+}
+*/
+
+final class FeedLoaderPresentationAdapter: FeedViewControllerDelegate {
+
+    private let feedLoader: () -> FeedLoader.Publisher
+    var presenter: FeedPresenter?
+    private var cancallable: Cancellable?
+    
+    init(feedLoader: @escaping () -> FeedLoader.Publisher) {
+        self.feedLoader = feedLoader
+    }
+    
+    func didRequestFeedRefresh() {
+        presenter?.didStartLoadingFeed()
+        
+        cancallable = feedLoader().sink { [weak self] completion in
+            switch completion {
+            case .finished:
+                break
+                
+            case .failure(let error):
+                self?.presenter?.didFinishLoadingFeed(with: error)
+            }
+        } receiveValue: { [weak self] feed in
+            self?.presenter?.didFinishLoadingFeed(with: feed)
         }
     }
 }

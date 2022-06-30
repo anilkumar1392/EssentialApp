@@ -7,6 +7,11 @@
 
 import Foundation
 import EssentialFeed
+import Combine
+
+// Inject side effect with less line of code.
+// using build in operator we don't need to develop, test and maintain it.
+// This whole class can be replace with a function one liner.
 
 public final class FeedLoaderCacheDecorator: FeedLoader {
     private let decoratee: FeedLoader
