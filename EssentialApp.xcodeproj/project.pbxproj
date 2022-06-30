@@ -10,6 +10,14 @@
 		F524E0EE286D4E900013E9B1 /* EssentialFeediOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524E0EC286D4E040013E9B1 /* EssentialFeediOSTests.swift */; };
 		F524E0F0286D4EC00013E9B1 /* FeedViewControllerTest+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524E0EF286D4EC00013E9B1 /* FeedViewControllerTest+Localization.swift */; };
 		F524E0F2286D52BC0013E9B1 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524E0F1286D52BC0013E9B1 /* CombineHelpers.swift */; };
+		F524E0F7286D581E0013E9B1 /* Lecture_10_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F524E0F3286D581E0013E9B1 /* Lecture_10_3.png */; };
+		F524E0F8286D581E0013E9B1 /* Lecture_10_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F524E0F4286D581E0013E9B1 /* Lecture_10_1.png */; };
+		F524E0F9286D581E0013E9B1 /* Lecture_10_4.png in Resources */ = {isa = PBXBuildFile; fileRef = F524E0F5286D581E0013E9B1 /* Lecture_10_4.png */; };
+		F524E0FA286D581E0013E9B1 /* Lecture_10_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F524E0F6286D581E0013E9B1 /* Lecture_10_2.png */; };
+		F524E0FD286D589D0013E9B1 /* Lecture_10_5.png in Resources */ = {isa = PBXBuildFile; fileRef = F524E0FB286D589D0013E9B1 /* Lecture_10_5.png */; };
+		F524E0FE286D589D0013E9B1 /* Lecture_10_6.png in Resources */ = {isa = PBXBuildFile; fileRef = F524E0FC286D589D0013E9B1 /* Lecture_10_6.png */; };
+		F524E101286D58E30013E9B1 /* Lecture_10_7.png in Resources */ = {isa = PBXBuildFile; fileRef = F524E0FF286D58E30013E9B1 /* Lecture_10_7.png */; };
+		F524E102286D58E30013E9B1 /* Lecture_10_8.png in Resources */ = {isa = PBXBuildFile; fileRef = F524E100286D58E30013E9B1 /* Lecture_10_8.png */; };
 		F5854448286491B700AD9266 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5854446286491B700AD9266 /* EssentialFeed.framework */; };
 		F5854449286491B700AD9266 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5854446286491B700AD9266 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F585444A286491B700AD9266 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5854447286491B700AD9266 /* EssentialFeediOS.framework */; };
@@ -152,6 +160,14 @@
 		F524E0EC286D4E040013E9B1 /* EssentialFeediOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EssentialFeediOSTests.swift; sourceTree = "<group>"; };
 		F524E0EF286D4EC00013E9B1 /* FeedViewControllerTest+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FeedViewControllerTest+Localization.swift"; path = "../../../EssentialFeedUpdated/EssentialFeediOSTests/FeedUI/Helpers/FeedViewControllerTest+Localization.swift"; sourceTree = "<group>"; };
 		F524E0F1286D52BC0013E9B1 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
+		F524E0F3286D581E0013E9B1 /* Lecture_10_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_10_3.png; sourceTree = "<group>"; };
+		F524E0F4286D581E0013E9B1 /* Lecture_10_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_10_1.png; sourceTree = "<group>"; };
+		F524E0F5286D581E0013E9B1 /* Lecture_10_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_10_4.png; sourceTree = "<group>"; };
+		F524E0F6286D581E0013E9B1 /* Lecture_10_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_10_2.png; sourceTree = "<group>"; };
+		F524E0FB286D589D0013E9B1 /* Lecture_10_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_10_5.png; sourceTree = "<group>"; };
+		F524E0FC286D589D0013E9B1 /* Lecture_10_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_10_6.png; sourceTree = "<group>"; };
+		F524E0FF286D58E30013E9B1 /* Lecture_10_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_10_7.png; sourceTree = "<group>"; };
+		F524E100286D58E30013E9B1 /* Lecture_10_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_10_8.png; sourceTree = "<group>"; };
 		F5854446286491B700AD9266 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5854447286491B700AD9266 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F585445428649BC400AD9266 /* Main_module_01.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Main_module_01.md; sourceTree = "<group>"; };
@@ -406,6 +422,14 @@
 			isa = PBXGroup;
 			children = (
 				F5AEAA28286BE71900CFF542 /* Main_module_lecture_10.md */,
+				F524E0F4286D581E0013E9B1 /* Lecture_10_1.png */,
+				F524E0F6286D581E0013E9B1 /* Lecture_10_2.png */,
+				F524E0F3286D581E0013E9B1 /* Lecture_10_3.png */,
+				F524E0F5286D581E0013E9B1 /* Lecture_10_4.png */,
+				F524E0FB286D589D0013E9B1 /* Lecture_10_5.png */,
+				F524E0FC286D589D0013E9B1 /* Lecture_10_6.png */,
+				F524E0FF286D58E30013E9B1 /* Lecture_10_7.png */,
+				F524E100286D58E30013E9B1 /* Lecture_10_8.png */,
 			);
 			path = Lectrure_10;
 			sourceTree = "<group>";
@@ -692,6 +716,7 @@
 				F585AA962869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png in Resources */,
 				F5AEAA29286BE71900CFF542 /* Main_module_lecture_10.md in Resources */,
 				F585AAA82869EE1700D72243 /* Screenshot 2022-06-27 at 7.21.46 PM.png in Resources */,
+				F524E0FA286D581E0013E9B1 /* Lecture_10_2.png in Resources */,
 				F585AA9D2869D19900D72243 /* lecture_07_1.png in Resources */,
 				F585AAB72869F08100D72243 /* suggestion.png in Resources */,
 				F5B766A12866F747009DE53C /* Intercption.png in Resources */,
@@ -705,6 +730,8 @@
 				F585AAAA2869EE1700D72243 /* Horizontal slicing_2.png in Resources */,
 				F59B7FBB28686B6C00E6C45F /* lecture_5_4.png in Resources */,
 				F5DBE2B42867FCC300917F64 /* LECTURE_4-5.png in Resources */,
+				F524E0F7286D581E0013E9B1 /* Lecture_10_3.png in Resources */,
+				F524E0FE286D589D0013E9B1 /* Lecture_10_6.png in Resources */,
 				F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */,
 				F5B7669C2866F60A009DE53C /* 5.png in Resources */,
 				F585AAA62869EE1700D72243 /* Horizontal slicing_3.png in Resources */,
@@ -720,7 +747,9 @@
 				F5B7669D2866F60A009DE53C /* 3.png in Resources */,
 				F5DBE2B22867FCC300917F64 /* LECTURE_4-4.png in Resources */,
 				F59B7FB628686B6C00E6C45F /* lecture_5_6.png in Resources */,
+				F524E0F8286D581E0013E9B1 /* Lecture_10_1.png in Resources */,
 				F5B766AF28670A22009DE53C /* modularity.png in Resources */,
+				F524E101286D58E30013E9B1 /* Lecture_10_7.png in Resources */,
 				F585445D28649C3700AD9266 /* ISP.png in Resources */,
 				F585AAB82869F08100D72243 /* horizontal_sliceing.png in Resources */,
 				F585AAA02869EC0A00D72243 /* Main_module_lecture_08.md in Resources */,
@@ -729,10 +758,13 @@
 				F585445E28649C3700AD9266 /* External_storage.png in Resources */,
 				F585AA84286952A900D72243 /* Main_Module_Lecture_06.md in Resources */,
 				F585AABC2869F08100D72243 /* horizontal_Feature-vertical_2.png in Resources */,
+				F524E102286D58E30013E9B1 /* Lecture_10_8.png in Resources */,
 				F59B7FB928686B6C00E6C45F /* lecture_5_1.png in Resources */,
 				F585AABB2869F08100D72243 /* Project_org_2.png in Resources */,
 				F59B7FB728686B6C00E6C45F /* lecture_5_3.png in Resources */,
+				F524E0F9286D581E0013E9B1 /* Lecture_10_4.png in Resources */,
 				F585AAB52869F08100D72243 /* Project_org_4.png in Resources */,
+				F524E0FD286D589D0013E9B1 /* Lecture_10_5.png in Resources */,
 				F585445B28649C3700AD9266 /* Separate_models.png in Resources */,
 				F5DBE2BA2867FDCA00917F64 /* LECTURE_4-8.png in Resources */,
 				F59B7FB828686B6C00E6C45F /* lecture_5_2.png in Resources */,
