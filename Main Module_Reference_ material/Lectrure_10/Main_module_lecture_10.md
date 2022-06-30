@@ -58,3 +58,38 @@ Some Design Patterns like the Composite, Adapter, and Decorator can be seamlessl
 The Combine framework by Apple provides us building blocks based on those universal abstractions. This means that, with SOLID abstractions, you can seamlessly replace some existing design pattern implementations with built-in Combine operators.
 
 As a result, you don’t have to develop, maintain, and test your own implementations.
+
+## Holding the Cancellable reference
+The result of subscribing to a publisher using sink is a Cancellable that exposes a cancel method. You can use it to cancel the operation when you don’t need to receive events anymore.
+
+It’s important to hold a reference to an AnyCancellable because it automatically calls cancel() when deinitialized. So you wouldn’t receive events anymore.
+
+Should we use Combine everywhere?
+The composable Combine operators can speed up development and simplify complex tasks with its built-in solutions. So, it can be tempting to start using it everywhere.
+
+But as shown in the lecture, we used Combine only in the Composition Root as building blocks to compose the modules.
+
+We could have instead made all our modules depend on Combine and use its operators everywhere. But that would couple our modules to the Combine framework, including the Core domain layer.
+
+We recommend against coupling all your modules to a specific framework, so you can develop, test, maintain, and deploy your modules in isolation and on any platform.
+
+Moreover, frameworks in the domain layer introduce leaky low-level details. So we suggest at least your Core domain to be free of frameworks. You can design your models and services using pure language features (functions, structs, enums, classes, protocols...).
+
+And you can then compose your application using Combine in a centralized place: the Composition Root. That’s how you can protect your modules from external frameworks and minimize their impact on the overall architecture of the app.
+
+But that’s a decision you and your team will have to make!
+
+References
+Some design patterns as universal abstractions https://blog.ploeh.dk/2018/03/05/some-design-patterns-as-universal-abstractions
+Combine reference https://developer.apple.com/documentation/combine
+Publisher reference https://developer.apple.com/documentation/combine/publisher
+Future reference https://developer.apple.com/documentation/combine/future
+Deferred reference https://developer.apple.com/documentation/combine/deferred
+AnyPublisher reference https://developer.apple.com/documentation/combine/anypublisher
+Publisher.eraseToAnyPublisher reference https://developer.apple.com/documentation/combine/publisher/3241548-erasetoanypublisher
+Publisher.map reference https://developer.apple.com/documentation/combine/publisher/3204718-map
+Publisher.catch reference https://developer.apple.com/documentation/combine/publisher/3204690-catch
+Publisher.sink reference https://developer.apple.com/documentation/combine/publisher/3343978-sink
+Publisher.receive(on:) reference https://developer.apple.com/documentation/combine/publisher/3204743-receive
+Scheduler reference https://developer.apple.com/documentation/combine/scheduler
+Cancellable reference https://developer.apple.com/documentation/combine/cancellable
