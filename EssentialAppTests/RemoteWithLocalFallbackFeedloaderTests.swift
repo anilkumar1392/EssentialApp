@@ -11,6 +11,9 @@ import EssentialApp
 
 // RemoteWithLocalFallbackFeedLoaderTests
 
+// Main module lecture -2
+// MARK: -  Composite Pattern: Implementing a Flexible & Composable Strategy for Loading Data with Fallback Logic
+
 class FeedLoaderWithFallbackCompositeTests: XCTestCase, FeedLoaderTestCase {
     
     func test_load_deliversPrimaryFeedOnPrimaryLoaderSuccess() {

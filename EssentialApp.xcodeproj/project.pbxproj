@@ -73,18 +73,18 @@
 		F59B7FBB28686B6C00E6C45F /* lecture_5_4.png in Resources */ = {isa = PBXBuildFile; fileRef = F59B7FB528686B6C00E6C45F /* lecture_5_4.png */; };
 		F5AEAA29286BE71900CFF542 /* Main_module_lecture_10.md in Resources */ = {isa = PBXBuildFile; fileRef = F5AEAA28286BE71900CFF542 /* Main_module_lecture_10.md */; };
 		F5B766982866F60A009DE53C /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766922866F609009DE53C /* 6.png */; };
-		F5B766992866F60A009DE53C /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766932866F609009DE53C /* 2.png */; };
-		F5B7669A2866F60A009DE53C /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766942866F609009DE53C /* 4.png */; };
-		F5B7669B2866F60A009DE53C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766952866F609009DE53C /* 1.png */; };
-		F5B7669C2866F60A009DE53C /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766962866F60A009DE53C /* 5.png */; };
-		F5B7669D2866F60A009DE53C /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766972866F60A009DE53C /* 3.png */; };
+		F5B766992866F60A009DE53C /* Lecture_3_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766932866F609009DE53C /* Lecture_3_02.png */; };
+		F5B7669A2866F60A009DE53C /* Lecture_3_04.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766942866F609009DE53C /* Lecture_3_04.png */; };
+		F5B7669B2866F60A009DE53C /* Lecture_3_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766952866F609009DE53C /* Lecture_3_01.png */; };
+		F5B7669C2866F60A009DE53C /* Lecture_3_05.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766962866F60A009DE53C /* Lecture_3_05.png */; };
+		F5B7669D2866F60A009DE53C /* Lecture_3_03.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766972866F60A009DE53C /* Lecture_3_03.png */; };
 		F5B766A02866F747009DE53C /* decorator.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B7669E2866F747009DE53C /* decorator.png */; };
 		F5B766A12866F747009DE53C /* Intercption.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B7669F2866F747009DE53C /* Intercption.png */; };
 		F5B766A32866F80D009DE53C /* FeedImageDataLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B766A22866F80D009DE53C /* FeedImageDataLoaderCacheDecoratorTests.swift */; };
 		F5B766A52867035E009DE53C /* FeedImageDataLoaderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B766A42867035E009DE53C /* FeedImageDataLoaderSpy.swift */; };
 		F5B766A72867044F009DE53C /* XCTestCase+FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B766A62867044F009DE53C /* XCTestCase+FeedImageDataLoader.swift */; };
 		F5B766AB286708ED009DE53C /* FeedImageDataLoaderCacheDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B766AA286708ED009DE53C /* FeedImageDataLoaderCacheDecorator.swift */; };
-		F5B766AE28670A22009DE53C /* docorator01.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766AC28670A22009DE53C /* docorator01.png */; };
+		F5B766AE28670A22009DE53C /* Colclusion.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766AC28670A22009DE53C /* Colclusion.png */; };
 		F5B766AF28670A22009DE53C /* modularity.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766AD28670A22009DE53C /* modularity.png */; };
 		F5B766B728672BEC009DE53C /* EssentialAppUIAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B766B628672BEC009DE53C /* EssentialAppUIAcceptanceTests.swift */; };
 		F5B766B928672BEC009DE53C /* EssentialAppUIAcceptanceTestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B766B828672BEC009DE53C /* EssentialAppUIAcceptanceTestsLaunchTests.swift */; };
@@ -92,6 +92,10 @@
 		F5B766C32867461F009DE53C /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B766C22867461F009DE53C /* DebuggingSceneDelegate.swift */; };
 		F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D87C3D2864D386005804C0 /* Lecture_02.md */; };
 		F5D87C4D2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */; };
+		F5DA548D287D301F0054465A /* Class_confirm_to_protocol.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA548B287D301F0054465A /* Class_confirm_to_protocol.png */; };
+		F5DA548E287D301F0054465A /* Class _confirm_protocol.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA548C287D301F0054465A /* Class _confirm_protocol.png */; };
+		F5DA5490287D31450054465A /* Siwft_classs.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA548F287D31440054465A /* Siwft_classs.png */; };
+		F5DA5492287D4BF50054465A /* Architecture Overview_decorator_behaviour.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA5491287D4BF40054465A /* Architecture Overview_decorator_behaviour.png */; };
 		F5DBA70328648D7400E009FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBA70228648D7400E009FB /* AppDelegate.swift */; };
 		F5DBA70528648D7400E009FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBA70428648D7400E009FB /* SceneDelegate.swift */; };
 		F5DBA70728648D7400E009FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBA70628648D7400E009FB /* ViewController.swift */; };
@@ -232,18 +236,18 @@
 		F59B7FB528686B6C00E6C45F /* lecture_5_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lecture_5_4.png; sourceTree = "<group>"; };
 		F5AEAA28286BE71900CFF542 /* Main_module_lecture_10.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Main_module_lecture_10.md; sourceTree = "<group>"; };
 		F5B766922866F609009DE53C /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
-		F5B766932866F609009DE53C /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		F5B766942866F609009DE53C /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		F5B766952866F609009DE53C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		F5B766962866F60A009DE53C /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
-		F5B766972866F60A009DE53C /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		F5B766932866F609009DE53C /* Lecture_3_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_3_02.png; sourceTree = "<group>"; };
+		F5B766942866F609009DE53C /* Lecture_3_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_3_04.png; sourceTree = "<group>"; };
+		F5B766952866F609009DE53C /* Lecture_3_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_3_01.png; sourceTree = "<group>"; };
+		F5B766962866F60A009DE53C /* Lecture_3_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_3_05.png; sourceTree = "<group>"; };
+		F5B766972866F60A009DE53C /* Lecture_3_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_3_03.png; sourceTree = "<group>"; };
 		F5B7669E2866F747009DE53C /* decorator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decorator.png; sourceTree = "<group>"; };
 		F5B7669F2866F747009DE53C /* Intercption.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Intercption.png; sourceTree = "<group>"; };
 		F5B766A22866F80D009DE53C /* FeedImageDataLoaderCacheDecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderCacheDecoratorTests.swift; sourceTree = "<group>"; };
 		F5B766A42867035E009DE53C /* FeedImageDataLoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderSpy.swift; sourceTree = "<group>"; };
 		F5B766A62867044F009DE53C /* XCTestCase+FeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedImageDataLoader.swift"; sourceTree = "<group>"; };
 		F5B766AA286708ED009DE53C /* FeedImageDataLoaderCacheDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderCacheDecorator.swift; sourceTree = "<group>"; };
-		F5B766AC28670A22009DE53C /* docorator01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = docorator01.png; sourceTree = "<group>"; };
+		F5B766AC28670A22009DE53C /* Colclusion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Colclusion.png; sourceTree = "<group>"; };
 		F5B766AD28670A22009DE53C /* modularity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = modularity.png; sourceTree = "<group>"; };
 		F5B766B428672BEC009DE53C /* EssentialAppUIAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUIAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B766B628672BEC009DE53C /* EssentialAppUIAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTests.swift; sourceTree = "<group>"; };
@@ -253,6 +257,10 @@
 		F5D87C3D2864D386005804C0 /* Lecture_02.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture_02.md; sourceTree = "<group>"; };
 		F5D87C432864D444005804C0 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteWithLocalFallbackFeedloaderTests.swift; sourceTree = "<group>"; };
+		F5DA548B287D301F0054465A /* Class_confirm_to_protocol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Class_confirm_to_protocol.png; sourceTree = "<group>"; };
+		F5DA548C287D301F0054465A /* Class _confirm_protocol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Class _confirm_protocol.png"; sourceTree = "<group>"; };
+		F5DA548F287D31440054465A /* Siwft_classs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Siwft_classs.png; sourceTree = "<group>"; };
+		F5DA5491287D4BF40054465A /* Architecture Overview_decorator_behaviour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Architecture Overview_decorator_behaviour.png"; sourceTree = "<group>"; };
 		F5DBA6FF28648D7400E009FB /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DBA70228648D7400E009FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5DBA70428648D7400E009FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -386,13 +394,17 @@
 		F585577F2865B0C3001E3476 /* Lecture_03 */ = {
 			isa = PBXGroup;
 			children = (
-				F5B766AC28670A22009DE53C /* docorator01.png */,
+				F5DA5491287D4BF40054465A /* Architecture Overview_decorator_behaviour.png */,
+				F5B766AC28670A22009DE53C /* Colclusion.png */,
 				F5B766AD28670A22009DE53C /* modularity.png */,
-				F5B766952866F609009DE53C /* 1.png */,
-				F5B766932866F609009DE53C /* 2.png */,
-				F5B766972866F60A009DE53C /* 3.png */,
-				F5B766942866F609009DE53C /* 4.png */,
-				F5B766962866F60A009DE53C /* 5.png */,
+				F5B766952866F609009DE53C /* Lecture_3_01.png */,
+				F5B766932866F609009DE53C /* Lecture_3_02.png */,
+				F5B766972866F60A009DE53C /* Lecture_3_03.png */,
+				F5B766942866F609009DE53C /* Lecture_3_04.png */,
+				F5B766962866F60A009DE53C /* Lecture_3_05.png */,
+				F5DA548C287D301F0054465A /* Class _confirm_protocol.png */,
+				F5DA548B287D301F0054465A /* Class_confirm_to_protocol.png */,
+				F5DA548F287D31440054465A /* Siwft_classs.png */,
 				F5B766922866F609009DE53C /* 6.png */,
 				F5B7669E2866F747009DE53C /* decorator.png */,
 				F5B7669F2866F747009DE53C /* Intercption.png */,
@@ -506,8 +518,8 @@
 				F5855769286567F3001E3476 /* Helpers */,
 				F5DBE2BE2868224800917F64 /* SceneDelegateTests.swift */,
 				F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */,
-				F58557652865582F001E3476 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
 				F58557822865B2D6001E3476 /* FeedLoaderCacheDecoratorTests.swift */,
+				F58557652865582F001E3476 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
 				F5B766A22866F80D009DE53C /* FeedImageDataLoaderCacheDecoratorTests.swift */,
 				F5DBE2D92868304900917F64 /* FeedAcceptanceTests.swift */,
 				F524E0EC286D4E040013E9B1 /* EssentialFeediOSTests.swift */,
@@ -757,12 +769,13 @@
 				F5DBE2B82867FDCA00917F64 /* LECTURE_4-6.png in Resources */,
 				F585AA962869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png in Resources */,
 				F5AEAA29286BE71900CFF542 /* Main_module_lecture_10.md in Resources */,
+				F5DA5490287D31450054465A /* Siwft_classs.png in Resources */,
 				F585AAA82869EE1700D72243 /* Screenshot 2022-06-27 at 7.21.46 PM.png in Resources */,
 				F524E0FA286D581E0013E9B1 /* Lecture_10_2.png in Resources */,
 				F585AA9D2869D19900D72243 /* lecture_07_1.png in Resources */,
 				F585AAB72869F08100D72243 /* suggestion.png in Resources */,
 				F5B766A12866F747009DE53C /* Intercption.png in Resources */,
-				F5B7669A2866F60A009DE53C /* 4.png in Resources */,
+				F5B7669A2866F60A009DE53C /* Lecture_3_04.png in Resources */,
 				F5DBE2B32867FCC300917F64 /* LECTURE_4-1.png in Resources */,
 				F585AAB62869F08100D72243 /* packages.png in Resources */,
 				F585445C28649C3700AD9266 /* Architecture.png in Resources */,
@@ -779,22 +792,22 @@
 				F524E0F7286D581E0013E9B1 /* Lecture_10_3.png in Resources */,
 				F524E0FE286D589D0013E9B1 /* Lecture_10_6.png in Resources */,
 				F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */,
-				F5B7669C2866F60A009DE53C /* 5.png in Resources */,
+				F5B7669C2866F60A009DE53C /* Lecture_3_05.png in Resources */,
 				F585AAA62869EE1700D72243 /* Horizontal slicing_3.png in Resources */,
 				F58557812865B0D6001E3476 /* Main_module_03.md in Resources */,
 				F5E6DA6B286EA1C100EEA5A3 /* Screenshot 2022-06-19 at 6.33.17 AM.png in Resources */,
 				F585AAA92869EE1700D72243 /* MOnolith.png in Resources */,
 				F5B766C12867451E009DE53C /* Main_module_lecture_04.md in Resources */,
-				F5B766992866F60A009DE53C /* 2.png in Resources */,
+				F5B766992866F60A009DE53C /* Lecture_3_02.png in Resources */,
 				F5E6DA6C286EA1C100EEA5A3 /* Acceptancetesting.png in Resources */,
 				F585445528649BC400AD9266 /* Main_module_01.md in Resources */,
 				F5E6DA6E286EA1C100EEA5A3 /* MainThread_MainQueue.png in Resources */,
 				F5E6DA5B286E9B8500EEA5A3 /* Main_module_learning_outcome.md in Resources */,
 				F585AAA72869EE1700D72243 /* Feature_vertical.png in Resources */,
 				F5DBE2B02867FCC300917F64 /* LECTURE_4-2.png in Resources */,
-				F5B766AE28670A22009DE53C /* docorator01.png in Resources */,
+				F5B766AE28670A22009DE53C /* Colclusion.png in Resources */,
 				F585AABA2869F08100D72243 /* Project_org_1.png in Resources */,
-				F5B7669D2866F60A009DE53C /* 3.png in Resources */,
+				F5B7669D2866F60A009DE53C /* Lecture_3_03.png in Resources */,
 				F5DBE2B22867FCC300917F64 /* LECTURE_4-4.png in Resources */,
 				F59B7FB628686B6C00E6C45F /* lecture_5_6.png in Resources */,
 				F524E0F8286D581E0013E9B1 /* Lecture_10_1.png in Resources */,
@@ -803,16 +816,19 @@
 				F585445D28649C3700AD9266 /* ISP.png in Resources */,
 				F585AAB82869F08100D72243 /* horizontal_sliceing.png in Resources */,
 				F585AAA02869EC0A00D72243 /* Main_module_lecture_08.md in Resources */,
+				F5DA548E287D301F0054465A /* Class _confirm_protocol.png in Resources */,
 				F585AABE2869F08100D72243 /* horizontal_sliceing_1.png in Resources */,
 				F585AAB92869F08100D72243 /* horizontal_Feature-vertical.png in Resources */,
 				F5E6DA69286EA1C100EEA5A3 /* snapshotTesting.png in Resources */,
 				F585445E28649C3700AD9266 /* External_storage.png in Resources */,
+				F5DA5492287D4BF50054465A /* Architecture Overview_decorator_behaviour.png in Resources */,
 				F585AA84286952A900D72243 /* Main_Module_Lecture_06.md in Resources */,
 				F585AABC2869F08100D72243 /* horizontal_Feature-vertical_2.png in Resources */,
 				F5E6DA67286EA1C100EEA5A3 /* cancellable.png in Resources */,
 				F524E102286D58E30013E9B1 /* Lecture_10_8.png in Resources */,
 				F59B7FB928686B6C00E6C45F /* lecture_5_1.png in Resources */,
 				F585AABB2869F08100D72243 /* Project_org_2.png in Resources */,
+				F5DA548D287D301F0054465A /* Class_confirm_to_protocol.png in Resources */,
 				F59B7FB728686B6C00E6C45F /* lecture_5_3.png in Resources */,
 				F524E0F9286D581E0013E9B1 /* Lecture_10_4.png in Resources */,
 				F585AAB52869F08100D72243 /* Project_org_4.png in Resources */,
@@ -820,7 +836,7 @@
 				F585445B28649C3700AD9266 /* Separate_models.png in Resources */,
 				F5DBE2BA2867FDCA00917F64 /* LECTURE_4-8.png in Resources */,
 				F59B7FB828686B6C00E6C45F /* lecture_5_2.png in Resources */,
-				F5B7669B2866F60A009DE53C /* 1.png in Resources */,
+				F5B7669B2866F60A009DE53C /* Lecture_3_01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

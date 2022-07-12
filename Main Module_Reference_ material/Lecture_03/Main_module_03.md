@@ -26,3 +26,52 @@ With a Decorator!
 When you create good, polymorphic, and single-purpose abstractions such as the FeedLoader protocol, you can use a Decorator to intercept operations easily and alter/extend/inject new behavior into your system.
 
 For example, the new FeedLoaderCacheDecorator is responsible for decorating (intercepting) any <FeedLoader>.load implementation and injecting the <FeedCache>.save side-effect on successful load results.
+
+## The Decorator Design Pattern
+“As is the case with many other patterns, the Decorator pattern is an old and well-described design pattern that predates DI by a decade. It’s such a fundamental part of Interception that it warrants a refresher.
+
+The Decorator pattern was first described in the book Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma et al. (Addison-Wesley, 1994). The pattern’s intent is to “attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.”—Erich Gamma et al., Design Patterns, 175.
+
+A Decorator works by wrapping one implementation of an Abstraction in another implementation of the same Abstraction. This wrapper delegates operations to the contained implementation, while adding behavior before and/or after invoking the wrapped object.
+
+The ability to attach responsibilities dynamically means that you can make the decision to apply a Decorator at runtime rather than having this relationship baked into the program at compile time, which is what you’d do with subclassing.
+
+A Decorator can wrap another Decorator, which wraps another Decorator, and so on, providing a “pipeline” of interception.” – Dependency Injection: Principles, Practices, Patterns by Mark Seemann and Steven van Deursen
+
+## Comments in review
+
+// Classes are not very much composable.
+
+class FeedLoaderTests: XCTestCase {}
+
+
+but problem is that in the future we might want to compose this class with all the opertions that can be reusable
+
+// But class can inherit form one class.
+So the solution is use protocol.
+So class Inheritance is not composable it can only inherti form on class.
+
+However a swift class can confirm to multiple protocol.
+2. and INherit implemantaiton from their extensions.
+3. And you can constrain a protocol to a specific class.
+Protcol in swift compose much better than classes.
+
+Swift class can confirm to multiple protocol and inherit all of their extension.
+
+## Decorator does not cache or load it only coordinates the load and cache.
+It intercepts the load and it needs to send a message to the cache to save the laoded feed.
+
+We do not want to use LocalFeedLoader as a dependecy in 'FeedLoaderCacheDecorator' as LocalFeedLoader is a concrete type and it has it's own dependecy so we need to create all its dependecny.
+
+Also Doing this our test will be more fragile and This decorator will be less composable.
+
+## We want to test decorator in isolation so we want our decorator to have an abstraciton that also allows composibility.
+
+## Follow command-Query separation and Separate loading from separtion and the compose this functions together.
+If you need modularity you can decorate and compose yout components.
+When you don't need it. (Eg. very simple apps/ Use cases) you can go with the a more concrete and monolith approach.
+
+
+## Final thoughts
+
+When you want to ad a new behaviour use decorator and when you want to compose types that sahre common interface use Composites.

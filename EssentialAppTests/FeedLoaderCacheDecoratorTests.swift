@@ -10,6 +10,9 @@ import XCTest
 import EssentialFeed
 import EssentialApp
 
+// Main module lecture -3 
+// MARK: - Interception: An Effective, Modular and Composable Way of Injecting Behavior and Side-effects in the App Composition
+
 class FeedLoaderCacheDecoratorTests: XCTestCase, FeedLoaderTestCase {
     
     func test_load_deliversFeedOnLoaderSuccess() {
