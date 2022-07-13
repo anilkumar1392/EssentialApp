@@ -11,6 +11,13 @@ import EssentialFeediOS
 import CoreData
 import Combine
 
+/*
+ lazy var so if they ar ento set we have the change to instanciate them lazily.
+ */
+/*
+ all this init and below code is to replace UIAccpetance test with UIIntegration Test
+ */
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?

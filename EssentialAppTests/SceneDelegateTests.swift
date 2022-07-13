@@ -11,6 +11,19 @@ import XCTest
 import EssentialFeediOS
 
 // Use testable because we don't want any other module to use SceneDelegate.
+// MARK: - Validating Acceptance Criteria with Fast Integration Tests, Composition Root, and Simulating App Launch & State Transitions
+// Lecture 5
+
+/*
+ To make our test reliable control all the components that are not reliable.
+ 1. let store = InMemoryFeedStore()
+ 2. let httpClient = HTTPClinetStub()
+ 
+ Thus we dont want to make any real HTTP requests.
+ Do this to get deterministic result.
+ */
+
+
 
 class SceneDelegateTests: XCTestCase {
     

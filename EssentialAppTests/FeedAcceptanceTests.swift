@@ -11,6 +11,22 @@ import EssentialFeed
 import EssentialFeediOS
 @testable import EssentialApp
 
+
+// MARK: - Migrating the UIAcceptance test with the UIIntegration tests validating exactly the same scenarios.
+
+// MARK: - Finallly we can remove Accpetacne Test file, DebuggingSceneDelegate, and we don't need to swap our delegate class for Debug builds.
+
+// We also don't need to write RemoteClientFunction any more which was overriden for deubgging in scene delegate.
+/*
+ Like we did in UIAcceptacne test here also we need to control the infrastructure.
+ So ideally we need to inject here HTTPClient and Store same as We did in UIAcceptacne.
+ ["-reset", "-connectivity", "online"]
+ 
+ So we can control unreliable infrastructure components.
+ We want this test to be fast and reliable.
+ 
+ */
+
 class FeedAcceptanceTests: XCTestCase {
     func test_onLaunch_displaysRemoteFeedWhenCustomerHasConnectivity() {
         let feed = launch(httpClient: .online(response), store: .empty)
@@ -43,6 +59,8 @@ class FeedAcceptanceTests: XCTestCase {
 
         XCTAssertEqual(offlineFeed.numberOfRenderedFeedImageViews(), 0)
     }
+    
+    // MARK: - When app enters background valdiate cache.
     
     func test_onEnteringBackground_deletesExpiredFeedCache() {
         let store = InMemoryFeedStore.withExpiredFeedCache

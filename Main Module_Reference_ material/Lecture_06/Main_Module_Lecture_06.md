@@ -22,3 +22,7 @@ They offer a significantly more performant alternative for automating testing vi
 Moreover, you can commit the snapshot artifacts to your git repository. Thus, everyone in the team will have access to them.
 
 Finally, you can (and should) run the snapshot tests on the CI server, making it part of your QA process.
+
+## File holds the path to the current file.
+
+Ideally we should store the snapshot close to the test file. So we can use the current file path. 

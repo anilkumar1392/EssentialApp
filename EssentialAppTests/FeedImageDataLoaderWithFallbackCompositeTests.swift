@@ -10,6 +10,10 @@ import XCTest
 import EssentialFeed
 import EssentialApp
 
+// Main module lecture -2
+// MARK: -  Composite Pattern: Implementing a Flexible & Composable Strategy for Loading Data with Fallback Logic
+// For FeedImageDataLoader
+
 class FeedImageDataLoaderWithFallbackCompositeTests: XCTestCase {
     
     func test_init_doesNotLoadImageData() {

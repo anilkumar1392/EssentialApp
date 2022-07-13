@@ -53,3 +53,19 @@ For example, you could easily replace the transition to a “Welcome” screen a
 Centralizing your app’s instantiation and composition simplifies drastically the development and management of modules, components, and their dependencies.
 
 This way, you can design elegant and independent modules, where components communicate through clean abstractions. Moreover, components don’t need to be concerned about concrete dependency implementations or how to instantiate them. The dependencies can be easily injected and replaced without breaking existing code, promoting composability and extensibility (Open/Closed principle).
+
+
+## Acceptance criteria of your application and while composition with integration tests.
+// Which are much fater adn does not require you to add test ot debug code to the production.
+
+## Scene Delegate and App Delegate are just another class if their is code in their it can be tested.
+
+## when you do not have access to init of a class that means that method can not be invocked.
+
+Ideally framework should give you tools to test your code.
+but when they dont their is something we can do.
+
+## Solution: move logic from method that you can not invoke to a method that we can invoke.
+
+Calling configureWindow instead of SceneDelegate method.
+
