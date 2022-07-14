@@ -26,3 +26,8 @@ Finally, you can (and should) run the snapshot tests on the CI server, making it
 ## File holds the path to the current file.
 
 Ideally we should store the snapshot close to the test file. So we can use the current file path. 
+
+## References
+Human Interface Guidelines for Dark Mode https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/dark-mode
+UIGraphicsImageRenderer reference https://developer.apple.com/documentation/uikit/uigraphicsimagerenderer
+UITraitCollection reference https://developer.apple.com/documentation/uikit/uitraitcollection
