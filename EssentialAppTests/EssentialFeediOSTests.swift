@@ -145,6 +145,8 @@ public class FeedUIIntegrationTests: XCTestCase {
         
     }
     
+    // MARK: - Preventing a Crash when Invalidating Work Based on UITableViewDelegate events
+    
     func test_loadFeedCompletion_rendersSucessfullyLoadedEmptyFeedAfterNonEmptyFeed()  {
         let image0 = makeItem()
         let image1 = makeItem()

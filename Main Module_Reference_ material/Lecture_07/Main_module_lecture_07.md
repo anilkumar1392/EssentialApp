@@ -77,3 +77,30 @@ func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell,
 This way, you can guarantee the messages are being sent to the right models while preventing potential out-of-bounds runtime errors.
 
 Thanks, Luke Jones, for pointing out this potential crash!
+
+## Enforcing UIKit layout during tests
+
+## When fixing a bug, it's important to always see a failing test first. Without a failing test, we cannot prove that [1] the bug exists, [2] we understand the issue, [3] we can replicate the bug reliably, and [4] we fixed the bug (when the test passes).
+
+But testing some UIKit behaviors can be tricky.
+
+For example, in this lecture, it wasn't straightforward to test the didEndDisplayingCell behavior in Integration Tests because UIKit only calls this delegate method when the cell is removed from the table view.
+
+But for performance reasons, layout changes are not applied immediately. The changes are applied in the next layout cycle unless explicitly told to execute immediately.
+
+You can call layoutIfNeeded on the table view under test to enforce the layout changes immediately and trigger the didEndDisplayingCell delegate event. It's also important to run the current RunLoop to avoid memory leaks during the test:
+
+tableView.layoutIfNeeded()
+RunLoop.current.run(until: Date())
+
+If you don't run the RunLoop, some instances might be retained in memory even after the test finishes, which is considered a "test leak".
+
+A test leak can affect the result of other tests, so it's essential to clean the memory within the test context. A reliable test suite runs each test in a clean state.
+
+On iOS 14+, you may need to execute the RunLoop one more time after asserting the UI state to reliably prevent the test leak. Here’s how to do it.
+
+## References
+UITableView.reloadData reference https://developer.apple.com/documentation/uikit/uitableview/1614862-reloaddata
+UITableViewDelegate.tableView(_:didEndDisplaying:forRowAt:) reference https://developer.apple.com/documentation/uikit/uitableviewdelegate/1614870-tableview
+UIView.layoutIfNeeded reference https://developer.apple.com/documentation/uikit/uiview/1622507-layoutifneeded
+RunLoop reference https://developer.apple.com/documentation/foundation/runloop

@@ -52,7 +52,7 @@
 		F585AAA02869EC0A00D72243 /* Main_module_lecture_08.md in Resources */ = {isa = PBXBuildFile; fileRef = F585AA9F2869EC0A00D72243 /* Main_module_lecture_08.md */; };
 		F585AAA62869EE1700D72243 /* Horizontal slicing_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAA12869EE1700D72243 /* Horizontal slicing_3.png */; };
 		F585AAA72869EE1700D72243 /* Feature_vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAA22869EE1700D72243 /* Feature_vertical.png */; };
-		F585AAA82869EE1700D72243 /* Screenshot 2022-06-27 at 7.21.46 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAA32869EE1700D72243 /* Screenshot 2022-06-27 at 7.21.46 PM.png */; };
+		F585AAA82869EE1700D72243 /* Feature Vertical Slicing.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAA32869EE1700D72243 /* Feature Vertical Slicing.png */; };
 		F585AAA92869EE1700D72243 /* MOnolith.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAA42869EE1700D72243 /* MOnolith.png */; };
 		F585AAAA2869EE1700D72243 /* Horizontal slicing_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAA52869EE1700D72243 /* Horizontal slicing_2.png */; };
 		F585AAB52869F08100D72243 /* Project_org_4.png in Resources */ = {isa = PBXBuildFile; fileRef = F585AAAB2869F08000D72243 /* Project_org_4.png */; };
@@ -118,6 +118,13 @@
 		F5DBE2D828682A9300917F64 /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBE2D728682A9300917F64 /* WeakRefVirtualProxy.swift */; };
 		F5DBE2DA2868304900917F64 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBE2D92868304900917F64 /* FeedAcceptanceTests.swift */; };
 		F5DBE2DE2868369500917F64 /* FeedViewController+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBE2DD2868369500917F64 /* FeedViewController+TestHelpers.swift */; };
+		F5E0EB11288107750088661C /* PROVE_A _BUG.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E0EB10288107750088661C /* PROVE_A _BUG.png */; };
+		F5E0EB1328810A860088661C /* Core_Module.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E0EB1228810A860088661C /* Core_Module.png */; };
+		F5E0EB1528810E270088661C /* Infrastructure_replace.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E0EB1428810E270088661C /* Infrastructure_replace.png */; };
+		F5E0EB1728810F390088661C /* Dependency_diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E0EB1628810F390088661C /* Dependency_diagram.png */; };
+		F5E0EB192881106E0088661C /* Dependency_in_circel.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E0EB182881106E0088661C /* Dependency_in_circel.png */; };
+		F5E0EB1B2881122E0088661C /* Onion.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E0EB1A2881122E0088661C /* Onion.png */; };
+		F5E0EB1D288115420088661C /* Framework-specfic-color.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E0EB1C288115420088661C /* Framework-specfic-color.png */; };
 		F5E4B4EC286A96BA00FCBDDF /* Main_module_lecture_09.md in Resources */ = {isa = PBXBuildFile; fileRef = F5E4B4EB286A96BA00FCBDDF /* Main_module_lecture_09.md */; };
 		F5E4B4F0286AAB1400FCBDDF /* UIImage+TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E4B4ED286AAB1400FCBDDF /* UIImage+TestHelper.swift */; };
 		F5E4B4F1286AAB1400FCBDDF /* UIRefreshControl+TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E4B4EE286AAB1400FCBDDF /* UIRefreshControl+TestHelper.swift */; };
@@ -221,7 +228,7 @@
 		F585AA9F2869EC0A00D72243 /* Main_module_lecture_08.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Main_module_lecture_08.md; sourceTree = "<group>"; };
 		F585AAA12869EE1700D72243 /* Horizontal slicing_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Horizontal slicing_3.png"; sourceTree = "<group>"; };
 		F585AAA22869EE1700D72243 /* Feature_vertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feature_vertical.png; sourceTree = "<group>"; };
-		F585AAA32869EE1700D72243 /* Screenshot 2022-06-27 at 7.21.46 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2022-06-27 at 7.21.46 PM.png"; sourceTree = "<group>"; };
+		F585AAA32869EE1700D72243 /* Feature Vertical Slicing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Feature Vertical Slicing.png"; sourceTree = "<group>"; };
 		F585AAA42869EE1700D72243 /* MOnolith.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MOnolith.png; sourceTree = "<group>"; };
 		F585AAA52869EE1700D72243 /* Horizontal slicing_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Horizontal slicing_2.png"; sourceTree = "<group>"; };
 		F585AAAB2869F08000D72243 /* Project_org_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Project_org_4.png; sourceTree = "<group>"; };
@@ -291,6 +298,13 @@
 		F5DBE2D728682A9300917F64 /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
 		F5DBE2D92868304900917F64 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		F5DBE2DD2868369500917F64 /* FeedViewController+TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FeedViewController+TestHelpers.swift"; sourceTree = "<group>"; };
+		F5E0EB10288107750088661C /* PROVE_A _BUG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PROVE_A _BUG.png"; sourceTree = "<group>"; };
+		F5E0EB1228810A860088661C /* Core_Module.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Core_Module.png; sourceTree = "<group>"; };
+		F5E0EB1428810E270088661C /* Infrastructure_replace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Infrastructure_replace.png; sourceTree = "<group>"; };
+		F5E0EB1628810F390088661C /* Dependency_diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dependency_diagram.png; sourceTree = "<group>"; };
+		F5E0EB182881106E0088661C /* Dependency_in_circel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dependency_in_circel.png; sourceTree = "<group>"; };
+		F5E0EB1A2881122E0088661C /* Onion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Onion.png; sourceTree = "<group>"; };
+		F5E0EB1C288115420088661C /* Framework-specfic-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Framework-specfic-color.png"; sourceTree = "<group>"; };
 		F5E4B4EB286A96BA00FCBDDF /* Main_module_lecture_09.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Main_module_lecture_09.md; sourceTree = "<group>"; };
 		F5E4B4ED286AAB1400FCBDDF /* UIImage+TestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelper.swift"; sourceTree = "<group>"; };
 		F5E4B4EE286AAB1400FCBDDF /* UIRefreshControl+TestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+TestHelper.swift"; sourceTree = "<group>"; };
@@ -440,6 +454,7 @@
 			isa = PBXGroup;
 			children = (
 				F585AA982869C4CC00D72243 /* Main_module_lecture_07.md */,
+				F5E0EB10288107750088661C /* PROVE_A _BUG.png */,
 				F585AA9C2869D19900D72243 /* lecture_07_1.png */,
 			);
 			path = Lecture_07;
@@ -448,15 +463,21 @@
 		F585AA9E2869EBE100D72243 /* Lecture_08 */ = {
 			isa = PBXGroup;
 			children = (
+				F5E0EB1228810A860088661C /* Core_Module.png */,
+				F5E0EB1428810E270088661C /* Infrastructure_replace.png */,
+				F5E0EB1628810F390088661C /* Dependency_diagram.png */,
+				F5E0EB182881106E0088661C /* Dependency_in_circel.png */,
+				F5E0EB1A2881122E0088661C /* Onion.png */,
+				F5E0EB1C288115420088661C /* Framework-specfic-color.png */,
 				F585AAA22869EE1700D72243 /* Feature_vertical.png */,
 				F585AAA52869EE1700D72243 /* Horizontal slicing_2.png */,
 				F585AAA12869EE1700D72243 /* Horizontal slicing_3.png */,
 				F585AAA42869EE1700D72243 /* MOnolith.png */,
-				F585AAA32869EE1700D72243 /* Screenshot 2022-06-27 at 7.21.46 PM.png */,
-				F585AAB22869F08100D72243 /* horizontal_Feature-vertical_2.png */,
-				F585AAAF2869F08000D72243 /* horizontal_Feature-vertical.png */,
+				F585AAA32869EE1700D72243 /* Feature Vertical Slicing.png */,
 				F585AAB42869F08100D72243 /* horizontal_sliceing_1.png */,
 				F585AAAE2869F08000D72243 /* horizontal_sliceing.png */,
+				F585AAAF2869F08000D72243 /* horizontal_Feature-vertical.png */,
+				F585AAB22869F08100D72243 /* horizontal_Feature-vertical_2.png */,
 				F585AAAC2869F08000D72243 /* packages.png */,
 				F585AAB02869F08100D72243 /* Project_org_1.png */,
 				F585AAB12869F08100D72243 /* Project_org_2.png */,
@@ -786,17 +807,19 @@
 				F5DBE2B92867FDCA00917F64 /* LECTURE_4-7.png in Resources */,
 				F5B1F533287FC93C00B411EB /* snapshot_2.png in Resources */,
 				F5E6DA70286EA23100EEA5A3 /* Organising _the _module.png in Resources */,
+				F5E0EB192881106E0088661C /* Dependency_in_circel.png in Resources */,
 				F5DBE2B82867FDCA00917F64 /* LECTURE_4-6.png in Resources */,
 				F585AA962869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png in Resources */,
 				F5AEAA29286BE71900CFF542 /* Main_module_lecture_10.md in Resources */,
 				F5DA5490287D31450054465A /* Siwft_classs.png in Resources */,
-				F585AAA82869EE1700D72243 /* Screenshot 2022-06-27 at 7.21.46 PM.png in Resources */,
+				F585AAA82869EE1700D72243 /* Feature Vertical Slicing.png in Resources */,
 				F524E0FA286D581E0013E9B1 /* Lecture_10_2.png in Resources */,
 				F585AA9D2869D19900D72243 /* lecture_07_1.png in Resources */,
 				F585AAB72869F08100D72243 /* suggestion.png in Resources */,
 				F5B766A12866F747009DE53C /* Intercption.png in Resources */,
 				F5B7669A2866F60A009DE53C /* Lecture_3_04.png in Resources */,
 				F5DBE2B32867FCC300917F64 /* LECTURE_4-1.png in Resources */,
+				F5E0EB1B2881122E0088661C /* Onion.png in Resources */,
 				F585AAB62869F08100D72243 /* packages.png in Resources */,
 				F585445C28649C3700AD9266 /* Architecture.png in Resources */,
 				F585AABD2869F08100D72243 /* Project_org_3.png in Resources */,
@@ -804,13 +827,16 @@
 				F5E8AFBC287EC5460034B7FD /* acceptacnetest-integration.png in Resources */,
 				F5E6DA5D286EA1A300EEA5A3 /* KeyInsights.md in Resources */,
 				F5B766A02866F747009DE53C /* decorator.png in Resources */,
+				F5E0EB1528810E270088661C /* Infrastructure_replace.png in Resources */,
 				F5B1F534287FC93C00B411EB /* snapshot_1.png in Resources */,
 				F5DBE2B12867FCC300917F64 /* LECTURE_4-3.png in Resources */,
 				F5E6DA68286EA1C100EEA5A3 /* CompositionRoot.png in Resources */,
 				F585AAAA2869EE1700D72243 /* Horizontal slicing_2.png in Resources */,
 				F59B7FBB28686B6C00E6C45F /* lecture_5_4.png in Resources */,
+				F5E0EB11288107750088661C /* PROVE_A _BUG.png in Resources */,
 				F5E6DA6A286EA1C100EEA5A3 /* UITesting.png in Resources */,
 				F5DBE2B42867FCC300917F64 /* LECTURE_4-5.png in Resources */,
+				F5E0EB1D288115420088661C /* Framework-specfic-color.png in Resources */,
 				F524E0F7286D581E0013E9B1 /* Lecture_10_3.png in Resources */,
 				F524E0FE286D589D0013E9B1 /* Lecture_10_6.png in Resources */,
 				F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */,
@@ -827,6 +853,7 @@
 				F5E6DA6E286EA1C100EEA5A3 /* MainThread_MainQueue.png in Resources */,
 				F5E6DA5B286E9B8500EEA5A3 /* Main_module_learning_outcome.md in Resources */,
 				F585AAA72869EE1700D72243 /* Feature_vertical.png in Resources */,
+				F5E0EB1728810F390088661C /* Dependency_diagram.png in Resources */,
 				F5DBE2B02867FCC300917F64 /* LECTURE_4-2.png in Resources */,
 				F5B766AE28670A22009DE53C /* Colclusion.png in Resources */,
 				F585AABA2869F08100D72243 /* Project_org_1.png in Resources */,
@@ -846,6 +873,7 @@
 				F585445E28649C3700AD9266 /* External_storage.png in Resources */,
 				F5DA5492287D4BF50054465A /* Architecture Overview_decorator_behaviour.png in Resources */,
 				F585AA84286952A900D72243 /* Main_Module_Lecture_06.md in Resources */,
+				F5E0EB1328810A860088661C /* Core_Module.png in Resources */,
 				F585AABC2869F08100D72243 /* horizontal_Feature-vertical_2.png in Resources */,
 				F5E6DA67286EA1C100EEA5A3 /* cancellable.png in Resources */,
 				F524E102286D58E30013E9B1 /* Lecture_10_8.png in Resources */,
