@@ -103,6 +103,10 @@
 		F5DBA70728648D7400E009FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DBA70628648D7400E009FB /* ViewController.swift */; };
 		F5DBA70C28648D7600E009FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DBA70B28648D7600E009FB /* Assets.xcassets */; };
 		F5DBA70F28648D7600E009FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DBA70D28648D7600E009FB /* LaunchScreen.storyboard */; };
+		F5DBABB5288159B200C80947 /* Continous_delivery.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBABB4288159B200C80947 /* Continous_delivery.png */; };
+		F5DBABB928815C5500C80947 /* deployment.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBABB628815C5500C80947 /* deployment.png */; };
+		F5DBABBA28815C5500C80947 /* Github.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBABB728815C5500C80947 /* Github.png */; };
+		F5DBABBB28815C5500C80947 /* workflows.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBABB828815C5500C80947 /* workflows.png */; };
 		F5DBE2B02867FCC300917F64 /* LECTURE_4-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2AB2867FCC200917F64 /* LECTURE_4-2.png */; };
 		F5DBE2B12867FCC300917F64 /* LECTURE_4-3.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2AC2867FCC200917F64 /* LECTURE_4-3.png */; };
 		F5DBE2B22867FCC300917F64 /* LECTURE_4-4.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2AD2867FCC200917F64 /* LECTURE_4-4.png */; };
@@ -283,6 +287,10 @@
 		F5DBA70B28648D7600E009FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5DBA70E28648D7600E009FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5DBA71028648D7600E009FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5DBABB4288159B200C80947 /* Continous_delivery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Continous_delivery.png; sourceTree = "<group>"; };
+		F5DBABB628815C5500C80947 /* deployment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deployment.png; sourceTree = "<group>"; };
+		F5DBABB728815C5500C80947 /* Github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Github.png; sourceTree = "<group>"; };
+		F5DBABB828815C5500C80947 /* workflows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workflows.png; sourceTree = "<group>"; };
 		F5DBE2AB2867FCC200917F64 /* LECTURE_4-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-2.png"; sourceTree = "<group>"; };
 		F5DBE2AC2867FCC200917F64 /* LECTURE_4-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-3.png"; sourceTree = "<group>"; };
 		F5DBE2AD2867FCC200917F64 /* LECTURE_4-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-4.png"; sourceTree = "<group>"; };
@@ -635,12 +643,16 @@
 		F5E4B4E8286A968900FCBDDF /* Lecture_09 */ = {
 			isa = PBXGroup;
 			children = (
+				F5DBABB4288159B200C80947 /* Continous_delivery.png */,
 				F5E4B4F3286ABBF800FCBDDF /* CD_1.png */,
 				F5E4B4F4286ABBF800FCBDDF /* CD_2.png */,
 				F5E4B4F5286ABBF800FCBDDF /* CI_1.png */,
 				F5E4B4FA286ABCED00FCBDDF /* App Store_1.png */,
 				F5E4B4FB286ABCED00FCBDDF /* App Store_2.png */,
 				F5E4B4F9286ABCED00FCBDDF /* App Store_3.png */,
+				F5DBABB728815C5500C80947 /* Github.png */,
+				F5DBABB628815C5500C80947 /* deployment.png */,
+				F5DBABB828815C5500C80947 /* workflows.png */,
 				F5E4B4EB286A96BA00FCBDDF /* Main_module_lecture_09.md */,
 			);
 			path = Lecture_09;
@@ -850,6 +862,7 @@
 				F5E6DA6C286EA1C100EEA5A3 /* Acceptancetesting.png in Resources */,
 				F585445528649BC400AD9266 /* Main_module_01.md in Resources */,
 				F5E8AFBA287E9DBF0034B7FD /* Scene_delegate.png in Resources */,
+				F5DBABB5288159B200C80947 /* Continous_delivery.png in Resources */,
 				F5E6DA6E286EA1C100EEA5A3 /* MainThread_MainQueue.png in Resources */,
 				F5E6DA5B286E9B8500EEA5A3 /* Main_module_learning_outcome.md in Resources */,
 				F585AAA72869EE1700D72243 /* Feature_vertical.png in Resources */,
@@ -859,6 +872,8 @@
 				F585AABA2869F08100D72243 /* Project_org_1.png in Resources */,
 				F5B7669D2866F60A009DE53C /* Lecture_3_03.png in Resources */,
 				F5DBE2B22867FCC300917F64 /* LECTURE_4-4.png in Resources */,
+				F5DBABBA28815C5500C80947 /* Github.png in Resources */,
+				F5DBABBB28815C5500C80947 /* workflows.png in Resources */,
 				F59B7FB628686B6C00E6C45F /* lecture_5_6.png in Resources */,
 				F524E0F8286D581E0013E9B1 /* Lecture_10_1.png in Resources */,
 				F5B766AF28670A22009DE53C /* modularity.png in Resources */,
@@ -874,6 +889,7 @@
 				F5DA5492287D4BF50054465A /* Architecture Overview_decorator_behaviour.png in Resources */,
 				F585AA84286952A900D72243 /* Main_Module_Lecture_06.md in Resources */,
 				F5E0EB1328810A860088661C /* Core_Module.png in Resources */,
+				F5DBABB928815C5500C80947 /* deployment.png in Resources */,
 				F585AABC2869F08100D72243 /* horizontal_Feature-vertical_2.png in Resources */,
 				F5E6DA67286EA1C100EEA5A3 /* cancellable.png in Resources */,
 				F524E102286D58E30013E9B1 /* Lecture_10_8.png in Resources */,

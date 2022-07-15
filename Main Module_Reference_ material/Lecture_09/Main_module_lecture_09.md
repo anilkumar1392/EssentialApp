@@ -76,9 +76,12 @@ script:
  
  
  # Set up Deploy workflow with GitHub actions
-1. ExportOptions.plist
+1. ExportOptions.plist (For exporting your archieve.)
 2. certificate.p12.gpg
 3. profile.mobileprovision.gpg
+
+## Turorials for all of this are available you just need to follow tutorial.
+## Upload cretificate by encryptiing the certificate.
 
 ## .github/deployment/ExportOptions.plist
 
@@ -174,3 +177,43 @@ Migrating to Swift 5.2 and CI with GitHub Actions https://www.essentialdeveloper
 GitHub Actions: Configuring and managing workflows https://help.github.com/en/actions/configuring-and-managing-workflows
 GitHub Actions: Creating and Storing Encrypted Secrets https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets
 fastlane documentation https://docs.fastlane.tools
+
+## You can achieve this wioth any build server. (may be local or a remote server eg. CircleCI, Travis CI, Bitrise)
+
+## Github actions.
+
+## WORKFLOWS
+
+So we have continuous Integration workflows that just build and test application.
+and we have a deploy workflow just a 'YAML' config file to tell github actions the steps to follow in your workflow automation
+
+## Deploy.YAML
+
+So in current implementation every time their is a push to master. we are going to run this work flow.
+we want to create a build and upload it to App storeConnect.
+
+## But it depends on the branching statergy you use. May be you choose to do the same with a release branch.
+
+
+So every time we push to master we are gonna run 
+## build-and-deploy job.
+
+1. so it's gonna run on mac-os.
+
+## then we set the steps for the workflow
+1. Checkout the repo.
+2. Install Provisioning profile.
+    we need to decrypt it with our secret key, their you can setup whatever build server you are using. you have space to add secrets.
+    after we decrypt it we can install it in the right folder.
+3. Then same thing we need to install the keychain certificate.
+    we can decrypt with the secret key.
+    and follow a bunch of steps to install the certificate in the image keychain.
+4. Then we are going to select the latest x-code.
+5. then we nned to set build number and its need to be sequential unique number. Every build needs to have a unique number otherwise apple will reject it.
+    So we are just using the GITHUB_RUN_NUMBER and every build server have something similar to this.
+6. Then we build the archieve for release.
+7. Then we export the archieve.
+8. And we Deploy it to the app store connect.
+
+    
+ 
