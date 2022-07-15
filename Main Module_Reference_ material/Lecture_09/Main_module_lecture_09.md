@@ -213,7 +213,7 @@ So every time we push to master we are gonna run
     So we are just using the GITHUB_RUN_NUMBER and every build server have something similar to this.
 6. Then we build the archieve for release.
 7. Then we export the archieve.
-8. And we Deploy it to the app store connect.
+8. And we Deploy it to the app store connect. 
 
     
  

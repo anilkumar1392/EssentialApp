@@ -107,6 +107,10 @@
 		F5DBABB928815C5500C80947 /* deployment.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBABB628815C5500C80947 /* deployment.png */; };
 		F5DBABBA28815C5500C80947 /* Github.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBABB728815C5500C80947 /* Github.png */; };
 		F5DBABBB28815C5500C80947 /* workflows.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBABB828815C5500C80947 /* workflows.png */; };
+		F5DBABC02881640400C80947 /* Deploy.yml_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBABBC2881640400C80947 /* Deploy.yml_02.png */; };
+		F5DBABC12881640400C80947 /* Deploy.yml_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBABBD2881640400C80947 /* Deploy.yml_01.png */; };
+		F5DBABC22881640400C80947 /* Final_look _on_git.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBABBE2881640400C80947 /* Final_look _on_git.png */; };
+		F5DBABC32881640400C80947 /* Deploy.yml_03.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBABBF2881640400C80947 /* Deploy.yml_03.png */; };
 		F5DBE2B02867FCC300917F64 /* LECTURE_4-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2AB2867FCC200917F64 /* LECTURE_4-2.png */; };
 		F5DBE2B12867FCC300917F64 /* LECTURE_4-3.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2AC2867FCC200917F64 /* LECTURE_4-3.png */; };
 		F5DBE2B22867FCC300917F64 /* LECTURE_4-4.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DBE2AD2867FCC200917F64 /* LECTURE_4-4.png */; };
@@ -291,6 +295,10 @@
 		F5DBABB628815C5500C80947 /* deployment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deployment.png; sourceTree = "<group>"; };
 		F5DBABB728815C5500C80947 /* Github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Github.png; sourceTree = "<group>"; };
 		F5DBABB828815C5500C80947 /* workflows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workflows.png; sourceTree = "<group>"; };
+		F5DBABBC2881640400C80947 /* Deploy.yml_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Deploy.yml_02.png; sourceTree = "<group>"; };
+		F5DBABBD2881640400C80947 /* Deploy.yml_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Deploy.yml_01.png; sourceTree = "<group>"; };
+		F5DBABBE2881640400C80947 /* Final_look _on_git.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Final_look _on_git.png"; sourceTree = "<group>"; };
+		F5DBABBF2881640400C80947 /* Deploy.yml_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Deploy.yml_03.png; sourceTree = "<group>"; };
 		F5DBE2AB2867FCC200917F64 /* LECTURE_4-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-2.png"; sourceTree = "<group>"; };
 		F5DBE2AC2867FCC200917F64 /* LECTURE_4-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-3.png"; sourceTree = "<group>"; };
 		F5DBE2AD2867FCC200917F64 /* LECTURE_4-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LECTURE_4-4.png"; sourceTree = "<group>"; };
@@ -653,6 +661,10 @@
 				F5DBABB728815C5500C80947 /* Github.png */,
 				F5DBABB628815C5500C80947 /* deployment.png */,
 				F5DBABB828815C5500C80947 /* workflows.png */,
+				F5DBABBD2881640400C80947 /* Deploy.yml_01.png */,
+				F5DBABBC2881640400C80947 /* Deploy.yml_02.png */,
+				F5DBABBF2881640400C80947 /* Deploy.yml_03.png */,
+				F5DBABBE2881640400C80947 /* Final_look _on_git.png */,
 				F5E4B4EB286A96BA00FCBDDF /* Main_module_lecture_09.md */,
 			);
 			path = Lecture_09;
@@ -824,6 +836,7 @@
 				F585AA962869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png in Resources */,
 				F5AEAA29286BE71900CFF542 /* Main_module_lecture_10.md in Resources */,
 				F5DA5490287D31450054465A /* Siwft_classs.png in Resources */,
+				F5DBABC12881640400C80947 /* Deploy.yml_01.png in Resources */,
 				F585AAA82869EE1700D72243 /* Feature Vertical Slicing.png in Resources */,
 				F524E0FA286D581E0013E9B1 /* Lecture_10_2.png in Resources */,
 				F585AA9D2869D19900D72243 /* lecture_07_1.png in Resources */,
@@ -845,17 +858,20 @@
 				F5E6DA68286EA1C100EEA5A3 /* CompositionRoot.png in Resources */,
 				F585AAAA2869EE1700D72243 /* Horizontal slicing_2.png in Resources */,
 				F59B7FBB28686B6C00E6C45F /* lecture_5_4.png in Resources */,
+				F5DBABC32881640400C80947 /* Deploy.yml_03.png in Resources */,
 				F5E0EB11288107750088661C /* PROVE_A _BUG.png in Resources */,
 				F5E6DA6A286EA1C100EEA5A3 /* UITesting.png in Resources */,
 				F5DBE2B42867FCC300917F64 /* LECTURE_4-5.png in Resources */,
 				F5E0EB1D288115420088661C /* Framework-specfic-color.png in Resources */,
 				F524E0F7286D581E0013E9B1 /* Lecture_10_3.png in Resources */,
+				F5DBABC02881640400C80947 /* Deploy.yml_02.png in Resources */,
 				F524E0FE286D589D0013E9B1 /* Lecture_10_6.png in Resources */,
 				F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */,
 				F5B7669C2866F60A009DE53C /* Lecture_3_05.png in Resources */,
 				F585AAA62869EE1700D72243 /* Horizontal slicing_3.png in Resources */,
 				F58557812865B0D6001E3476 /* Main_module_03.md in Resources */,
 				F5E6DA6B286EA1C100EEA5A3 /* Screenshot 2022-06-19 at 6.33.17 AM.png in Resources */,
+				F5DBABC22881640400C80947 /* Final_look _on_git.png in Resources */,
 				F585AAA92869EE1700D72243 /* MOnolith.png in Resources */,
 				F5B766C12867451E009DE53C /* Main_module_lecture_04.md in Resources */,
 				F5B766992866F60A009DE53C /* Lecture_3_02.png in Resources */,
