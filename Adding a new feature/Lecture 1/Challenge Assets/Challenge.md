@@ -48,3 +48,12 @@ We can follow the same design with comment module.
 
 ## So except Mapper most of the code is duplicated.
 Loader code, HttpClient code.  
+
+GET API---
+
+2xx response 
+for any 2xx response their is success
+
+{
+
+}

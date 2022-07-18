@@ -605,6 +605,7 @@
 		F5D56FD928854D6F007BBA97 /* Challenge Assets */ = {
 			isa = PBXGroup;
 			children = (
+				F5D56FD72885490E007BBA97 /* Challenge.md */,
 				F5D56FDA28854DFE007BBA97 /* Comment_1.png */,
 				F5D56FDC28854E95007BBA97 /* FeedImageImplementation.png */,
 				F5D56FDE28854F23007BBA97 /* ImageCommentModule.png */,
@@ -674,7 +675,6 @@
 				F5D56FD3288538B9007BBA97 /* Without_loader.png */,
 				F5D56FD528853BD6007BBA97 /* WithCombine.png */,
 				F5D8F2D22882476E000643EC /* addingNewFeatureLecture_01.md */,
-				F5D56FD72885490E007BBA97 /* Challenge.md */,
 				F5D56FD928854D6F007BBA97 /* Challenge Assets */,
 			);
 			path = "Lecture 1";
