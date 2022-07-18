@@ -106,7 +106,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             .caching(to: localFeedLoader)
             .failure(to: localFeedLoader.loadPublisher)
     }
-    // we jsut wrapped the load function into combine publisher.
+    // we just wrapped the load function into combine publisher.
     // we still need to perform composition with cache and the fallback.
     
     

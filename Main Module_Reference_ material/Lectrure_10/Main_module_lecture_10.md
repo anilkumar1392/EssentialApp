@@ -1,8 +1,11 @@
 ## From Design Patterns to Universal Abstractions Using the Combine Framework
 
+why? would we do that.
+
+Thier is nothing wrong with design pattern.
+Some design pattern are equivalent to universal abstractions.
 
 Combine framwork.
-
 
 Build in Operator handleEvents method is just to inject side effects so can be used when injecting side-effects.
 You don't need to develop, test and maintain. 
@@ -93,3 +96,134 @@ Publisher.sink reference https://developer.apple.com/documentation/combine/publi
 Publisher.receive(on:) reference https://developer.apple.com/documentation/combine/publisher/3204743-receive
 Scheduler reference https://developer.apple.com/documentation/combine/scheduler
 Cancellable reference https://developer.apple.com/documentation/combine/cancellable
+
+
+## Revision comments.
+
+
+Our 'RemoteFeedLoader' does not know combine.
+So we need to lift this feedLoader to the Combine world.
+
+So we can wrap feedLoader in a combine publisher.
+
+Their are many publishers you can create and one of them is Future publisher
+
+That starts with a completions block and once you are done with the work you call the compeltion woth some result.
+what we can do inside the future is to actually invoke our 'RemoteFeedLoader' load operation and complete with the completion becasue they have matching types.
+
+
+    private func makeRemoteFeedLoaderWithLocalFallback() -> FeedLoader.Publisher { // AnyPublisher<[FeedImage], Error>
+        let remoteURL = URL(string: "https://ile-api.essentialdeveloper.com/essential-feed/v1/feed")!
+        
+        let remoteFeedLoader = RemoteFeedLoader(url: remoteURL, client: self.httpClient)
+        
+        // Wrap feedloader in to a publisher.
+        // We are wrapping publishers in side a publisher just like we were wrapping our abstractions with decorators, composites and adapters.
+        // Wrapping the type to another type to change it's behaviour.
+
+        return Deferred {
+            Future { completion in
+                remoteFeedLoader.load(completion: completion)
+            }
+        }
+        .eraseToAnyPublisher()
+    }
+
+## use eraseToAnyPublisher to hide which kind of publisher we are using.
+So when you do not want to expose the specific publisher you are using you can erase to AnyPublisher to hide from clients.
+
+Their is one problem with Future publishers they are eager publisher which means this block will be executed as soon as you created you created the future.
+
+But what we want here is to only fire a request when subscribe to it not on creation of the publisher.
+One way to deffer the exection of Future publisher is to wrap them in deffered publisher.
+  
+  We are wrapping publisher into publisher just like we wrap our abstractions with decorators, composites and adapters.
+  ## this is same behaviour of wrapping the one time in to another behaviour to change the behaviour.
+  
+  INstead of creating our own types we are using Universal abstractions that are bulit-in type.
+  
+  So now we lifted our 'RemoteFeedLoader' into the combine framework. we can now load the feed using combine publishers.
+  
+  extension RemoteFeedLaoder {
+        typealias Publisher = AnyPublisher<[FeedImage], Swift.Error>
+        func loadPublisher() -> Publisher {
+             return Deferred {
+                Future { completion in
+                    remoteFeedLoader.load(completion: completion)
+                }
+            }
+            .eraseToAnyPublisher()
+        }
+    }
+ }
+  
+  
+## we just wrapper the load function into combine publisher.
+We still need to perform Composition with the cache and with the fallback.
+
+## let's start with the Cache Decorator.
+
+So 'FeedLoaderCacheDecorator' exist just to add a side effect into a FeedLoader.
+
+So everytime we load something from this FeedLoader we inject the cache side effect using map.
+So we are injecting side efect with map.
+
+##  We can do exactly the same thing with Combine operator.
+
+// Where the output is array of FeedImage
+
+extension Publisher where Output == [FeedImage] {
+    func caching(to cache: FeedCache) -> AnyPublisher<Output, Failure> {
+            map { feed in
+                cache.saveIgnoringResult(feed)
+                return feed
+            }
+            .eraseToAnyPublisher()
+        }
+        
+        //        handleEvents(receiveOutput: cache.saveIgnoringResult).eraseToAnyPublisher()
+
+}
+ 
+ ## because when you use a decorator to inject a side effect in to a polymorphic interface you can always replace that with map.
+ 
+ We can also use HandleEvent operation build in specially for Injecting a behaviour.
+
+
+## Doing the same with fallback logic.
+
+extension Publisher {
+    func fallback(to fallbackPublisher: @escaping () -> AnyPublisher<Output, Failure>) -> Publisher<Output, Failure> {
+        // self.catch(fallbackPublisher).eraseToAnyPublisher()
+        self.catch { _ in fallbackPublisher }.eraseToAnyPublisher()
+
+    }
+    
+    // Self is primary and fallbackPubliser is the fallback.
+}
+
+Now we want to listen to error and if their is an error if their is a failure we want to load from fallback.
+
+In this case we want to replace the chain with the fallback publisher.
+
+## and their is an operator for that cache operator.
+
+The Cache function expects a Closure that receives an error and returns a Publisher. 
+
+## We will do the same with MainThread Dispatcher.
+
+their is an operator for dispatching on Any queue.
+
+which is receive(on: Schedular)
+
+so 
+
+received(on: DispatchQueue.main).eraseToAnyPublisher()
+
+SO to change the behaviour of DispatchQueue with our own what we can do.
+Wrap the main schedular into our own Schedular.
+
+extension DispatchQueue {
+    struct ImmediateOnMainQueueSchedular: Schedular {
+    }
+} 
