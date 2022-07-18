@@ -94,6 +94,11 @@
 		F5B766C32867461F009DE53C /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B766C22867461F009DE53C /* DebuggingSceneDelegate.swift */; };
 		F5D56FD4288538B9007BBA97 /* Without_loader.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D56FD3288538B9007BBA97 /* Without_loader.png */; };
 		F5D56FD628853BD6007BBA97 /* WithCombine.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D56FD528853BD6007BBA97 /* WithCombine.png */; };
+		F5D56FD82885490E007BBA97 /* Challenge.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D56FD72885490E007BBA97 /* Challenge.md */; };
+		F5D56FDB28854DFE007BBA97 /* Comment_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D56FDA28854DFE007BBA97 /* Comment_1.png */; };
+		F5D56FDD28854E95007BBA97 /* FeedImageImplementation.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D56FDC28854E95007BBA97 /* FeedImageImplementation.png */; };
+		F5D56FDF28854F23007BBA97 /* ImageCommentModule.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D56FDE28854F23007BBA97 /* ImageCommentModule.png */; };
+		F5D56FE128854FF6007BBA97 /* starting _here.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D56FE028854FF6007BBA97 /* starting _here.png */; };
 		F5D7044B2884248900B1B9FB /* DesignAfter_remoteLoader.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D7044A2884248900B1B9FB /* DesignAfter_remoteLoader.png */; };
 		F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D87C3D2864D386005804C0 /* Lecture_02.md */; };
 		F5D87C4D2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */; };
@@ -300,6 +305,11 @@
 		F5B766C22867461F009DE53C /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
 		F5D56FD3288538B9007BBA97 /* Without_loader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Without_loader.png; sourceTree = "<group>"; };
 		F5D56FD528853BD6007BBA97 /* WithCombine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WithCombine.png; sourceTree = "<group>"; };
+		F5D56FD72885490E007BBA97 /* Challenge.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Challenge.md; sourceTree = "<group>"; };
+		F5D56FDA28854DFE007BBA97 /* Comment_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comment_1.png; sourceTree = "<group>"; };
+		F5D56FDC28854E95007BBA97 /* FeedImageImplementation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeedImageImplementation.png; sourceTree = "<group>"; };
+		F5D56FDE28854F23007BBA97 /* ImageCommentModule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageCommentModule.png; sourceTree = "<group>"; };
+		F5D56FE028854FF6007BBA97 /* starting _here.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starting _here.png"; sourceTree = "<group>"; };
 		F5D7044A2884248900B1B9FB /* DesignAfter_remoteLoader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DesignAfter_remoteLoader.png; sourceTree = "<group>"; };
 		F5D87C3D2864D386005804C0 /* Lecture_02.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture_02.md; sourceTree = "<group>"; };
 		F5D87C432864D444005804C0 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -592,6 +602,17 @@
 			path = Lecture_04;
 			sourceTree = "<group>";
 		};
+		F5D56FD928854D6F007BBA97 /* Challenge Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F5D56FDA28854DFE007BBA97 /* Comment_1.png */,
+				F5D56FDC28854E95007BBA97 /* FeedImageImplementation.png */,
+				F5D56FDE28854F23007BBA97 /* ImageCommentModule.png */,
+				F5D56FE028854FF6007BBA97 /* starting _here.png */,
+			);
+			path = "Challenge Assets";
+			sourceTree = "<group>";
+		};
 		F5D87C3C2864D1F7005804C0 /* Lecture _02 */ = {
 			isa = PBXGroup;
 			children = (
@@ -653,6 +674,8 @@
 				F5D56FD3288538B9007BBA97 /* Without_loader.png */,
 				F5D56FD528853BD6007BBA97 /* WithCombine.png */,
 				F5D8F2D22882476E000643EC /* addingNewFeatureLecture_01.md */,
+				F5D56FD72885490E007BBA97 /* Challenge.md */,
+				F5D56FD928854D6F007BBA97 /* Challenge Assets */,
 			);
 			path = "Lecture 1";
 			sourceTree = "<group>";
@@ -914,6 +937,7 @@
 				F5E6DA70286EA23100EEA5A3 /* Organising _the _module.png in Resources */,
 				F5E0EB192881106E0088661C /* Dependency_in_circel.png in Resources */,
 				F5DBE2B82867FDCA00917F64 /* LECTURE_4-6.png in Resources */,
+				F5D56FDF28854F23007BBA97 /* ImageCommentModule.png in Resources */,
 				F585AA962869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png in Resources */,
 				F5AEAA29286BE71900CFF542 /* Main_module_lecture_10.md in Resources */,
 				F5DA5490287D31450054465A /* Siwft_classs.png in Resources */,
@@ -922,8 +946,10 @@
 				F524E0FA286D581E0013E9B1 /* Lecture_10_2.png in Resources */,
 				F585AA9D2869D19900D72243 /* lecture_07_1.png in Resources */,
 				F585AAB72869F08100D72243 /* suggestion.png in Resources */,
+				F5D56FDB28854DFE007BBA97 /* Comment_1.png in Resources */,
 				F5B766A12866F747009DE53C /* Intercption.png in Resources */,
 				F5B7669A2866F60A009DE53C /* Lecture_3_04.png in Resources */,
+				F5D56FE128854FF6007BBA97 /* starting _here.png in Resources */,
 				F5DBABC72881A2DB00C80947 /* Fallback_publisher.png in Resources */,
 				F5DBE2B32867FCC300917F64 /* LECTURE_4-1.png in Resources */,
 				F5E0EB1B2881122E0088661C /* Onion.png in Resources */,
@@ -957,6 +983,7 @@
 				F58557812865B0D6001E3476 /* Main_module_03.md in Resources */,
 				F5E6DA6B286EA1C100EEA5A3 /* Screenshot 2022-06-19 at 6.33.17 AM.png in Resources */,
 				F5DBABC22881640400C80947 /* Final_look _on_git.png in Resources */,
+				F5D56FD82885490E007BBA97 /* Challenge.md in Resources */,
 				F585AAA92869EE1700D72243 /* MOnolith.png in Resources */,
 				F5B766C12867451E009DE53C /* Main_module_lecture_04.md in Resources */,
 				F5D8F2E428824DD1000643EC /* Design_3.png in Resources */,
@@ -971,6 +998,7 @@
 				F585AAA72869EE1700D72243 /* Feature_vertical.png in Resources */,
 				F5D8F2ED28825FE6000643EC /* sharedInfrastructureModule.png in Resources */,
 				F5E0EB1728810F390088661C /* Dependency_diagram.png in Resources */,
+				F5D56FDD28854E95007BBA97 /* FeedImageImplementation.png in Resources */,
 				F5DBE2B02867FCC300917F64 /* LECTURE_4-2.png in Resources */,
 				F5B766AE28670A22009DE53C /* Colclusion.png in Resources */,
 				F585AABA2869F08100D72243 /* Project_org_1.png in Resources */,
