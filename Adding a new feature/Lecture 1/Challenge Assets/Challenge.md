@@ -71,3 +71,46 @@ created_at is an api detail and we don't want to leak that in our code.
  So depending on timezone this test may fail, depending on locale thos test may fail.
  
  Solution: Don't create it instead provide hardcoded value. 
+
+## By now we have duplicated loader and mapper and then we have changed it to map image comment.
+
+## what if we want to use Feed Api and Image Comment api in isolation?
+what if they cahneg for different reasons?
+
+
+Then ideally you should separate them in different modules.
+
+Their is nothing wrong in duplicating the protocol, Because it's the inerface a client needs.
+for eg. Image comment api is using a get method to get the commetns but it may need to post the api but Feed api moudle does not need Post inerface.
+
+So if they sahre the same client you would make change in api client and you would effect the api that does not need new method.
+
+So by breaking them in different protocol even by the same name in different module you are respecting interface Segregation principle.
+
+Where the client do not depend on the method they do not need.
+
+## The infrastructure depeds on our API module. This is dependcy inversion principle.
+
+URLSessionHTTPClient depends on HTTPClient.
+
+## Dont depend on implementations depend on abstraction.
+
+## Duplicate interface and shared implementaiton is caio prefered.
+ref: 'solution_to_sharing'
+
+
+
+## another_solution. Ref: another_solution
+What if I dont want to duplicate the client I want to sahre the client (Protocol)
+
+Shared Api infra Module.
+
+Problem: Now they share the same client but Feed Api module does not depend on Comment api module and vise verca.
+They depend on shared infrastrucutre module.
+
+The problem is now those api module depend on Infrastrucutre details (HTTPClient protocol).
+Like the framework here.
+
+We could not move this FeedApi module without dragging this shared api infra module with it.
+
+
