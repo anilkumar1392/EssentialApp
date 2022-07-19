@@ -57,3 +57,17 @@ for any 2xx response their is success
 {
 
 }
+
+
+## we do not need to follow the API specs precisely as we want our model decoupled from API.
+
+if api changes we don't break the changes.
+
+created_at is an api detail and we don't want to leak that in our code.
+
+## Data is a rich data struct and should be converted in to database as a string.
+ 
+ Using dates in test can be fragile, because they have depedency on locale, timezone etc.
+ So depending on timezone this test may fail, depending on locale thos test may fail.
+ 
+ Solution: Don't create it instead provide hardcoded value. 
