@@ -88,7 +88,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let remoteURL = URL(string: "https://ile-api.essentialdeveloper.com/essential-feed/v1/feed")!
         
         // let remoteFeedLoader = RemoteFeedLoader(url: remoteURL, client: self.httpClient)
-        let remoteFeedLoader = RemoteLoader(url: remoteURL, client: self.httpClient, mapper: FeedItemMapper.map)
+        // let remoteFeedLoader = RemoteLoader(url: remoteURL, client: self.httpClient, mapper: FeedItemMapper.map)
+        let remoteFeedLoader = httpClient.getPublisher(url: remoteURL).tryMap(FeedItemMapper.map)
 
         // Wrap feedloader in to a publisher.
         // We are wrapping publishers in side a publisher just like we were wrapping our abstractions with decorators, composites and adapters.
@@ -102,10 +103,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         }
         .eraseToAnyPublisher() */
         
+        /*
         return remoteFeedLoader
             .loadPublisher()
             .caching(to: localFeedLoader)
             .failure(to: localFeedLoader.loadPublisher)
+         */
+        
+        return remoteFeedLoader
+            .caching(to: localFeedLoader)
+            .eraseToAnyPublisher()
     }
     // we just wrapped the load function into combine publisher.
     // we still need to perform composition with cache and the fallback.

@@ -156,3 +156,41 @@ we do not needt client, spy.
 
 ## Removal of those function from the RemoteFeedlaoder tests is only possible only becase of abstraction.
  
+ ## Now they are all stand alone modules.
+ 
+ Api module does not depend on any shared infrastrucutre or the image comments.
+ ## They are all standalone modules.
+ 
+ The infrastrucutre api still seperated into two modules.
+ 
+ ## So standalone module with standalone pure function with the usecase implementaitons. They are composed in compostion root thus you eliminate module dependency.
+ In this case we are eliminating the dependency of the api infrastructure.
+ 
+ We are rejecting the dependency.
+ 
+
+## Question: do we need error enum in generic Loader.
+
+No error are use case sepcific but a generic feedloader should be generic not use case specific.
+
+## so if you want to add a new API module here a new Feature with an API layer you just create a Mapper and compose it in the composition Root.
+        
+    let remoteFeedLoader = httpClient.getPublisher(url: remoteURL).tryMap(FeedItemMapper.map)
+    return remoteFeedLoader
+            .caching(to: localFeedLoader)
+            .eraseToAnyPublisher()
+            
+## That's how you compose your use cases with infrastructure in a functional way you don't inject dependencies, you compose dependencies.
+
+with Map, tryMap, flatMap
+
+Create composable function, Pure functions, and you compose it with infrastructure.
+
+## So nothing wrong with having a loader like a more Object-Oriented way or doing it with the Generic way.
+if you are using a framework like combine you can get it for free.
+
+
+
+
+ 
+  

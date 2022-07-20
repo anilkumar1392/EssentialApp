@@ -9,6 +9,24 @@ import Foundation
 import Combine
 import EssentialFeed
 
+// This is our loader here.
+
+extension HTTPClient {
+    public typealias Publisher = AnyPublisher<(Data, HTTPURLResponse), Error>
+    
+    public func getPublisher(url: URL) -> Publisher {
+        var task: HTTPClientTask?
+        
+        Deferred {
+            Future { completion in
+                task = self.get(from: url, completion: completion)
+            }
+        }
+        .handleEvents(receiveCancel: { task?.cancel() })
+        .eraseToAnyPublisher()
+    }
+}
+
 extension FeedLoader {
     public typealias Publisher = AnyPublisher<[FeedImage], Error>
     
