@@ -154,4 +154,5 @@ Then we will eliminate this depedndency in the shared module.
 So in LoadFeedFromRemoteTests we do not need to create sut, we do not need to track memory.
 we do not needt client, spy.
 
-
+## Removal of those function from the RemoteFeedlaoder tests is only possible only becase of abstraction.
+ 

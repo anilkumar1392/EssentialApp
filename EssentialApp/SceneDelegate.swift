@@ -87,8 +87,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     private func makeRemoteFeedLoaderWithLocalFallback() -> FeedLoader.Publisher { // AnyPublisher<[FeedImage], Error>
         let remoteURL = URL(string: "https://ile-api.essentialdeveloper.com/essential-feed/v1/feed")!
         
-        let remoteFeedLoader = RemoteFeedLoader(url: remoteURL, client: self.httpClient)
-        
+        // let remoteFeedLoader = RemoteFeedLoader(url: remoteURL, client: self.httpClient)
+        let remoteFeedLoader = RemoteLoader(url: remoteURL, client: self.httpClient, mapper: FeedItemMapper.map)
+
         // Wrap feedloader in to a publisher.
         // We are wrapping publishers in side a publisher just like we were wrapping our abstractions with decorators, composites and adapters.
         // Wrapping the type to another type to change it's behaviour.
@@ -111,3 +112,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 }
 
 extension RemoteLoader: FeedLoader where Resource == [FeedImage] { }
+
+// Move loader to composition.
+/*
+public typealias RemoteImageCommentsLoader = RemoteLoader<[ImageComment]>
+
+public extension RemoteImageCommentsLoader {
+    convenience init(url: URL, client: HTTPClient) {
+        self.init(url: url, client: client, mapper: ImageCommentsMapper.map)
+    }
+}
+
+public typealias RemoteFeedLoader = RemoteLoader<[FeedImage]>
+
+public extension RemoteFeedLoader {
+    convenience init(url: URL, client: HTTPClient) {
+        self.init(url: url, client: client, mapper: FeedItemMapper.map)
+    }
+}
+ */
