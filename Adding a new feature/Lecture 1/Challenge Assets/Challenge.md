@@ -132,7 +132,5 @@ But if you are keeping every thnig in teh same project then you do not have main
 
 ## This is what we are doing here. One Repo, one Project is doing everything.
 
-
-
-
+## Inject what is different and abstract what is similar.
 
