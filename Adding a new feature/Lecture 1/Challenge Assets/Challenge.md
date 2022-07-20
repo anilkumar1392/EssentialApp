@@ -105,12 +105,34 @@ What if I dont want to duplicate the client I want to sahre the client (Protocol
 
 Shared Api infra Module.
 
+So we can move the client to the shared module.
+
 Problem: Now they share the same client but Feed Api module does not depend on Comment api module and vise verca.
 They depend on shared infrastrucutre module.
 
 The problem is now those api module depend on Infrastrucutre details (HTTPClient protocol).
 Like the framework here.
 
-We could not move this FeedApi module without dragging this shared api infra module with it.
+## We could not move this FeedApi module without dragging this shared api infra module with it.
+and this may be a problem.
+if you are usign framwork like Moya, Firebase or Alomofire and you do not want to drag that massive dependency it would not be possible.
+You need to drap those dependency together.
+
+
+## One more solution to to create one more module for sharing client.
+Ref Image: Another_solution_01
+
+Downside of this is the maintanance.
+Now we have many physicaly separated components in the different module, framework, packages, pods.
+
+Upside is modularity.
+
+Every time their is a new change in client you need to re compile and deploy the other module.
+But if you are keeping every thnig in teh same project then you do not have maintenance burden.
+
+## This is what we are doing here. One Repo, one Project is doing everything.
+
+
+
 
 
