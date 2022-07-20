@@ -52,5 +52,83 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B022329-7FDF-4E1E-813C-8F83DD347903"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../EssentialFeedUpdated/EssentialFeed/Feed Api/FeedItemMapper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "FeedItemMapper"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8B022329-7FDF-4E1E-813C-8F83DD347903 - 77cca0d2292f49d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EssentialFeed.FeedItemMapper.deinit"
+                  moduleName = "EssentialFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a13401027/Desktop/Learning%20TDD/EssentialFeedUpdated/EssentialFeed/Feed%20Api/FeedItemMapper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "8B022329-7FDF-4E1E-813C-8F83DD347903 - 70a0be0d71556594"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EssentialFeed.FeedItemMapper.__deallocating_deinit"
+                  moduleName = "EssentialFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a13401027/Desktop/Learning%20TDD/EssentialFeedUpdated/EssentialFeed/Feed%20Api/FeedItemMapper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "8B022329-7FDF-4E1E-813C-8F83DD347903 - 7707ae6c4d85d7ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EssentialFeed.FeedItemMapper.__allocating_init() -&gt; EssentialFeed.FeedItemMapper"
+                  moduleName = "EssentialFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a13401027/Desktop/Learning%20TDD/EssentialFeedUpdated/EssentialFeed/Feed%20Api/FeedItemMapper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "8B022329-7FDF-4E1E-813C-8F83DD347903 - cbc7160d758ab5fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EssentialFeed.FeedItemMapper.init() -&gt; EssentialFeed.FeedItemMapper"
+                  moduleName = "EssentialFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a13401027/Desktop/Learning%20TDD/EssentialFeedUpdated/EssentialFeed/Feed%20Api/FeedItemMapper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

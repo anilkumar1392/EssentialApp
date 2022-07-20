@@ -134,3 +134,4 @@ But if you are keeping every thnig in teh same project then you do not have main
 
 ## Inject what is different and abstract what is similar.
 
+## we are going to create a generic one and inject what is different.
