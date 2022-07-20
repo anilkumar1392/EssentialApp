@@ -88,6 +88,10 @@
 		F5B41E17288822FD00DF9586 /* addnewFeature-01.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E11288822FD00DF9586 /* addnewFeature-01.png */; };
 		F5B41E18288822FD00DF9586 /* addnewFeature-06.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E12288822FD00DF9586 /* addnewFeature-06.png */; };
 		F5B41E19288822FD00DF9586 /* addnewFeature-04.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E13288822FD00DF9586 /* addnewFeature-04.png */; };
+		F5B41E1E2888240800DF9586 /* From an Object-Oriented to Functional Design-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E1A2888240700DF9586 /* From an Object-Oriented to Functional Design-2.png */; };
+		F5B41E1F2888240800DF9586 /* From an Object-Oriented to Functional Design.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E1B2888240800DF9586 /* From an Object-Oriented to Functional Design.png */; };
+		F5B41E202888240800DF9586 /* Eliminating duplication-01.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E1C2888240800DF9586 /* Eliminating duplication-01.png */; };
+		F5B41E212888240800DF9586 /* Eliminating duplication.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E1D2888240800DF9586 /* Eliminating duplication.png */; };
 		F5B766982866F60A009DE53C /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766922866F609009DE53C /* 6.png */; };
 		F5B766992866F60A009DE53C /* Lecture_3_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766932866F609009DE53C /* Lecture_3_02.png */; };
 		F5B7669A2866F60A009DE53C /* Lecture_3_04.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766942866F609009DE53C /* Lecture_3_04.png */; };
@@ -312,6 +316,10 @@
 		F5B41E11288822FD00DF9586 /* addnewFeature-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addnewFeature-01.png"; sourceTree = "<group>"; };
 		F5B41E12288822FD00DF9586 /* addnewFeature-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addnewFeature-06.png"; sourceTree = "<group>"; };
 		F5B41E13288822FD00DF9586 /* addnewFeature-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addnewFeature-04.png"; sourceTree = "<group>"; };
+		F5B41E1A2888240700DF9586 /* From an Object-Oriented to Functional Design-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "From an Object-Oriented to Functional Design-2.png"; sourceTree = "<group>"; };
+		F5B41E1B2888240800DF9586 /* From an Object-Oriented to Functional Design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "From an Object-Oriented to Functional Design.png"; sourceTree = "<group>"; };
+		F5B41E1C2888240800DF9586 /* Eliminating duplication-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eliminating duplication-01.png"; sourceTree = "<group>"; };
+		F5B41E1D2888240800DF9586 /* Eliminating duplication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eliminating duplication.png"; sourceTree = "<group>"; };
 		F5B766922866F609009DE53C /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		F5B766932866F609009DE53C /* Lecture_3_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_3_02.png; sourceTree = "<group>"; };
 		F5B766942866F609009DE53C /* Lecture_3_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_3_04.png; sourceTree = "<group>"; };
@@ -651,6 +659,10 @@
 				F5B41E13288822FD00DF9586 /* addnewFeature-04.png */,
 				F5B41E0F288822FD00DF9586 /* addnewFeature-05.png */,
 				F5B41E12288822FD00DF9586 /* addnewFeature-06.png */,
+				F5B41E1C2888240800DF9586 /* Eliminating duplication-01.png */,
+				F5B41E1D2888240800DF9586 /* Eliminating duplication.png */,
+				F5B41E1A2888240700DF9586 /* From an Object-Oriented to Functional Design-2.png */,
+				F5B41E1B2888240800DF9586 /* From an Object-Oriented to Functional Design.png */,
 				F5B41E042887E5ED00DF9586 /* shared_remoteLoader.+extensionpng */,
 			);
 			path = "Challenge Assets";
@@ -977,6 +989,7 @@
 				F5DBA70C28648D7600E009FB /* Assets.xcassets in Resources */,
 				F5DBE2B92867FDCA00917F64 /* LECTURE_4-7.png in Resources */,
 				F5B1F533287FC93C00B411EB /* snapshot_2.png in Resources */,
+				F5B41E1E2888240800DF9586 /* From an Object-Oriented to Functional Design-2.png in Resources */,
 				F5D8F2EF2882C22E000643EC /* sharedClient.png in Resources */,
 				F5E6DA70286EA23100EEA5A3 /* Organising _the _module.png in Resources */,
 				F5B41E14288822FD00DF9586 /* addnewFeature-03.png in Resources */,
@@ -984,12 +997,14 @@
 				F5DBE2B82867FDCA00917F64 /* LECTURE_4-6.png in Resources */,
 				F5D56FDF28854F23007BBA97 /* ImageCommentModule.png in Resources */,
 				F585AA962869C49700D72243 /* Screenshot 2022-06-27 at 4.25.43 PM.png in Resources */,
+				F5B41E1F2888240800DF9586 /* From an Object-Oriented to Functional Design.png in Resources */,
 				F5AEAA29286BE71900CFF542 /* Main_module_lecture_10.md in Resources */,
 				F5DA5490287D31450054465A /* Siwft_classs.png in Resources */,
 				F5DBABC12881640400C80947 /* Deploy.yml_01.png in Resources */,
 				F5B35DBF28866CD800470FC8 /* solution_to_sharing.png in Resources */,
 				F585AAA82869EE1700D72243 /* Feature Vertical Slicing.png in Resources */,
 				F524E0FA286D581E0013E9B1 /* Lecture_10_2.png in Resources */,
+				F5B41E202888240800DF9586 /* Eliminating duplication-01.png in Resources */,
 				F585AA9D2869D19900D72243 /* lecture_07_1.png in Resources */,
 				F585AAB72869F08100D72243 /* suggestion.png in Resources */,
 				F5D56FDB28854DFE007BBA97 /* Comment_1.png in Resources */,
@@ -1073,6 +1088,7 @@
 				F585445D28649C3700AD9266 /* ISP.png in Resources */,
 				F585AAB82869F08100D72243 /* horizontal_sliceing.png in Resources */,
 				F585AAA02869EC0A00D72243 /* Main_module_lecture_08.md in Resources */,
+				F5B41E212888240800DF9586 /* Eliminating duplication.png in Resources */,
 				F5DBABC52881644700C80947 /* Git actions.png in Resources */,
 				F5B41E18288822FD00DF9586 /* addnewFeature-06.png in Resources */,
 				F5DA548E287D301F0054465A /* Class _confirm_protocol.png in Resources */,

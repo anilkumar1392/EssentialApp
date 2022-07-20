@@ -199,3 +199,10 @@ How to decouple feature-specific modules without introducing duplication
 How to create reusable generic Services
 The object-oriented and functional way of composing components
 How to use built-in Combine operators to compose modules
+
+## References
+Some design patterns as universal abstractions https://blog.ploeh.dk/2018/03/05/some-design-patterns-as-universal-abstractions
+Combine reference https://developer.apple.com/documentation/combine
+AnyPublisher reference https://developer.apple.com/documentation/combine/anypublisher
+Publisher.eraseToAnyPublisher reference https://developer.apple.com/documentation/combine/publisher/3241548-erasetoanypublisher
+PassthroughSubject reference https://developer.apple.com/documentation/combine/passthroughsubject
