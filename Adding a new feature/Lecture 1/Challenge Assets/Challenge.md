@@ -149,7 +149,9 @@ Those extension compose the generic loader with the mapper.
 They compose which means composition details can be moved to composition root.
 Then we will eliminate this depedndency in the shared module.
 
-## so we are moving RemoteLoader extensiont to the shared composition root.
+## so we are moving RemoteLoader extension to the shared composition root.
 
+So in LoadFeedFromRemoteTests we do not need to create sut, we do not need to track memory.
+we do not needt client, spy.
 
 
