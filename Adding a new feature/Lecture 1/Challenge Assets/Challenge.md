@@ -191,6 +191,11 @@ if you are using a framework like combine you can get it for free.
 
 
 
-
+## In this live lecture, you’ll learn how to add a new feature without breaking modularity or introducing duplication. Moreover, you’ll learn how to compose dependencies in a functional way using universal abstractions provided by the Combine framework
  
-  
+ ## Learning Outcomes
+How to refactor code backed by tests and the compiler
+How to decouple feature-specific modules without introducing duplication
+How to create reusable generic Services
+The object-oriented and functional way of composing components
+How to use built-in Combine operators to compose modules

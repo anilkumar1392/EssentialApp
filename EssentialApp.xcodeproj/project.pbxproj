@@ -79,6 +79,15 @@
 		F5B41DF828879E1000DF9586 /* Another_solution_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41DF728879E0F00DF9586 /* Another_solution_01.png */; };
 		F5B41E052887E5ED00DF9586 /* shared_remoteLoader.+extensionpng in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E042887E5ED00DF9586 /* shared_remoteLoader.+extensionpng */; };
 		F5B41E072888116700DF9586 /* updated-Design.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E062888116700DF9586 /* updated-Design.png */; };
+		F5B41E0928881E0500DF9586 /* NoLoader+universalAbstraction.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E0828881E0500DF9586 /* NoLoader+universalAbstraction.png */; };
+		F5B41E0C28881E4B00DF9586 /* old_design.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E0A28881E4B00DF9586 /* old_design.png */; };
+		F5B41E0D28881E4B00DF9586 /* new_design.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E0B28881E4B00DF9586 /* new_design.png */; };
+		F5B41E14288822FD00DF9586 /* addnewFeature-03.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E0E288822FD00DF9586 /* addnewFeature-03.png */; };
+		F5B41E15288822FD00DF9586 /* addnewFeature-05.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E0F288822FD00DF9586 /* addnewFeature-05.png */; };
+		F5B41E16288822FD00DF9586 /* addnewFeature-02.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E10288822FD00DF9586 /* addnewFeature-02.png */; };
+		F5B41E17288822FD00DF9586 /* addnewFeature-01.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E11288822FD00DF9586 /* addnewFeature-01.png */; };
+		F5B41E18288822FD00DF9586 /* addnewFeature-06.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E12288822FD00DF9586 /* addnewFeature-06.png */; };
+		F5B41E19288822FD00DF9586 /* addnewFeature-04.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B41E13288822FD00DF9586 /* addnewFeature-04.png */; };
 		F5B766982866F60A009DE53C /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766922866F609009DE53C /* 6.png */; };
 		F5B766992866F60A009DE53C /* Lecture_3_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766932866F609009DE53C /* Lecture_3_02.png */; };
 		F5B7669A2866F60A009DE53C /* Lecture_3_04.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B766942866F609009DE53C /* Lecture_3_04.png */; };
@@ -294,6 +303,15 @@
 		F5B41DF728879E0F00DF9586 /* Another_solution_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Another_solution_01.png; sourceTree = "<group>"; };
 		F5B41E042887E5ED00DF9586 /* shared_remoteLoader.+extensionpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shared_remoteLoader.+extensionpng"; sourceTree = "<group>"; };
 		F5B41E062888116700DF9586 /* updated-Design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "updated-Design.png"; sourceTree = "<group>"; };
+		F5B41E0828881E0500DF9586 /* NoLoader+universalAbstraction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NoLoader+universalAbstraction.png"; sourceTree = "<group>"; };
+		F5B41E0A28881E4B00DF9586 /* old_design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = old_design.png; sourceTree = "<group>"; };
+		F5B41E0B28881E4B00DF9586 /* new_design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_design.png; sourceTree = "<group>"; };
+		F5B41E0E288822FD00DF9586 /* addnewFeature-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addnewFeature-03.png"; sourceTree = "<group>"; };
+		F5B41E0F288822FD00DF9586 /* addnewFeature-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addnewFeature-05.png"; sourceTree = "<group>"; };
+		F5B41E10288822FD00DF9586 /* addnewFeature-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addnewFeature-02.png"; sourceTree = "<group>"; };
+		F5B41E11288822FD00DF9586 /* addnewFeature-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addnewFeature-01.png"; sourceTree = "<group>"; };
+		F5B41E12288822FD00DF9586 /* addnewFeature-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addnewFeature-06.png"; sourceTree = "<group>"; };
+		F5B41E13288822FD00DF9586 /* addnewFeature-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addnewFeature-04.png"; sourceTree = "<group>"; };
 		F5B766922866F609009DE53C /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		F5B766932866F609009DE53C /* Lecture_3_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_3_02.png; sourceTree = "<group>"; };
 		F5B766942866F609009DE53C /* Lecture_3_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lecture_3_04.png; sourceTree = "<group>"; };
@@ -624,6 +642,15 @@
 				F5B35DC028866FF700470FC8 /* another_solution.png */,
 				F5B41DF728879E0F00DF9586 /* Another_solution_01.png */,
 				F5B41E062888116700DF9586 /* updated-Design.png */,
+				F5B41E0828881E0500DF9586 /* NoLoader+universalAbstraction.png */,
+				F5B41E0B28881E4B00DF9586 /* new_design.png */,
+				F5B41E0A28881E4B00DF9586 /* old_design.png */,
+				F5B41E11288822FD00DF9586 /* addnewFeature-01.png */,
+				F5B41E10288822FD00DF9586 /* addnewFeature-02.png */,
+				F5B41E0E288822FD00DF9586 /* addnewFeature-03.png */,
+				F5B41E13288822FD00DF9586 /* addnewFeature-04.png */,
+				F5B41E0F288822FD00DF9586 /* addnewFeature-05.png */,
+				F5B41E12288822FD00DF9586 /* addnewFeature-06.png */,
 				F5B41E042887E5ED00DF9586 /* shared_remoteLoader.+extensionpng */,
 			);
 			path = "Challenge Assets";
@@ -941,8 +968,10 @@
 				F5E8AFB8287E735D0034B7FD /* Infra_details.png in Resources */,
 				F5E4B4EC286A96BA00FCBDDF /* Main_module_lecture_09.md in Resources */,
 				F5D8F2DC28824DC6000643EC /* Goal_4.png in Resources */,
+				F5B41E19288822FD00DF9586 /* addnewFeature-04.png in Resources */,
 				F59B7FBA28686B6C00E6C45F /* lecture_5_5.png in Resources */,
 				F5DBA70F28648D7600E009FB /* LaunchScreen.storyboard in Resources */,
+				F5B41E0928881E0500DF9586 /* NoLoader+universalAbstraction.png in Resources */,
 				F5DBE2BD28681EFE00917F64 /* Main_module_05.md in Resources */,
 				F585AA992869C4CC00D72243 /* Main_module_lecture_07.md in Resources */,
 				F5DBA70C28648D7600E009FB /* Assets.xcassets in Resources */,
@@ -950,6 +979,7 @@
 				F5B1F533287FC93C00B411EB /* snapshot_2.png in Resources */,
 				F5D8F2EF2882C22E000643EC /* sharedClient.png in Resources */,
 				F5E6DA70286EA23100EEA5A3 /* Organising _the _module.png in Resources */,
+				F5B41E14288822FD00DF9586 /* addnewFeature-03.png in Resources */,
 				F5E0EB192881106E0088661C /* Dependency_in_circel.png in Resources */,
 				F5DBE2B82867FDCA00917F64 /* LECTURE_4-6.png in Resources */,
 				F5D56FDF28854F23007BBA97 /* ImageCommentModule.png in Resources */,
@@ -973,6 +1003,7 @@
 				F5E0EB1B2881122E0088661C /* Onion.png in Resources */,
 				F585AAB62869F08100D72243 /* packages.png in Resources */,
 				F585445C28649C3700AD9266 /* Architecture.png in Resources */,
+				F5B41E0C28881E4B00DF9586 /* old_design.png in Resources */,
 				F5D8F2DB28824DC6000643EC /* Goal_2.png in Resources */,
 				F585AABD2869F08100D72243 /* Project_org_3.png in Resources */,
 				F5E6DA6D286EA1C100EEA5A3 /* CI:CD.png in Resources */,
@@ -1007,6 +1038,7 @@
 				F5B766C12867451E009DE53C /* Main_module_lecture_04.md in Resources */,
 				F5D8F2E428824DD1000643EC /* Design_3.png in Resources */,
 				F5B766992866F60A009DE53C /* Lecture_3_02.png in Resources */,
+				F5B41E16288822FD00DF9586 /* addnewFeature-02.png in Resources */,
 				F5D8F2E528824DD1000643EC /* FeedApi_design.png in Resources */,
 				F5E6DA6C286EA1C100EEA5A3 /* Acceptancetesting.png in Resources */,
 				F585445528649BC400AD9266 /* Main_module_01.md in Resources */,
@@ -1026,6 +1058,7 @@
 				F5DBE2B22867FCC300917F64 /* LECTURE_4-4.png in Resources */,
 				F5B41E072888116700DF9586 /* updated-Design.png in Resources */,
 				F5D8F2D32882476E000643EC /* addingNewFeatureLecture_01.md in Resources */,
+				F5B41E15288822FD00DF9586 /* addnewFeature-05.png in Resources */,
 				F5D8F2E728824DD1000643EC /* FeedApi_CommentPAi_combined.png in Resources */,
 				F5DBABBA28815C5500C80947 /* Github.png in Resources */,
 				F5DBABBB28815C5500C80947 /* workflows.png in Resources */,
@@ -1041,6 +1074,7 @@
 				F585AAB82869F08100D72243 /* horizontal_sliceing.png in Resources */,
 				F585AAA02869EC0A00D72243 /* Main_module_lecture_08.md in Resources */,
 				F5DBABC52881644700C80947 /* Git actions.png in Resources */,
+				F5B41E18288822FD00DF9586 /* addnewFeature-06.png in Resources */,
 				F5DA548E287D301F0054465A /* Class _confirm_protocol.png in Resources */,
 				F585AABE2869F08100D72243 /* horizontal_sliceing_1.png in Resources */,
 				F585AAB92869F08100D72243 /* horizontal_Feature-vertical.png in Resources */,
@@ -1058,6 +1092,8 @@
 				F59B7FB928686B6C00E6C45F /* lecture_5_1.png in Resources */,
 				F585AABB2869F08100D72243 /* Project_org_2.png in Resources */,
 				F5DA548D287D301F0054465A /* Class_confirm_to_protocol.png in Resources */,
+				F5B41E17288822FD00DF9586 /* addnewFeature-01.png in Resources */,
+				F5B41E0D28881E4B00DF9586 /* new_design.png in Resources */,
 				F5D7044B2884248900B1B9FB /* DesignAfter_remoteLoader.png in Resources */,
 				F59B7FB728686B6C00E6C45F /* lecture_5_3.png in Resources */,
 				F5D8F2EB28825D52000643EC /* Sharing_client.png in Resources */,
