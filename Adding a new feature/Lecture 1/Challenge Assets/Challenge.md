@@ -135,3 +135,21 @@ But if you are keeping every thnig in teh same project then you do not have main
 ## Inject what is different and abstract what is similar.
 
 ## we are going to create a generic one and inject what is different.
+
+## With extension
+ref Image: shared_remoteLoader
+
+Remote module is now in the shared Api module along woth client interface.
+FeedApi Module and Image Comment module depends on shared api module.
+
+## they only depend on this module because of the extension. 
+
+Those extension compose the generic loader with the mapper.
+
+They compose which means composition details can be moved to composition root.
+Then we will eliminate this depedndency in the shared module.
+
+## so we are moving RemoteLoader extensiont to the shared composition root.
+
+
+

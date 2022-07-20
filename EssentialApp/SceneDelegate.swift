@@ -108,7 +108,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     // we just wrapped the load function into combine publisher.
     // we still need to perform composition with cache and the fallback.
-    
-    
-
 }
+
+extension RemoteLoader: FeedLoader where Resource == [FeedImage] { }
