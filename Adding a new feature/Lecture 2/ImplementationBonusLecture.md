@@ -74,6 +74,17 @@ So we need to imject a mapper that converts a resource to a viewModel.
 
 Make it Concrete then make it Generic.
 
+// Error case 
+
+what about 'FEED_VIEW_CONNECTION_ERROR' key.
+So we need a generic connection error.
+if we are using this presenter for any case we need a Generic presenter we need a generic connection error.
+
+1. We could inject an error message into the presnter at the creation time.
+Or you can also create just a generic Key 'GENERIC_CONNECTION_ERROR'
 
 
+## it effects multiple modules because this key is used across modules. This is not good this can lead to issues.
+
+every time we change this key we may break other modules, client.
 
