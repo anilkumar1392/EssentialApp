@@ -62,7 +62,9 @@ Resource -> creates ResourceViewModel -> sends out to the UI
 
 So by looking in to we need a Generic Resource and a Generic ResourceViewModel so that we can accomaodate all the cases.
 
+## // So in the test we are mapping the resource into the view model
 
+So we need to imject a mapper that converts a resource to a viewModel.
 
 
 
