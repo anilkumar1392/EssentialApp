@@ -35,7 +35,7 @@ public class FeedUIIntegrationTests: XCTestCase {
         XCTAssertNotEqual(localizedKey, localizedTitle, "Missing localized string for the key: \(localizedKey)")
         XCTAssertEqual(sut.title, localizedTitle) */
         
-        XCTAssertEqual(sut.title, localized("FEED_VIEW_TITLE"))
+        XCTAssertEqual(sut.title, feedTitle)
     }
 
     // test_loadFeedCompletion_renderErrorMessgeOnError
@@ -48,7 +48,7 @@ public class FeedUIIntegrationTests: XCTestCase {
         XCTAssertEqual(sut.errorMessage, nil)
         
         loader.completeFeedLoadingWithError(at: 0)
-        XCTAssertEqual(sut.errorMessage, localized("GENERIC_CONNECTION_ERROR"))
+        XCTAssertEqual(sut.errorMessage, loadError) // localized("GENERIC_CONNECTION_ERROR")
         
         sut.simulateUserInitiatedFeedReload()
         XCTAssertEqual(sut.errorMessage, nil)

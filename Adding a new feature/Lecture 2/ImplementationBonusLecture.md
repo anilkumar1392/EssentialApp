@@ -88,3 +88,18 @@ Or you can also create just a generic Key 'GENERIC_CONNECTION_ERROR'
 
 every time we change this key we may break other modules, client.
 
+## Main module depending on Concrete keys is not good.
+so every time we change the keys or we move them around we break the main module.
+
+We can prevent them from happening.
+
+One way to do it is to create a DSL.
+So insted of accessing the keys direclty we can a create something like 'loadError' as a DSL.
+
+var loadError: String {
+    localized("GENERIC_CONNECTION_ERROR")
+}
+
+
+
+

@@ -17,7 +17,7 @@ extension HTTPClient {
     public func getPublisher(url: URL) -> Publisher {
         var task: HTTPClientTask?
         
-        Deferred {
+        return Deferred {
             Future { completion in
                 task = self.get(from: url, completion: completion)
             }
