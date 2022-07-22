@@ -117,6 +117,7 @@
 		F5D56FDD28854E95007BBA97 /* FeedImageImplementation.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D56FDC28854E95007BBA97 /* FeedImageImplementation.png */; };
 		F5D56FDF28854F23007BBA97 /* ImageCommentModule.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D56FDE28854F23007BBA97 /* ImageCommentModule.png */; };
 		F5D56FE128854FF6007BBA97 /* starting _here.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D56FE028854FF6007BBA97 /* starting _here.png */; };
+		F5D6FE3A2888F0E500B518BD /* AddNewFeatureLecture2.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D6FE392888F0E500B518BD /* AddNewFeatureLecture2.md */; };
 		F5D7044B2884248900B1B9FB /* DesignAfter_remoteLoader.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D7044A2884248900B1B9FB /* DesignAfter_remoteLoader.png */; };
 		F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D87C3D2864D386005804C0 /* Lecture_02.md */; };
 		F5D87C4D2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */; };
@@ -136,6 +137,12 @@
 		F5D8F2ED28825FE6000643EC /* sharedInfrastructureModule.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D8F2EC28825FE6000643EC /* sharedInfrastructureModule.png */; };
 		F5D8F2EF2882C22E000643EC /* sharedClient.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D8F2EE2882C22E000643EC /* sharedClient.png */; };
 		F5D8F2F12882DEF7000643EC /* Shared_RemoteLoader.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D8F2F02882DEF6000643EC /* Shared_RemoteLoader.png */; };
+		F5D9C8C2288A500000736E03 /* eliminateDuplciation.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8BC288A4FFF00736E03 /* eliminateDuplciation.png */; };
+		F5D9C8C3288A500000736E03 /* FeedPresenter.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8BD288A4FFF00736E03 /* FeedPresenter.png */; };
+		F5D9C8C4288A500000736E03 /* ControlEnviroment.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8BE288A4FFF00736E03 /* ControlEnviroment.png */; };
+		F5D9C8C5288A500000736E03 /* eliminateDuplciation2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8BF288A4FFF00736E03 /* eliminateDuplciation2.png */; };
+		F5D9C8C6288A500000736E03 /* ImageCommentPresenter.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8C0288A4FFF00736E03 /* ImageCommentPresenter.png */; };
+		F5D9C8C7288A500000736E03 /* sharedPresentation.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8C1288A500000736E03 /* sharedPresentation.png */; };
 		F5DA548D287D301F0054465A /* Class_confirm_to_protocol.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA548B287D301F0054465A /* Class_confirm_to_protocol.png */; };
 		F5DA548E287D301F0054465A /* Class _confirm_protocol.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA548C287D301F0054465A /* Class _confirm_protocol.png */; };
 		F5DA5490287D31450054465A /* Siwft_classs.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA548F287D31440054465A /* Siwft_classs.png */; };
@@ -346,6 +353,7 @@
 		F5D56FDC28854E95007BBA97 /* FeedImageImplementation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeedImageImplementation.png; sourceTree = "<group>"; };
 		F5D56FDE28854F23007BBA97 /* ImageCommentModule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageCommentModule.png; sourceTree = "<group>"; };
 		F5D56FE028854FF6007BBA97 /* starting _here.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starting _here.png"; sourceTree = "<group>"; };
+		F5D6FE392888F0E500B518BD /* AddNewFeatureLecture2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AddNewFeatureLecture2.md; sourceTree = "<group>"; };
 		F5D7044A2884248900B1B9FB /* DesignAfter_remoteLoader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DesignAfter_remoteLoader.png; sourceTree = "<group>"; };
 		F5D87C3D2864D386005804C0 /* Lecture_02.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture_02.md; sourceTree = "<group>"; };
 		F5D87C432864D444005804C0 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -366,6 +374,12 @@
 		F5D8F2EC28825FE6000643EC /* sharedInfrastructureModule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharedInfrastructureModule.png; sourceTree = "<group>"; };
 		F5D8F2EE2882C22E000643EC /* sharedClient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharedClient.png; sourceTree = "<group>"; };
 		F5D8F2F02882DEF6000643EC /* Shared_RemoteLoader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shared_RemoteLoader.png; sourceTree = "<group>"; };
+		F5D9C8BC288A4FFF00736E03 /* eliminateDuplciation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eliminateDuplciation.png; sourceTree = "<group>"; };
+		F5D9C8BD288A4FFF00736E03 /* FeedPresenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeedPresenter.png; sourceTree = "<group>"; };
+		F5D9C8BE288A4FFF00736E03 /* ControlEnviroment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ControlEnviroment.png; sourceTree = "<group>"; };
+		F5D9C8BF288A4FFF00736E03 /* eliminateDuplciation2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eliminateDuplciation2.png; sourceTree = "<group>"; };
+		F5D9C8C0288A4FFF00736E03 /* ImageCommentPresenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageCommentPresenter.png; sourceTree = "<group>"; };
+		F5D9C8C1288A500000736E03 /* sharedPresentation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharedPresentation.png; sourceTree = "<group>"; };
 		F5DA548B287D301F0054465A /* Class_confirm_to_protocol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Class_confirm_to_protocol.png; sourceTree = "<group>"; };
 		F5DA548C287D301F0054465A /* Class _confirm_protocol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Class _confirm_protocol.png"; sourceTree = "<group>"; };
 		F5DA548F287D31440054465A /* Siwft_classs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Siwft_classs.png; sourceTree = "<group>"; };
@@ -668,6 +682,20 @@
 			path = "Challenge Assets";
 			sourceTree = "<group>";
 		};
+		F5D6FE382888F0D100B518BD /* Lecture 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F5D9C8BE288A4FFF00736E03 /* ControlEnviroment.png */,
+				F5D9C8BC288A4FFF00736E03 /* eliminateDuplciation.png */,
+				F5D9C8BF288A4FFF00736E03 /* eliminateDuplciation2.png */,
+				F5D9C8BD288A4FFF00736E03 /* FeedPresenter.png */,
+				F5D9C8C0288A4FFF00736E03 /* ImageCommentPresenter.png */,
+				F5D9C8C1288A500000736E03 /* sharedPresentation.png */,
+				F5D6FE392888F0E500B518BD /* AddNewFeatureLecture2.md */,
+			);
+			path = "Lecture 2";
+			sourceTree = "<group>";
+		};
 		F5D87C3C2864D1F7005804C0 /* Lecture _02 */ = {
 			isa = PBXGroup;
 			children = (
@@ -702,6 +730,7 @@
 		F5D8F2D028824738000643EC /* Adding a new feature */ = {
 			isa = PBXGroup;
 			children = (
+				F5D6FE382888F0D100B518BD /* Lecture 2 */,
 				F5D8F2D128824750000643EC /* Lecture 1 */,
 			);
 			path = "Adding a new feature";
@@ -980,12 +1009,14 @@
 				F5E8AFB8287E735D0034B7FD /* Infra_details.png in Resources */,
 				F5E4B4EC286A96BA00FCBDDF /* Main_module_lecture_09.md in Resources */,
 				F5D8F2DC28824DC6000643EC /* Goal_4.png in Resources */,
+				F5D9C8C7288A500000736E03 /* sharedPresentation.png in Resources */,
 				F5B41E19288822FD00DF9586 /* addnewFeature-04.png in Resources */,
 				F59B7FBA28686B6C00E6C45F /* lecture_5_5.png in Resources */,
 				F5DBA70F28648D7600E009FB /* LaunchScreen.storyboard in Resources */,
 				F5B41E0928881E0500DF9586 /* NoLoader+universalAbstraction.png in Resources */,
 				F5DBE2BD28681EFE00917F64 /* Main_module_05.md in Resources */,
 				F585AA992869C4CC00D72243 /* Main_module_lecture_07.md in Resources */,
+				F5D6FE3A2888F0E500B518BD /* AddNewFeatureLecture2.md in Resources */,
 				F5DBA70C28648D7600E009FB /* Assets.xcassets in Resources */,
 				F5DBE2B92867FDCA00917F64 /* LECTURE_4-7.png in Resources */,
 				F5B1F533287FC93C00B411EB /* snapshot_2.png in Resources */,
@@ -1043,6 +1074,7 @@
 				F524E0FE286D589D0013E9B1 /* Lecture_10_6.png in Resources */,
 				F5D8F2F12882DEF7000643EC /* Shared_RemoteLoader.png in Resources */,
 				F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */,
+				F5D9C8C3288A500000736E03 /* FeedPresenter.png in Resources */,
 				F5B7669C2866F60A009DE53C /* Lecture_3_05.png in Resources */,
 				F585AAA62869EE1700D72243 /* Horizontal slicing_3.png in Resources */,
 				F58557812865B0D6001E3476 /* Main_module_03.md in Resources */,
@@ -1091,9 +1123,11 @@
 				F5B41E212888240800DF9586 /* Eliminating duplication.png in Resources */,
 				F5DBABC52881644700C80947 /* Git actions.png in Resources */,
 				F5B41E18288822FD00DF9586 /* addnewFeature-06.png in Resources */,
+				F5D9C8C2288A500000736E03 /* eliminateDuplciation.png in Resources */,
 				F5DA548E287D301F0054465A /* Class _confirm_protocol.png in Resources */,
 				F585AABE2869F08100D72243 /* horizontal_sliceing_1.png in Resources */,
 				F585AAB92869F08100D72243 /* horizontal_Feature-vertical.png in Resources */,
+				F5D9C8C4288A500000736E03 /* ControlEnviroment.png in Resources */,
 				F5E6DA69286EA1C100EEA5A3 /* snapshotTesting.png in Resources */,
 				F585445E28649C3700AD9266 /* External_storage.png in Resources */,
 				F5DA5492287D4BF50054465A /* Architecture Overview_decorator_behaviour.png in Resources */,
@@ -1104,8 +1138,10 @@
 				F5E6DA67286EA1C100EEA5A3 /* cancellable.png in Resources */,
 				F524E102286D58E30013E9B1 /* Lecture_10_8.png in Resources */,
 				F5D8F2E928825A5A000643EC /* whatIfWeNeedToShareOrChange.png in Resources */,
+				F5D9C8C6288A500000736E03 /* ImageCommentPresenter.png in Resources */,
 				F5D56FD628853BD6007BBA97 /* WithCombine.png in Resources */,
 				F59B7FB928686B6C00E6C45F /* lecture_5_1.png in Resources */,
+				F5D9C8C5288A500000736E03 /* eliminateDuplciation2.png in Resources */,
 				F585AABB2869F08100D72243 /* Project_org_2.png in Resources */,
 				F5DA548D287D301F0054465A /* Class_confirm_to_protocol.png in Resources */,
 				F5B41E17288822FD00DF9586 /* addnewFeature-01.png in Resources */,

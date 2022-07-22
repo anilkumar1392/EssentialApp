@@ -32,6 +32,11 @@ Develop API, Presentation and UI layer for this feature.
 
 Write tests to vaidate your Implementation including Unit, Integration and snapshot test (aim to write the test first).
 
+## To-do list
+Api 
+Presentation
+UI
+Composition
 
 ## So we are simply using Comment Api That will generate image comment, That will be used by the presentation layer to show it on UI.
 
