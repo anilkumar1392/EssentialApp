@@ -1,3 +1,8 @@
+## Implementation In this Tutorial
+1. Generic 
+2. Loclization for generic class.
+3. 
+
 ## Resuable Presentation Logic.
 
 We are going to write presentation logic that is going to that will control the states here.
