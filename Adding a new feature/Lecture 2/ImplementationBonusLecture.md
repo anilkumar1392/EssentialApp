@@ -105,6 +105,8 @@ var loadError: String {
     localized("GENERIC_CONNECTION_ERROR")
 }
 
-
-
-
+    public static func map(_ feed: [FeedImage]) -> FeedViewModal {
+        FeedViewModal(feed: feed)
+    }
+    
+## so thats the mapping function we will inject in the Generic One
