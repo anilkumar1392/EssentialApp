@@ -149,7 +149,7 @@ The FeedPresenter would then map these events into appropriate view models and s
 
 The FeedLoadingView would display FeedLoadingViewModels.
 The FeedView would display FeedViewModels.
-The FeedErrorView would display FeedErrorViewModels
+The FeedErrorView would display ResourceErrorViewModels
 So the general presentation flow happened as follows:
 
 Event in → Create immutable ViewModels → Send ViewModels to the UI
