@@ -110,3 +110,14 @@ var loadError: String {
     }
     
 ## so thats the mapping function we will inject in the Generic One
+
+## Replace Feedresenter with Generic Presnter.
+
+
+## So now FeedLoaderPresentationAdapter and LoadImagePresentationAdapter are very much similar.
+
+so we can Also make them Generic.
+
+let's do that.
+
+

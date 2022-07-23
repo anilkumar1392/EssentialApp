@@ -165,6 +165,7 @@ public final class FeedUIComposer {
             delegate: presentationAdapter,
             title: FeedPresenter.title)
         
+        /*
         let feedPresenter = FeedPresenter(
             feedView: FeedViewAdapter(
                 controller: feedController,
@@ -172,6 +173,14 @@ public final class FeedUIComposer {
             errorView: WeakRefVirtualProxy(feedController),
             loadingView: WeakRefVirtualProxy(feedController)
             )
+         */
+        // Replacing this with the Generic one
+        
+        let feedPresenter = LoadResourcePresenter(
+            resourceView: FeedViewAdapter(controller: feedController, imageLoader: imageLoader),
+            errorView: WeakRefVirtualProxy(feedController),
+            loadingView: WeakRefVirtualProxy(feedController),
+            mapper: FeedPresenter.map)        
         presentationAdapter.presenter = feedPresenter
         
         return feedController
@@ -189,7 +198,7 @@ private extension FeedViewController {
     }
 }
 
-private final class FeedViewAdapter: FeedView {
+final class FeedViewAdapter: ResourceView {
     private weak var controller: FeedViewController?
     private var imageLoader: FeedImageDataLoader
 
@@ -235,15 +244,15 @@ private final class FeedLoaderPresentationAdapter: FeedViewControllerDelegate {
 final class FeedLoaderPresentationAdapter: FeedViewControllerDelegate {
 
     private let feedLoader: () -> FeedLoader.Publisher
-    var presenter: FeedPresenter?
     private var cancallable: Cancellable?
-    
+    var presenter: LoadResourcePresenter<[FeedImage], FeedViewAdapter>? //FeedPresenter?
+
     init(feedLoader: @escaping () -> FeedLoader.Publisher) {
         self.feedLoader = feedLoader
     }
     
     func didRequestFeedRefresh() {
-        presenter?.didStartLoadingFeed()
+        presenter?.didStartLoading()
         
         cancallable = feedLoader().sink { [weak self] completion in
             switch completion {
@@ -251,10 +260,10 @@ final class FeedLoaderPresentationAdapter: FeedViewControllerDelegate {
                 break
                 
             case .failure(let error):
-                self?.presenter?.didFinishLoadingFeed(with: error)
+                self?.presenter?.didFinishLoading(with: error)
             }
         } receiveValue: { [weak self] feed in
-            self?.presenter?.didFinishLoadingFeed(with: feed)
+            self?.presenter?.didFinishLoading(with: feed)
         }
     }
 }
