@@ -78,19 +78,42 @@ we can use the common abstraciton by UIKit.
 
 ## Move cancel operation to didEndDisplaying method.
 
+ImageCommentCellController has to implement some empty method which breaks Interface segregration principle.
 
+One solution is we can have extension we default implementation that do nothing.
 
+But thier is a  better solution to this.
 
+Instead of Using protocol composition into one type.
 
+public typealias CellController = UITableViewDataSource & UITableViewDelegate & UITableViewDataSourcePrefetching
 
+## we can acutally compose them in to a type that contain three types one for each implementation.
 
+so we can it it with a tuple or a struct.
 
+public typealias CellController = (UITableViewDataSource, UITableViewDelegate,  UITableViewDataSourcePrefetching)
 
+So in this way clients can implement what they need they are not forced to implement all of them.
 
+## So we moved from composing three protocols in to one to creating one type that holds three instacnes one of each protocol.
 
+## So the Rule is
+The shortest the scope the shortest the name can be.
 
+So CellController is a Tuple and we can not Implement a Tuple.
+what we can do now is to Implement the method or the protocol we care about.
 
+So we Implemented UITableViewDataSource for ImageCommentCellController.
 
+by doing this we have now decoupled ImageCommentCellController from CellController.
+
+## we can decide now which protocol we implement.
+
+if this is a struct we can give some default init and convenience init.
+
+We prefer struct than a tuple because we can have this initailzer.
+which make our api easier to use.
 
 
 
