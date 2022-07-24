@@ -11,3 +11,5 @@ we can use dynamic types to scale the font as neeeded.
 
 and we should for accessibility reason.
 
+Set preferredFont and adjustsFontForContentSizeCategory to true because by default it is false.
+
