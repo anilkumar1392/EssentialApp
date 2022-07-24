@@ -22,6 +22,7 @@
 		F55072E2288D4C3E00E2ACB4 /* Comment_usecase.png in Resources */ = {isa = PBXBuildFile; fileRef = F55072DF288D4C3E00E2ACB4 /* Comment_usecase.png */; };
 		F55072E3288D4C3E00E2ACB4 /* comment_architecture.png in Resources */ = {isa = PBXBuildFile; fileRef = F55072E0288D4C3E00E2ACB4 /* comment_architecture.png */; };
 		F55072E4288D4C3E00E2ACB4 /* cellControllerToModule.png in Resources */ = {isa = PBXBuildFile; fileRef = F55072E1288D4C3E00E2ACB4 /* cellControllerToModule.png */; };
+		F55072E8288D7D5700E2ACB4 /* NewFeature_lecture2.png in Resources */ = {isa = PBXBuildFile; fileRef = F55072E7288D7D5700E2ACB4 /* NewFeature_lecture2.png */; };
 		F5854448286491B700AD9266 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5854446286491B700AD9266 /* EssentialFeed.framework */; };
 		F5854449286491B700AD9266 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5854446286491B700AD9266 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F585444A286491B700AD9266 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5854447286491B700AD9266 /* EssentialFeediOS.framework */; };
@@ -273,6 +274,7 @@
 		F55072DF288D4C3E00E2ACB4 /* Comment_usecase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comment_usecase.png; sourceTree = "<group>"; };
 		F55072E0288D4C3E00E2ACB4 /* comment_architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment_architecture.png; sourceTree = "<group>"; };
 		F55072E1288D4C3E00E2ACB4 /* cellControllerToModule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellControllerToModule.png; sourceTree = "<group>"; };
+		F55072E7288D7D5700E2ACB4 /* NewFeature_lecture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewFeature_lecture2.png; sourceTree = "<group>"; };
 		F5854446286491B700AD9266 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5854447286491B700AD9266 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F585445428649BC400AD9266 /* Main_module_01.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Main_module_01.md; sourceTree = "<group>"; };
@@ -715,6 +717,7 @@
 			children = (
 				F5D6808B288CF36100D1248D /* Lecture-3_implementation1.md */,
 				F55072DD288D4B7F00E2ACB4 /* Lecture-3_implementation-2.md */,
+				F55072E7288D7D5700E2ACB4 /* NewFeature_lecture2.png */,
 				F55072E1288D4C3E00E2ACB4 /* cellControllerToModule.png */,
 				F55072E0288D4C3E00E2ACB4 /* comment_architecture.png */,
 				F55072DF288D4C3E00E2ACB4 /* Comment_usecase.png */,
@@ -1222,6 +1225,7 @@
 				F59B7FB928686B6C00E6C45F /* lecture_5_1.png in Resources */,
 				F5D9C8C5288A500000736E03 /* eliminateDuplciation2.png in Resources */,
 				F585AABB2869F08100D72243 /* Project_org_2.png in Resources */,
+				F55072E8288D7D5700E2ACB4 /* NewFeature_lecture2.png in Resources */,
 				F5DA548D287D301F0054465A /* Class_confirm_to_protocol.png in Resources */,
 				F5B41E17288822FD00DF9586 /* addnewFeature-01.png in Resources */,
 				F5B41E0D28881E4B00DF9586 /* new_design.png in Resources */,

@@ -115,12 +115,30 @@ if this is a struct we can give some default init and convenience init.
 We prefer struct than a tuple because we can have this initailzer.
 which make our api easier to use.
 
+## We are sharing common Interfaces through UI Kit.
+
+## ErrorView is duplicated in the storyboard let's refactor it.
 
 
+Creating a Shared UI module usually means that the feature-specific UI modules will depend on it.
 
+For example, the ImageCommentCellController lives in the feature-specific Image Comments UI module. But it implements the CellController protocols, which is defined in the Shared UI module.
 
+So the Image Comments UI module depends on the Shared UI module (see arrow in the diagram above).
 
+This dependency on a Shared UI module is usually ok, since the benefits of sharing UI elements can outweigh the downsides of the coupling.
 
+But if you can eliminate that dependency, even better! So you can develop, maintain, extend, deploy, and test the modules in isolation.
+
+One way to decouple the feature-specific and the share UI modules is to find a common abstraction that they already share.
+
+For example, the UI modules use UIKit since they’re iOS-specific.
+
+So they can use the UITableViewDataSource / Delegate / DataSourcePrefetching protocols provided by the UIKit framework to implement a generic cell controller.
+
+So the feature-specific UI modules don’t depend on the shared UI module and vice versa.
+
+The UI modules use/implement the common UIKit protocols. So they depend on UIKit:
 
 
 
