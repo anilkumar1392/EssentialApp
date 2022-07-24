@@ -192,7 +192,7 @@ private extension ListViewController {
     static func makeWith(title: String) -> ListViewController {
         let bundle = Bundle(for: ListViewController.self)
         let storyBoard = UIStoryboard(name: "Feed", bundle: bundle)
-        let feedController = storyBoard.instantiateViewController(withIdentifier: "FeedViewController") as! ListViewController
+        let feedController = storyBoard.instantiateViewController(withIdentifier: "ListViewController") as! ListViewController
         feedController.title = title
         return feedController
     }
