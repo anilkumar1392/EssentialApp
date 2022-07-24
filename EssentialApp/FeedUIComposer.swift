@@ -141,7 +141,7 @@ public final class FeedUIComposer {
     } */
     
     public static func feedComposedWith(feedLoader: @escaping () -> FeedLoader.Publisher,
-                                        imageLoader: FeedImageDataLoader) -> FeedViewController {
+                                        imageLoader: FeedImageDataLoader) -> ListViewController {
         let title = NSLocalizedString("FEED_VIEW_TITLE",
                                       tableName: "Feed",
                                       bundle: Bundle(for: FeedUIComposer.self),
@@ -161,7 +161,7 @@ public final class FeedUIComposer {
         // let refreshController = feedController.refreshController!
         // refreshController.delegate = presentationAdapter
 
-        let feedController = FeedViewController.makeWith(
+        let feedController = ListViewController.makeWith(
             delegate: presentationAdapter,
             title: FeedPresenter.title)
         
@@ -187,11 +187,11 @@ public final class FeedUIComposer {
     }
 }
 
-private extension FeedViewController {
-    static func makeWith(delegate: FeedViewControllerDelegate, title: String) -> FeedViewController {
-        let bundle = Bundle(for: FeedViewController.self)
+private extension ListViewController {
+    static func makeWith(delegate: FeedViewControllerDelegate, title: String) -> ListViewController {
+        let bundle = Bundle(for: ListViewController.self)
         let storyBoard = UIStoryboard(name: "Feed", bundle: bundle)
-        let feedController = storyBoard.instantiateViewController(withIdentifier: "FeedViewController") as! FeedViewController
+        let feedController = storyBoard.instantiateViewController(withIdentifier: "FeedViewController") as! ListViewController
         feedController.delegate = delegate
         feedController.title = title
         return feedController
@@ -199,10 +199,10 @@ private extension FeedViewController {
 }
 
 final class FeedViewAdapter: ResourceView {
-    private weak var controller: FeedViewController?
+    private weak var controller: ListViewController?
     private var imageLoader: FeedImageDataLoader
 
-    init(controller: FeedViewController, imageLoader: FeedImageDataLoader) {
+    init(controller: ListViewController, imageLoader: FeedImageDataLoader) {
         self.controller = controller
         self.imageLoader = imageLoader
     }
