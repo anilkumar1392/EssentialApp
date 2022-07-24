@@ -162,8 +162,9 @@ public final class FeedUIComposer {
         // refreshController.delegate = presentationAdapter
 
         let feedController = ListViewController.makeWith(
-            delegate: presentationAdapter,
             title: FeedPresenter.title)
+        
+        feedController.onRefresh = presentationAdapter.loadResource
         
         /*
         let feedPresenter = FeedPresenter(
@@ -188,11 +189,10 @@ public final class FeedUIComposer {
 }
 
 private extension ListViewController {
-    static func makeWith(delegate: FeedViewControllerDelegate, title: String) -> ListViewController {
+    static func makeWith(title: String) -> ListViewController {
         let bundle = Bundle(for: ListViewController.self)
         let storyBoard = UIStoryboard(name: "Feed", bundle: bundle)
         let feedController = storyBoard.instantiateViewController(withIdentifier: "FeedViewController") as! ListViewController
-        feedController.delegate = delegate
         feedController.title = title
         return feedController
     }
@@ -241,7 +241,7 @@ private final class FeedLoaderPresentationAdapter: FeedViewControllerDelegate {
 }
 */
 
-final class FeedLoaderPresentationAdapter: FeedViewControllerDelegate {
+final class FeedLoaderPresentationAdapter {
 
     private let feedLoader: () -> FeedLoader.Publisher
     private var cancallable: Cancellable?
@@ -251,7 +251,7 @@ final class FeedLoaderPresentationAdapter: FeedViewControllerDelegate {
         self.feedLoader = feedLoader
     }
     
-    func didRequestFeedRefresh() {
+    func loadResource() {
         presenter?.didStartLoading()
         
         cancallable = feedLoader().sink { [weak self] completion in
@@ -267,3 +267,9 @@ final class FeedLoaderPresentationAdapter: FeedViewControllerDelegate {
         }
     }
 }
+
+//extension FeedLoaderPresentationAdapter: FeedViewControllerDelegate {
+//    func didRequestFeedRefresh() {
+//        loadResource()
+//    }
+//}

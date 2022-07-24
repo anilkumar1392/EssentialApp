@@ -117,6 +117,7 @@
 		F5D56FDD28854E95007BBA97 /* FeedImageImplementation.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D56FDC28854E95007BBA97 /* FeedImageImplementation.png */; };
 		F5D56FDF28854F23007BBA97 /* ImageCommentModule.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D56FDE28854F23007BBA97 /* ImageCommentModule.png */; };
 		F5D56FE128854FF6007BBA97 /* starting _here.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D56FE028854FF6007BBA97 /* starting _here.png */; };
+		F5D6808C288CF36100D1248D /* Lecture-3_implementation.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D6808B288CF36100D1248D /* Lecture-3_implementation.md */; };
 		F5D6FE3A2888F0E500B518BD /* AddNewFeatureLecture2.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D6FE392888F0E500B518BD /* AddNewFeatureLecture2.md */; };
 		F5D7044B2884248900B1B9FB /* DesignAfter_remoteLoader.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D7044A2884248900B1B9FB /* DesignAfter_remoteLoader.png */; };
 		F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D87C3D2864D386005804C0 /* Lecture_02.md */; };
@@ -362,6 +363,7 @@
 		F5D56FDC28854E95007BBA97 /* FeedImageImplementation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeedImageImplementation.png; sourceTree = "<group>"; };
 		F5D56FDE28854F23007BBA97 /* ImageCommentModule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageCommentModule.png; sourceTree = "<group>"; };
 		F5D56FE028854FF6007BBA97 /* starting _here.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starting _here.png"; sourceTree = "<group>"; };
+		F5D6808B288CF36100D1248D /* Lecture-3_implementation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Lecture-3_implementation.md"; sourceTree = "<group>"; };
 		F5D6FE392888F0E500B518BD /* AddNewFeatureLecture2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AddNewFeatureLecture2.md; sourceTree = "<group>"; };
 		F5D7044A2884248900B1B9FB /* DesignAfter_remoteLoader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DesignAfter_remoteLoader.png; sourceTree = "<group>"; };
 		F5D87C3D2864D386005804C0 /* Lecture_02.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture_02.md; sourceTree = "<group>"; };
@@ -700,6 +702,14 @@
 			path = "Challenge Assets";
 			sourceTree = "<group>";
 		};
+		F5D6808A288CF34500D1248D /* Lecture_3_implementation */ = {
+			isa = PBXGroup;
+			children = (
+				F5D6808B288CF36100D1248D /* Lecture-3_implementation.md */,
+			);
+			path = Lecture_3_implementation;
+			sourceTree = "<group>";
+		};
 		F5D6FE382888F0D100B518BD /* Lecture 2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -871,6 +881,7 @@
 				F5E0EC2A288BE08900CCE9C3 /* CommentUIDesign.png */,
 				F5E0EC2B288BE08900CCE9C3 /* FeedUDesign.png */,
 				F5E0EC28288BD73400CCE9C3 /* AddingNewFetureUIModule.md */,
+				F5D6808A288CF34500D1248D /* Lecture_3_implementation */,
 			);
 			path = "Lecture 3";
 			sourceTree = "<group>";
@@ -1059,6 +1070,7 @@
 				F5DBA70F28648D7600E009FB /* LaunchScreen.storyboard in Resources */,
 				F5B41E0928881E0500DF9586 /* NoLoader+universalAbstraction.png in Resources */,
 				F5DBE2BD28681EFE00917F64 /* Main_module_05.md in Resources */,
+				F5D6808C288CF36100D1248D /* Lecture-3_implementation.md in Resources */,
 				F585AA992869C4CC00D72243 /* Main_module_lecture_07.md in Resources */,
 				F5D6FE3A2888F0E500B518BD /* AddNewFeatureLecture2.md in Resources */,
 				F5DBA70C28648D7600E009FB /* Assets.xcassets in Resources */,
