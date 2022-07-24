@@ -4,3 +4,10 @@
 
 Create Error view programmatically.
 
+
+## Dynamic Fonts
+
+we can use dynamic types to scale the font as neeeded.
+
+and we should for accessibility reason.
+
