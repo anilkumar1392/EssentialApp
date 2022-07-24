@@ -11,8 +11,12 @@ import EssentialFeed
 import UIKit
 
 extension ListViewController {
+    func simulateErrorViewTap() {
+        errorView.simulateTap()
+    }
+    
     var errorMessage: String? {
-        return errorView?.message
+        return errorView.message
     }
     
     func simulateUserInitiatedFeedReload() {
