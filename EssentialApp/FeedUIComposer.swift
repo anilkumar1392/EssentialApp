@@ -211,7 +211,7 @@ final class FeedViewAdapter: ResourceView {
         controller?.display(viewModel.feed.map { model in
             let view = FeedImageCellController(viewModel:
                 FeedImageViewModel(model: model, imageLoader: imageLoader, imageTransformer: UIImage.init))
-            return CellController(view)
+            return CellController(id: model, view)
         })
     }
 }
