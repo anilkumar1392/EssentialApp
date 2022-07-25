@@ -144,6 +144,13 @@
 		F5D8F2ED28825FE6000643EC /* sharedInfrastructureModule.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D8F2EC28825FE6000643EC /* sharedInfrastructureModule.png */; };
 		F5D8F2EF2882C22E000643EC /* sharedClient.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D8F2EE2882C22E000643EC /* sharedClient.png */; };
 		F5D8F2F12882DEF7000643EC /* Shared_RemoteLoader.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D8F2F02882DEF6000643EC /* Shared_RemoteLoader.png */; };
+		F5D9B21F288E3EF300B98E1E /* Lecture_4_New_feature_composition.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D9B21E288E3EF300B98E1E /* Lecture_4_New_feature_composition.md */; };
+		F5D9B224288E468E00B98E1E /* Object-graph.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9B220288E468E00B98E1E /* Object-graph.png */; };
+		F5D9B225288E468E00B98E1E /* ToComposed.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9B221288E468E00B98E1E /* ToComposed.png */; };
+		F5D9B226288E468E00B98E1E /* ready_features.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9B222288E468E00B98E1E /* ready_features.png */; };
+		F5D9B227288E468E00B98E1E /* tranditional-navigation.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9B223288E468E00B98E1E /* tranditional-navigation.png */; };
+		F5D9B22A288E521B00B98E1E /* CouplingWithComposition.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9B228288E521B00B98E1E /* CouplingWithComposition.png */; };
+		F5D9B22B288E521B00B98E1E /* CompositionRoot.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9B229288E521B00B98E1E /* CompositionRoot.png */; };
 		F5D9C8C2288A500000736E03 /* eliminateDuplciation.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8BC288A4FFF00736E03 /* eliminateDuplciation.png */; };
 		F5D9C8C3288A500000736E03 /* FeedPresenter.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8BD288A4FFF00736E03 /* FeedPresenter.png */; };
 		F5D9C8C4288A500000736E03 /* ControlEnviroment.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8BE288A4FFF00736E03 /* ControlEnviroment.png */; };
@@ -397,6 +404,13 @@
 		F5D8F2EC28825FE6000643EC /* sharedInfrastructureModule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharedInfrastructureModule.png; sourceTree = "<group>"; };
 		F5D8F2EE2882C22E000643EC /* sharedClient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharedClient.png; sourceTree = "<group>"; };
 		F5D8F2F02882DEF6000643EC /* Shared_RemoteLoader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shared_RemoteLoader.png; sourceTree = "<group>"; };
+		F5D9B21E288E3EF300B98E1E /* Lecture_4_New_feature_composition.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture_4_New_feature_composition.md; sourceTree = "<group>"; };
+		F5D9B220288E468E00B98E1E /* Object-graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Object-graph.png"; sourceTree = "<group>"; };
+		F5D9B221288E468E00B98E1E /* ToComposed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToComposed.png; sourceTree = "<group>"; };
+		F5D9B222288E468E00B98E1E /* ready_features.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready_features.png; sourceTree = "<group>"; };
+		F5D9B223288E468E00B98E1E /* tranditional-navigation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tranditional-navigation.png"; sourceTree = "<group>"; };
+		F5D9B228288E521B00B98E1E /* CouplingWithComposition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CouplingWithComposition.png; sourceTree = "<group>"; };
+		F5D9B229288E521B00B98E1E /* CompositionRoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CompositionRoot.png; sourceTree = "<group>"; };
 		F5D9C8BC288A4FFF00736E03 /* eliminateDuplciation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eliminateDuplciation.png; sourceTree = "<group>"; };
 		F5D9C8BD288A4FFF00736E03 /* FeedPresenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeedPresenter.png; sourceTree = "<group>"; };
 		F5D9C8BE288A4FFF00736E03 /* ControlEnviroment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ControlEnviroment.png; sourceTree = "<group>"; };
@@ -778,6 +792,7 @@
 		F5D8F2D028824738000643EC /* Adding a new feature */ = {
 			isa = PBXGroup;
 			children = (
+				F5D9B21D288E3ECC00B98E1E /* Lecture 4 Composition */,
 				F5E0EC27288BD72000CCE9C3 /* Lecture 3 */,
 				F5D6FE382888F0D100B518BD /* Lecture 2 */,
 				F5D8F2D128824750000643EC /* Lecture 1 */,
@@ -810,6 +825,20 @@
 				F5D56FD928854D6F007BBA97 /* Challenge Assets */,
 			);
 			path = "Lecture 1";
+			sourceTree = "<group>";
+		};
+		F5D9B21D288E3ECC00B98E1E /* Lecture 4 Composition */ = {
+			isa = PBXGroup;
+			children = (
+				F5D9B228288E521B00B98E1E /* CouplingWithComposition.png */,
+				F5D9B229288E521B00B98E1E /* CompositionRoot.png */,
+				F5D9B220288E468E00B98E1E /* Object-graph.png */,
+				F5D9B222288E468E00B98E1E /* ready_features.png */,
+				F5D9B221288E468E00B98E1E /* ToComposed.png */,
+				F5D9B223288E468E00B98E1E /* tranditional-navigation.png */,
+				F5D9B21E288E3EF300B98E1E /* Lecture_4_New_feature_composition.md */,
+			);
+			path = "Lecture 4 Composition";
 			sourceTree = "<group>";
 		};
 		F5D9C8CA288A7A5A00736E03 /* Imp images */ = {
@@ -1088,6 +1117,7 @@
 				F5DBA70F28648D7600E009FB /* LaunchScreen.storyboard in Resources */,
 				F5B41E0928881E0500DF9586 /* NoLoader+universalAbstraction.png in Resources */,
 				F5DBE2BD28681EFE00917F64 /* Main_module_05.md in Resources */,
+				F5D9B225288E468E00B98E1E /* ToComposed.png in Resources */,
 				F5D6808C288CF36100D1248D /* Lecture-3_implementation1.md in Resources */,
 				F585AA992869C4CC00D72243 /* Main_module_lecture_07.md in Resources */,
 				F5D6FE3A2888F0E500B518BD /* AddNewFeatureLecture2.md in Resources */,
@@ -1132,6 +1162,7 @@
 				F5D8F2DB28824DC6000643EC /* Goal_2.png in Resources */,
 				F585AABD2869F08100D72243 /* Project_org_3.png in Resources */,
 				F5E6DA6D286EA1C100EEA5A3 /* CI:CD.png in Resources */,
+				F5D9B226288E468E00B98E1E /* ready_features.png in Resources */,
 				F5D8F2DA28824DC6000643EC /* Goal_1.png in Resources */,
 				F5E8AFBC287EC5460034B7FD /* acceptacnetest-integration.png in Resources */,
 				F5E6DA5D286EA1A300EEA5A3 /* KeyInsights.md in Resources */,
@@ -1154,15 +1185,19 @@
 				F5DBABC02881640400C80947 /* Deploy.yml_02.png in Resources */,
 				F524E0FE286D589D0013E9B1 /* Lecture_10_6.png in Resources */,
 				F5D8F2F12882DEF7000643EC /* Shared_RemoteLoader.png in Resources */,
+				F5D9B224288E468E00B98E1E /* Object-graph.png in Resources */,
 				F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */,
 				F5D9C8C3288A500000736E03 /* FeedPresenter.png in Resources */,
 				F5B7669C2866F60A009DE53C /* Lecture_3_05.png in Resources */,
 				F585AAA62869EE1700D72243 /* Horizontal slicing_3.png in Resources */,
+				F5D9B21F288E3EF300B98E1E /* Lecture_4_New_feature_composition.md in Resources */,
 				F58557812865B0D6001E3476 /* Main_module_03.md in Resources */,
 				F5E6DA6B286EA1C100EEA5A3 /* Screenshot 2022-06-19 at 6.33.17 AM.png in Resources */,
+				F5D9B227288E468E00B98E1E /* tranditional-navigation.png in Resources */,
 				F5DBABC22881640400C80947 /* Final_look _on_git.png in Resources */,
 				F5D56FD82885490E007BBA97 /* Challenge.md in Resources */,
 				F585AAA92869EE1700D72243 /* MOnolith.png in Resources */,
+				F5D9B22A288E521B00B98E1E /* CouplingWithComposition.png in Resources */,
 				F5B766C12867451E009DE53C /* Main_module_lecture_04.md in Resources */,
 				F5D8F2E428824DD1000643EC /* Design_3.png in Resources */,
 				F5B766992866F60A009DE53C /* Lecture_3_02.png in Resources */,
@@ -1187,6 +1222,7 @@
 				F5D8F2DD28824DC6000643EC /* Goal_3.png in Resources */,
 				F5B7669D2866F60A009DE53C /* Lecture_3_03.png in Resources */,
 				F5DBE2B22867FCC300917F64 /* LECTURE_4-4.png in Resources */,
+				F5D9B22B288E521B00B98E1E /* CompositionRoot.png in Resources */,
 				F5B41E072888116700DF9586 /* updated-Design.png in Resources */,
 				F5D8F2D32882476E000643EC /* addingNewFeatureLecture_01.md in Resources */,
 				F5B41E15288822FD00DF9586 /* addnewFeature-05.png in Resources */,
