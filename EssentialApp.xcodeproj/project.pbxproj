@@ -151,6 +151,9 @@
 		F5D9B227288E468E00B98E1E /* tranditional-navigation.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9B223288E468E00B98E1E /* tranditional-navigation.png */; };
 		F5D9B22A288E521B00B98E1E /* CouplingWithComposition.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9B228288E521B00B98E1E /* CouplingWithComposition.png */; };
 		F5D9B22B288E521B00B98E1E /* CompositionRoot.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9B229288E521B00B98E1E /* CompositionRoot.png */; };
+		F5D9B230288E67DE00B98E1E /* Xcode Walkthrough.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D9B22F288E67DE00B98E1E /* Xcode Walkthrough.md */; };
+		F5D9B232288E79AA00B98E1E /* provisioningProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9B231288E79AA00B98E1E /* provisioningProfile.png */; };
+		F5D9B234288E7D1300B98E1E /* Build Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9B233288E7D1300B98E1E /* Build Settings.png */; };
 		F5D9C8C2288A500000736E03 /* eliminateDuplciation.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8BC288A4FFF00736E03 /* eliminateDuplciation.png */; };
 		F5D9C8C3288A500000736E03 /* FeedPresenter.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8BD288A4FFF00736E03 /* FeedPresenter.png */; };
 		F5D9C8C4288A500000736E03 /* ControlEnviroment.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8BE288A4FFF00736E03 /* ControlEnviroment.png */; };
@@ -162,6 +165,9 @@
 		F5D9C8CE288A7A6800736E03 /* overview.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8CC288A7A6800736E03 /* overview.png */; };
 		F5D9C8D0288A7B0900736E03 /* CommentPresentationLogic.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8CF288A7B0900736E03 /* CommentPresentationLogic.png */; };
 		F5D9C8D2288A7C9100736E03 /* sharedPresentationModule.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9C8D1288A7C9100736E03 /* sharedPresentationModule.png */; };
+		F5DA0C662890590200AFABB9 /* Ambient Context anti-pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA0C632890590100AFABB9 /* Ambient Context anti-pattern.png */; };
+		F5DA0C672890590200AFABB9 /* design-composition.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA0C642890590100AFABB9 /* design-composition.png */; };
+		F5DA0C682890590200AFABB9 /* Service Locator anti-pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA0C652890590200AFABB9 /* Service Locator anti-pattern.png */; };
 		F5DA548D287D301F0054465A /* Class_confirm_to_protocol.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA548B287D301F0054465A /* Class_confirm_to_protocol.png */; };
 		F5DA548E287D301F0054465A /* Class _confirm_protocol.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA548C287D301F0054465A /* Class _confirm_protocol.png */; };
 		F5DA5490287D31450054465A /* Siwft_classs.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DA548F287D31440054465A /* Siwft_classs.png */; };
@@ -411,6 +417,9 @@
 		F5D9B223288E468E00B98E1E /* tranditional-navigation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tranditional-navigation.png"; sourceTree = "<group>"; };
 		F5D9B228288E521B00B98E1E /* CouplingWithComposition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CouplingWithComposition.png; sourceTree = "<group>"; };
 		F5D9B229288E521B00B98E1E /* CompositionRoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CompositionRoot.png; sourceTree = "<group>"; };
+		F5D9B22F288E67DE00B98E1E /* Xcode Walkthrough.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Xcode Walkthrough.md"; sourceTree = "<group>"; };
+		F5D9B231288E79AA00B98E1E /* provisioningProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = provisioningProfile.png; sourceTree = "<group>"; };
+		F5D9B233288E7D1300B98E1E /* Build Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Build Settings.png"; sourceTree = "<group>"; };
 		F5D9C8BC288A4FFF00736E03 /* eliminateDuplciation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eliminateDuplciation.png; sourceTree = "<group>"; };
 		F5D9C8BD288A4FFF00736E03 /* FeedPresenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeedPresenter.png; sourceTree = "<group>"; };
 		F5D9C8BE288A4FFF00736E03 /* ControlEnviroment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ControlEnviroment.png; sourceTree = "<group>"; };
@@ -422,6 +431,9 @@
 		F5D9C8CC288A7A6800736E03 /* overview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overview.png; sourceTree = "<group>"; };
 		F5D9C8CF288A7B0900736E03 /* CommentPresentationLogic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CommentPresentationLogic.png; sourceTree = "<group>"; };
 		F5D9C8D1288A7C9100736E03 /* sharedPresentationModule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharedPresentationModule.png; sourceTree = "<group>"; };
+		F5DA0C632890590100AFABB9 /* Ambient Context anti-pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ambient Context anti-pattern.png"; sourceTree = "<group>"; };
+		F5DA0C642890590100AFABB9 /* design-composition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "design-composition.png"; sourceTree = "<group>"; };
+		F5DA0C652890590200AFABB9 /* Service Locator anti-pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Service Locator anti-pattern.png"; sourceTree = "<group>"; };
 		F5DA548B287D301F0054465A /* Class_confirm_to_protocol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Class_confirm_to_protocol.png; sourceTree = "<group>"; };
 		F5DA548C287D301F0054465A /* Class _confirm_protocol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Class _confirm_protocol.png"; sourceTree = "<group>"; };
 		F5DA548F287D31440054465A /* Siwft_classs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Siwft_classs.png; sourceTree = "<group>"; };
@@ -836,9 +848,22 @@
 				F5D9B222288E468E00B98E1E /* ready_features.png */,
 				F5D9B221288E468E00B98E1E /* ToComposed.png */,
 				F5D9B223288E468E00B98E1E /* tranditional-navigation.png */,
+				F5DA0C632890590100AFABB9 /* Ambient Context anti-pattern.png */,
+				F5DA0C642890590100AFABB9 /* design-composition.png */,
+				F5DA0C652890590200AFABB9 /* Service Locator anti-pattern.png */,
 				F5D9B21E288E3EF300B98E1E /* Lecture_4_New_feature_composition.md */,
 			);
 			path = "Lecture 4 Composition";
+			sourceTree = "<group>";
+		};
+		F5D9B22C288E679500B98E1E /* Extra Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				F5D9B22F288E67DE00B98E1E /* Xcode Walkthrough.md */,
+				F5D9B231288E79AA00B98E1E /* provisioningProfile.png */,
+				F5D9B233288E7D1300B98E1E /* Build Settings.png */,
+			);
+			path = "Extra Tutorials";
 			sourceTree = "<group>";
 		};
 		F5D9C8CA288A7A5A00736E03 /* Imp images */ = {
@@ -855,6 +880,7 @@
 		F5DBA6F628648D7400E009FB = {
 			isa = PBXGroup;
 			children = (
+				F5D9B22C288E679500B98E1E /* Extra Tutorials */,
 				F5D8F2D028824738000643EC /* Adding a new feature */,
 				F585444D286497BB00AD9266 /* Main Module_Reference_ material */,
 				F5DBA70128648D7400E009FB /* EssentialApp */,
@@ -1123,11 +1149,13 @@
 				F5D6FE3A2888F0E500B518BD /* AddNewFeatureLecture2.md in Resources */,
 				F5DBA70C28648D7600E009FB /* Assets.xcassets in Resources */,
 				F5DBE2B92867FDCA00917F64 /* LECTURE_4-7.png in Resources */,
+				F5D9B232288E79AA00B98E1E /* provisioningProfile.png in Resources */,
 				F5E0EC29288BD73400CCE9C3 /* AddingNewFetureUIModule.md in Resources */,
 				F55072EA288D983C00E2ACB4 /* Lecture-3-Implementation-3.md in Resources */,
 				F5B1F533287FC93C00B411EB /* snapshot_2.png in Resources */,
 				F5B41E1E2888240800DF9586 /* From an Object-Oriented to Functional Design-2.png in Resources */,
 				F5D8F2EF2882C22E000643EC /* sharedClient.png in Resources */,
+				F5D9B230288E67DE00B98E1E /* Xcode Walkthrough.md in Resources */,
 				F5E6DA70286EA23100EEA5A3 /* Organising _the _module.png in Resources */,
 				F5B41E14288822FD00DF9586 /* addnewFeature-03.png in Resources */,
 				F5E0EB192881106E0088661C /* Dependency_in_circel.png in Resources */,
@@ -1168,6 +1196,7 @@
 				F5E6DA5D286EA1A300EEA5A3 /* KeyInsights.md in Resources */,
 				F5B766A02866F747009DE53C /* decorator.png in Resources */,
 				F5B35DC128866FF700470FC8 /* another_solution.png in Resources */,
+				F5DA0C672890590200AFABB9 /* design-composition.png in Resources */,
 				F5E0EB1528810E270088661C /* Infrastructure_replace.png in Resources */,
 				F5B1F534287FC93C00B411EB /* snapshot_1.png in Resources */,
 				F5D9C8CD288A7A6800736E03 /* FeedPresentationLogic.png in Resources */,
@@ -1260,12 +1289,15 @@
 				F524E102286D58E30013E9B1 /* Lecture_10_8.png in Resources */,
 				F5D8F2E928825A5A000643EC /* whatIfWeNeedToShareOrChange.png in Resources */,
 				F5D9C8D0288A7B0900736E03 /* CommentPresentationLogic.png in Resources */,
+				F5DA0C682890590200AFABB9 /* Service Locator anti-pattern.png in Resources */,
 				F5D9C8C6288A500000736E03 /* ImageCommentPresenter.png in Resources */,
 				F5D56FD628853BD6007BBA97 /* WithCombine.png in Resources */,
+				F5D9B234288E7D1300B98E1E /* Build Settings.png in Resources */,
 				F59B7FB928686B6C00E6C45F /* lecture_5_1.png in Resources */,
 				F5D9C8C5288A500000736E03 /* eliminateDuplciation2.png in Resources */,
 				F585AABB2869F08100D72243 /* Project_org_2.png in Resources */,
 				F55072E8288D7D5700E2ACB4 /* NewFeature_lecture2.png in Resources */,
+				F5DA0C662890590200AFABB9 /* Ambient Context anti-pattern.png in Resources */,
 				F5DA548D287D301F0054465A /* Class_confirm_to_protocol.png in Resources */,
 				F5B41E17288822FD00DF9586 /* addnewFeature-01.png in Resources */,
 				F5B41E0D28881E4B00DF9586 /* new_design.png in Resources */,
