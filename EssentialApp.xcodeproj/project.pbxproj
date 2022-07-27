@@ -126,6 +126,8 @@
 		F5D6808C288CF36100D1248D /* Lecture-3_implementation1.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D6808B288CF36100D1248D /* Lecture-3_implementation1.md */; };
 		F5D6FE3A2888F0E500B518BD /* AddNewFeatureLecture2.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D6FE392888F0E500B518BD /* AddNewFeatureLecture2.md */; };
 		F5D7044B2884248900B1B9FB /* DesignAfter_remoteLoader.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D7044A2884248900B1B9FB /* DesignAfter_remoteLoader.png */; };
+		F5D815A22890DF3300A226CC /* Handeling Selction and navigation.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D815A12890DF3300A226CC /* Handeling Selction and navigation.md */; };
+		F5D815A42890FB2100A226CC /* CompositionRoot.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D815A32890FB2100A226CC /* CompositionRoot.png */; };
 		F5D87C3E2864D386005804C0 /* Lecture_02.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D87C3D2864D386005804C0 /* Lecture_02.md */; };
 		F5D87C4D2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */; };
 		F5D8F2D32882476E000643EC /* addingNewFeatureLecture_01.md in Resources */ = {isa = PBXBuildFile; fileRef = F5D8F2D22882476E000643EC /* addingNewFeatureLecture_01.md */; };
@@ -391,6 +393,8 @@
 		F5D6808B288CF36100D1248D /* Lecture-3_implementation1.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Lecture-3_implementation1.md"; sourceTree = "<group>"; };
 		F5D6FE392888F0E500B518BD /* AddNewFeatureLecture2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AddNewFeatureLecture2.md; sourceTree = "<group>"; };
 		F5D7044A2884248900B1B9FB /* DesignAfter_remoteLoader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DesignAfter_remoteLoader.png; sourceTree = "<group>"; };
+		F5D815A12890DF3300A226CC /* Handeling Selction and navigation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Handeling Selction and navigation.md"; sourceTree = "<group>"; };
+		F5D815A32890FB2100A226CC /* CompositionRoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CompositionRoot.png; path = ../../../../CompositionRoot.png; sourceTree = "<group>"; };
 		F5D87C3D2864D386005804C0 /* Lecture_02.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lecture_02.md; sourceTree = "<group>"; };
 		F5D87C432864D444005804C0 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D87C4C2864D4E4005804C0 /* RemoteWithLocalFallbackFeedloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteWithLocalFallbackFeedloaderTests.swift; sourceTree = "<group>"; };
@@ -851,7 +855,9 @@
 				F5DA0C632890590100AFABB9 /* Ambient Context anti-pattern.png */,
 				F5DA0C642890590100AFABB9 /* design-composition.png */,
 				F5DA0C652890590200AFABB9 /* Service Locator anti-pattern.png */,
+				F5D815A32890FB2100A226CC /* CompositionRoot.png */,
 				F5D9B21E288E3EF300B98E1E /* Lecture_4_New_feature_composition.md */,
+				F5D815A12890DF3300A226CC /* Handeling Selction and navigation.md */,
 			);
 			path = "Lecture 4 Composition";
 			sourceTree = "<group>";
@@ -1153,6 +1159,7 @@
 				F5E0EC29288BD73400CCE9C3 /* AddingNewFetureUIModule.md in Resources */,
 				F55072EA288D983C00E2ACB4 /* Lecture-3-Implementation-3.md in Resources */,
 				F5B1F533287FC93C00B411EB /* snapshot_2.png in Resources */,
+				F5D815A42890FB2100A226CC /* CompositionRoot.png in Resources */,
 				F5B41E1E2888240800DF9586 /* From an Object-Oriented to Functional Design-2.png in Resources */,
 				F5D8F2EF2882C22E000643EC /* sharedClient.png in Resources */,
 				F5D9B230288E67DE00B98E1E /* Xcode Walkthrough.md in Resources */,
@@ -1283,6 +1290,7 @@
 				F5DA5492287D4BF50054465A /* Architecture Overview_decorator_behaviour.png in Resources */,
 				F585AA84286952A900D72243 /* Main_Module_Lecture_06.md in Resources */,
 				F5E0EB1328810A860088661C /* Core_Module.png in Resources */,
+				F5D815A22890DF3300A226CC /* Handeling Selction and navigation.md in Resources */,
 				F5DBABB928815C5500C80947 /* deployment.png in Resources */,
 				F585AABC2869F08100D72243 /* horizontal_Feature-vertical_2.png in Resources */,
 				F5E6DA67286EA1C100EEA5A3 /* cancellable.png in Resources */,
